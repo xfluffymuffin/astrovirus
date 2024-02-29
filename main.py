@@ -11,14 +11,15 @@ res = {'country': [], 'host': [], 'collection_date': [], 'strain': [], 'isolate'
 
 Entrez.email = 'yakrit2013@yandex.ru'
 
-# Поиск в базе NCBI Nucleotide с учетом длины последовательности (полноты генома), сохранение результатов в record
+# 1) Поиск в базе NCBI Nucleotide с учетом длины последовательности (полноты генома), сохранение результатов в record.
+# Параметр retmax ограничивает максимальное количество результатов поиска
 handle = Entrez.esearch(db='nucleotide',
                         term='"Mamastrovirus 1"[porgn] AND complete[All Fields] '
                              'AND genome[All Fields] AND "6000"[SLEN] : "8000"[SLEN]',
                         retmax='1000000')
 record = Entrez.read(handle)
 
-# Из record берем id результатов поиска и для каждого из них загружаем данные в формате GenBank, сохраняем в rec
+# 2) Из record берем id результатов поиска и для каждого из них загружаем данные в формате GenBank, сохраняем в rec
 for i in record["IdList"]:
     download = Entrez.efetch(db="nucleotide", id=i, rettype="gb", retmode="text")
     rec = SeqIO.read(download, "genbank")
@@ -35,7 +36,7 @@ for i in record["IdList"]:
         except TypeError:
             pass
 
-    # Создаем датафрейм с полученной из записей информацией (например, в 'Keys' будет country, а в 'Values' - China)
+    # 3) Создаем датафрейм с полученной из записей информацией (например, в 'Keys' будет country, а в 'Values' - China)
     df = DataFrame({'Keys': rec.features[0].qualifiers.keys(),
                     'Values': rec.features[0].qualifiers.values()})
     # print(df)
@@ -43,15 +44,15 @@ for i in record["IdList"]:
     # Считаем кол-во записей, для которых известна дата выделения
     count += len(df[df['Keys'] == 'collection_date'])
 
-    # Запись датафрейма в файл Excel. У меня df.to_csv игнорирует попытки передать ему какой-либо sep, и
+    # 4) Запись датафрейма в файл Excel. У меня df.to_csv игнорирует попытки передать ему какой-либо sep, и
     # в итоге в Excel наблюдается каша в одном столбце. С df.to_excel тоже есть проблема: if_sheet_exists='overlay'
     # не дает дополнять датафреймы на одном листе (получается информация только для одной записи,
-    # т.е. все равно все перезаписывается). Приходится добавлять каждый датафрейм на новый лист
+    # т.е. все перезаписывается). Приходится добавлять каждый датафрейм на новый лист
     with pd.ExcelWriter('output.xlsx',
                         mode='a', if_sheet_exists='new') as writer:
         df.to_excel(writer, sheet_name="Main", index=False)
 
-    # В поле 'strain' почему-то может попадать информация как о серотипе, так и о пациенте
+    # 5) В поле 'strain' почему-то может попадать информация как о серотипе, так и о пациенте
 print(f'\nОбразцы выделены в следующих точках мира, чаще всего {Counter(res["country"]).most_common()[0]}:',
       *res["country"],
       '\nВиды-хозяева вирусов: ', *res['host'],
