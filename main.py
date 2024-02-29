@@ -51,6 +51,7 @@ for i in record["IdList"]:
                         mode='a', if_sheet_exists='new') as writer:
         df.to_excel(writer, sheet_name="Main", index=False)
 
+    # В поле 'strain' почему-то может попадать информация как о серотипе, так и о пациенте
 print(f'\nОбразцы выделены в следующих точках мира, чаще всего {Counter(res["country"]).most_common()[0]}:',
       *res["country"],
       '\nВиды-хозяева вирусов: ', *res['host'],
