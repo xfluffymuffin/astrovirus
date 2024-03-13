@@ -70,7 +70,7 @@ def file_writer():
               '\nДаты взятия образцов: ',
               *count_occurrences('collection_date'),
               '\nШтаммы: ', *count_occurrences('strain'),
-              '\nИзвестная информация о серотипах/пациентах: ',
+              '\nИзвестная информация об изолятах: ',
               *count_occurrences('isolate'),
               '\nИсточники выделения: ',
               *count_occurrences('isolation_source'),
