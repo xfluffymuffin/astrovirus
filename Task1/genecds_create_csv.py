@@ -3,7 +3,7 @@ import subprocess
 
 def launch_gene_cds_field_distribution():
     print("Launch genecds_field_distribution.py\n")
-    subprocess.Popen(r"python alignment_of_orfs/genecds_field_distribution.py "
+    subprocess.Popen(r"python genecds_field_distribution.py "
                      r"-input Mamastrovirus_1_complete_genome_records.gb "
                      r"-odir alignment_of_orfs_output "
                      r"-oname Mamastrovirus_1_gene_product_output.txt").communicate()
