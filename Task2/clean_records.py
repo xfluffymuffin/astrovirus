@@ -29,9 +29,11 @@ def check_collection_date(fasta):
         for line in file:
             for i in range(1900, 2025):
                 if ">" in line:
+                    # Все заголовки
                     all_rec.append(line.strip(">\n"))
 
                 if ">" in line and str(i) in line:
+                    # Заголовки с датами
                     coll_date.append(line.strip(">\n"))
 
     with open("records_no_collection_date.txt", 'w') as writer:
