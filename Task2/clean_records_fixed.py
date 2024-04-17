@@ -12,6 +12,7 @@ def clean_records(fasta_file):
 
 # Проверяем, есть ли в заголовках оставшихся записей дата взятия образца
 def check_collection_date(fasta):
+    coll_date, all_rec = [], []
     with open(fasta, 'r') as file:
         for line in file:
             for i in range(1900, 2025):
@@ -30,6 +31,5 @@ def check_collection_date(fasta):
             writer.write(fasta_header + "\n")
 
 
-coll_date, all_rec = [], []
 clean_records("Mamastrovirus_1_complete_genome_records.fasta")
 check_collection_date("ALT_Mamastrovirus_1_complete_genome_records_CLEARED.fasta")
