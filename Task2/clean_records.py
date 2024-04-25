@@ -5,6 +5,7 @@ import os
 # Функция пробегает по записям fasta-файла и сначала формирует из них список, а затем достает только те, которые
 # не содержат слова "sewage", т.е. убираем образцы, взятые из сточных вод
 def clean_records(fasta_file):
+    seqs = []
     for record, seq in enumerate(SeqIO.parse(fasta_file, "fasta")):
         seqs.append(seq)
     with open("D:\PyCharm\BioPython\intermediate.fasta", 'w') as file:
@@ -24,7 +25,8 @@ def fix_format(fasta):
 
 
 # Проверяем, есть ли в заголовках оставшихся записей дата взятия образца
-def check_collection_date(fasta):
+def check_collection_date(fasta, output):
+    coll_date, all_rec = [], []
     with open(fasta, 'r') as file:
         for line in file:
             for i in range(1900, 2025):
@@ -36,14 +38,17 @@ def check_collection_date(fasta):
                     # Заголовки с датами
                     coll_date.append(line.strip(">\n"))
 
-    with open("records_no_collection_date.txt", 'w') as writer:
+    with open(output, 'w') as writer:
         # Если даты нет, записываем весь заголовок в отдельный файл для дальнейшей работы
         for fasta_header in list(set([x for x in all_rec if
                                       x not in coll_date])):  # Превращение в set(no_coll_date) и обратно - для отсеивания повторяющихся значений списка
             writer.write(fasta_header + "\n")
 
 
-seqs, coll_date, all_rec = [], [], []
+
 clean_records("D:\PyCharm\BioPython\Mamastrovirus_1_complete_genome_records.fasta")
 fix_format("D:\PyCharm\BioPython\intermediate.fasta")
-check_collection_date("D:\PyCharm\BioPython\Mamastrovirus_1_complete_genome_records_CLEARED.fasta")
+check_collection_date("D:\PyCharm\BioPython\Mamastrovirus_1_complete_genome_records_CLEARED.fasta",
+                      "records_no_collection_date.txt")
+# В последней функции:
+# 1 - файл с очищенными последовательностями, 2 - выходной файл с именами последовательностей без дат взятия образца
