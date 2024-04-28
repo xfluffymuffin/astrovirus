@@ -1,0 +1,334 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    minsky (AVX2, FMA3, 503 GB RAM)
+Command: ../../iqtree -s ORF2_cleared_alignment_DNA.fas -m TEST -bb 1000 -alrt 1000
+Seed:    221220 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Apr 27 10:54:38 2024
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ORF2_cleared_alignment_DNA.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 104 sequences with 2644 columns, 1535 distinct patterns
+1391 parsimony-informative, 242 singleton sites, 1011 constant sites
+          Gap/Ambiguity  Composition  p-value
+   1  OR371570   12.41%    passed     51.59%
+   2  OR222910   11.04%    passed     72.27%
+   3  LC732124   10.33%    passed     79.21%
+   4  LC732123    9.80%    passed     81.79%
+   5  LC732122    9.80%    passed     85.09%
+   6  OQ630461   18.04%    passed     98.13%
+   7  ON571598   12.41%    passed     52.89%
+   8  ON571597   10.59%    passed     67.70%
+   9  ON571596   10.59%    passed     68.19%
+  10  ON571595   11.04%    passed     79.77%
+  11  ON571594   10.59%    passed     58.93%
+  12  OP432301   12.41%    passed     52.85%
+  13  OP432300   12.41%    passed     51.86%
+  14  OP432299   12.41%    passed     58.29%
+  15  OP432298   12.41%    passed     57.41%
+  16  OP432297   12.41%    passed     51.86%
+  17  OP432296   12.41%    passed     83.43%
+  18  OP432295   12.41%    passed     27.92%
+  19  OP432294   12.41%    passed     50.46%
+  20  OP432293   12.41%    passed     54.42%
+  21  LC694997   10.59%    passed     56.02%
+  22  LC694996   10.59%    passed     57.55%
+  23  LC694995   10.59%    passed     62.48%
+  24  LC694994   10.59%    passed     62.76%
+  25  LC694993   10.59%    passed     53.72%
+  26  LC694992   10.59%    passed     77.02%
+  27  LC694991   10.59%    passed     67.14%
+  28  LC694990   10.59%    passed     78.99%
+  29  LC694989   10.59%    passed     52.56%
+  30  LC694988   10.59%    passed     65.95%
+  31  LC694987   10.59%    passed     81.67%
+  32  LC694986   10.59%    passed     55.26%
+  33  LC694985    9.80%    passed     89.45%
+  34  MZ603079   12.22%    passed     75.61%
+  35  MT832897   10.59%    passed     58.58%
+  36  MT832896   10.59%    passed     51.78%
+  37  MT832895   10.59%    passed     56.22%
+  38  MT832894   10.59%    passed     58.58%
+  39  MT832893   10.59%    passed     58.58%
+  40  MT832892   10.59%    passed     58.26%
+  41  MT906859    4.24%    passed     76.17%
+  42  MT906858   11.04%    passed     73.90%
+  43  MT906857   11.04%    passed     76.91%
+  44  MT906856   12.97%    passed     63.37%
+  45  MT906855   12.41%    passed     70.52%
+  46  MT906854   12.41%    passed     70.52%
+  47  MT906853   12.41%    passed     72.30%
+  48  MT267483    9.80%    passed     91.54%
+  49  MT267476   11.04%    passed     82.42%
+  50  MW485045   13.46%    passed     31.32%
+  51  MW485044   12.29%    passed     29.78%
+  52  MW485043   10.14%    passed     89.51%
+  53  MW485042    9.23%    passed     71.48%
+  54  MW485041   17.02%    passed     79.19%
+  55  MW485040   10.59%    passed     40.12%
+  56  MW485039   10.59%    passed     38.42%
+  57  MW485038   24.43%    passed     76.85%
+  58  MN433706   11.04%    passed     80.25%
+  59  MN433705    9.46%    passed     33.79%
+  60  MN433704   10.59%    passed     70.69%
+  61  MN433703   10.59%    passed     70.69%
+  62  MN444721    9.80%    passed     78.07%
+  63  KC285113   23.52%    passed     38.90%
+  64  KC285152    9.23%    passed     67.64%
+  65  MK296753    9.80%    passed     76.70%
+  66  MF684776   11.04%    passed     66.77%
+  67  MG571777    9.80%    passed     74.40%
+  68  JF491430    9.80%    passed     99.12%
+  69  GQ901902   11.61%    passed     99.58%
+  70  GU732187    9.80%    passed     98.95%
+  71  GU223905    9.80%    passed     99.85%
+  72  HQ398856   10.59%    passed     41.28%
+  73  GQ495608   11.61%    passed     90.92%
+  74  FJ755405   10.59%    passed     97.79%
+  75  FJ755404   10.59%    passed     84.32%
+  76  FJ755403   10.59%    passed     64.62%
+  77  FJ755402   10.59%    passed     95.18%
+  78  KF211475   10.59%    passed     58.05%
+  79  KP862744   11.16%    passed     66.59%
+  80  KF039913   12.41%    passed     32.82%
+  81  KF039912   12.41%    passed     28.25%
+  82  KF039911    9.23%    passed     62.44%
+  83  KF039910    9.34%    passed     69.29%
+  84  KC342249   10.59%    passed     71.08%
+  85  JN887820   10.59%    passed     57.19%
+  86  NC          9.80%    passed     57.20%
+  87  JQ403108   11.04%    passed     78.67%
+  88  MK059956   11.16%    passed     87.52%
+  89  MK059955   10.14%    passed     96.10%
+  90  MK059954   11.61%    passed     99.51%
+  91  MK059953   11.04%    passed     92.18%
+  92  MK059952   12.41%    passed     61.40%
+  93  MK059951    9.80%    passed     81.32%
+  94  MK059950    9.46%    passed     66.36%
+  95  MK059949   10.59%    passed     74.24%
+  96  DQ344027   12.41%    passed     50.64%
+  97  DQ070852   12.41%    passed     83.03%
+  98  DQ028633   11.04%    passed     68.76%
+  99  AY720892   10.59%    passed     59.40%
+ 100  AY720891   12.41%    passed     51.59%
+ 101  AF260508    4.35%    passed     66.59%
+ 102  HM237363   11.61%    passed     98.62%
+ 103  L23513     10.59%    passed     84.05%
+ 104  Z25771     10.70%    passed     73.60%
+****  TOTAL      11.21%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: OP432297 is identical to OP432300 but kept for subsequent analysis
+NOTE: MT832894 is identical to MT832897 but kept for subsequent analysis
+NOTE: MT906854 is identical to MT906855 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MT832893 (identical to MT832897) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to ORF2_cleared_alignment_DNA.fas.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.014 seconds
+NOTE: ModelFinder requires 26 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 2644) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            39789.556    203 79985.112    80019.056    81178.761
+  2  JC+I          38151.829    204 76711.658    76745.951    77911.188
+  3  JC+G4         37335.450    204 75078.900    75113.192    76278.430
+  4  JC+I+G4       37319.149    205 75048.298    75082.941    76253.708
+  5  F81+F         39770.338    206 79952.677    79987.672    81163.966
+  6  F81+F+I       38121.137    207 76656.273    76691.623    77873.443
+  7  F81+F+G4      37318.122    207 75050.243    75085.593    76267.413
+  8  F81+F+I+G4    37301.358    208 75018.717    75054.423    76241.767
+  9  K2P           38443.509    204 77295.019    77329.311    78494.548
+ 10  K2P+I         36715.660    205 73841.320    73875.963    75046.730
+ 11  K2P+G4        35737.534    205 71885.069    71919.712    73090.479
+ 12  K2P+I+G4      35724.291    206 71860.583    71895.578    73071.872
+ 13  HKY+F         38420.458    207 77254.917    77290.266    78472.087
+ 14  HKY+F+I       36663.045    208 73742.089    73777.795    74965.139
+ 15  HKY+F+G4      35681.662    208 71779.323    71815.029    73002.373
+ 16  HKY+F+I+G4    35667.315    209 71752.629    71788.693    72981.559
+ 17  TNe           38329.431    205 77068.862    77103.505    78274.272
+ 18  TNe+I         36605.348    206 73622.697    73657.692    74833.987
+ 19  TNe+G4        35653.300    206 71718.601    71753.596    72929.891
+ 20  TNe+I+G4      35639.716    207 71693.432    71728.782    72910.602
+ 21  TN+F          38258.154    208 76932.309    76968.015    78155.359
+ 22  TN+F+I        36515.013    209 73448.027    73484.091    74676.957
+ 23  TN+F+G4       35564.972    209 71547.944    71584.008    72776.874
+ 24  TN+F+I+G4     35550.209    210 71520.418    71556.842    72755.228
+ 25  K3P           38441.676    205 77293.352    77327.996    78498.762
+ 26  K3P+I         36713.693    206 73839.386    73874.381    75050.676
+ 27  K3P+G4        35737.338    206 71886.677    71921.672    73097.966
+ 28  K3P+I+G4      35723.851    207 71861.702    71897.052    73078.872
+ 29  K3Pu+F        38418.676    208 77253.351    77289.057    78476.401
+ 30  K3Pu+F+I      36660.950    209 73739.900    73775.964    74968.830
+ 31  K3Pu+F+G4     35681.501    209 71781.001    71817.065    73009.931
+ 32  K3Pu+F+I+G4   35667.008    210 71754.017    71790.441    72988.827
+ 33  TPM2+F        38347.388    208 77110.776    77146.482    78333.826
+ 34  TPM2+F+I      36614.281    209 73646.561    73682.626    74875.492
+ 35  TPM2+F+G4     35629.931    209 71677.863    71713.927    72906.793
+ 36  TPM2+F+I+G4   35616.456    210 71652.912    71689.337    72887.723
+ 37  TPM2u+F       38347.385    208 77110.770    77146.476    78333.820
+ 38  TPM2u+F+I     36614.281    209 73646.561    73682.626    74875.492
+ 39  TPM2u+F+G4    35629.931    209 71677.863    71713.927    72906.793
+ 40  TPM2u+F+I+G4  35616.443    210 71652.887    71689.311    72887.697
+ 41  TPM3+F        38406.764    208 77229.528    77265.234    78452.578
+ 42  TPM3+F+I      36644.187    209 73706.374    73742.438    74935.304
+ 43  TPM3+F+G4     35676.309    209 71770.619    71806.683    72999.549
+ 44  TPM3+F+I+G4   35661.121    210 71742.241    71778.665    72977.051
+ 45  TPM3u+F       38406.764    208 77229.528    77265.234    78452.578
+ 46  TPM3u+F+I     36644.187    209 73706.374    73742.438    74935.304
+ 47  TPM3u+F+G4    35676.309    209 71770.619    71806.683    72999.549
+ 48  TPM3u+F+I+G4  35661.121    210 71742.241    71778.665    72977.051
+ 49  TIMe          38327.579    206 77067.159    77102.154    78278.449
+ 50  TIMe+I        36603.333    207 73620.666    73656.016    74837.836
+ 51  TIMe+G4       35653.107    207 71720.214    71755.564    72937.384
+ 52  TIMe+I+G4     35639.384    208 71694.768    71730.473    72917.818
+ 53  TIM+F         38256.357    209 76930.715    76966.779    78159.645
+ 54  TIM+F+I       36512.859    210 73445.719    73482.143    74680.529
+ 55  TIM+F+G4      35564.824    210 71549.647    71586.071    72784.457
+ 56  TIM+F+I+G4    35549.997    211 71521.994    71558.781    72762.685
+ 57  TIM2e         38219.257    206 76850.515    76885.510    78061.805
+ 58  TIM2e+I       36526.349    207 73466.698    73502.048    74683.868
+ 59  TIM2e+G4      35556.453    207 71526.906    71562.256    72744.076
+ 60  TIM2e+I+G4    35543.395    208 71502.789    71538.495    72725.839
+ 61  TIM2+F        38187.335    209 76792.669    76828.734    78021.600
+ 62  TIM2+F+I      36466.724    210 73353.447    73389.871    74588.257
+ 63  TIM2+F+G4     35507.990    210 71435.981    71472.405    72670.791
+ 64  TIM2+F+I+G4   35494.187    211 71410.375    71447.161    72651.065
+ 65  TIM3e         38314.712    206 77041.424    77076.419    78252.714
+ 66  TIM3e+I       36584.917    207 73583.833    73619.183    74801.003
+ 67  TIM3e+G4      35647.736    207 71709.473    71744.823    72926.643
+ 68  TIM3e+I+G4    35633.360    208 71682.719    71718.425    72905.769
+ 69  TIM3+F        38243.532    209 76905.064    76941.128    78133.994
+ 70  TIM3+F+I      36494.476    210 73408.951    73445.376    74643.762
+ 71  TIM3+F+G4     35559.666    210 71539.332    71575.756    72774.142
+ 72  TIM3+F+I+G4   35544.164    211 71510.327    71547.113    72751.017
+ 73  TVMe          38317.719    207 77049.438    77084.788    78266.608
+ 74  TVMe+I        36619.287    208 73654.574    73690.280    74877.624
+ 75  TVMe+G4       35637.100    208 71690.201    71725.907    72913.251
+ 76  TVMe+I+G4     35623.726    209 71665.452    71701.516    72894.382
+ 77  TVM+F         38333.710    210 77087.421    77123.845    78322.231
+ 78  TVM+F+I       36595.385    211 73612.770    73649.557    74853.461
+ 79  TVM+F+G4      35624.085    211 71670.169    71706.955    72910.859
+ 80  TVM+F+I+G4    35609.896    212 71643.791    71680.941    72890.361
+ 81  SYM           38204.545    208 76825.090    76860.796    78048.140
+ 82  SYM+I         36505.954    209 73429.908    73465.972    74658.838
+ 83  SYM+G4        35550.278    209 71518.555    71554.620    72747.486
+ 84  SYM+I+G4      35536.533    210 71493.066    71529.490    72727.876
+ 85  GTR+F         38172.737    211 76767.474    76804.260    78008.164
+ 86  GTR+F+I       36446.172    212 73316.344    73353.495    74562.915
+ 87  GTR+F+G4      35502.232    212 71428.464    71465.614    72675.034
+ 88  GTR+F+I+G4    35487.722    213 71401.444    71438.960    72653.894
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         TIM2+F+I+G4
+Best-fit model: TIM2+F+I+G4 chosen according to BIC
+
+All model information printed to ORF2_cleared_alignment_DNA.fas.model.gz
+CPU time for ModelFinder: 32.543 seconds (0h:0m:32s)
+Wall-clock time for ModelFinder: 32.821 seconds (0h:0m:32s)
+Generating 1000 samples for ultrafast bootstrap (seed: 221220)...
+
+NOTE: 26 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.456 / LogL: -35508.009
+Init pinv, alpha: 0.042, 1.000 / Estimate: 0.142, 0.649 / LogL: -35495.141
+Init pinv, alpha: 0.085, 1.000 / Estimate: 0.142, 0.650 / LogL: -35495.126
+Init pinv, alpha: 0.127, 1.000 / Estimate: 0.142, 0.649 / LogL: -35495.154
+Init pinv, alpha: 0.170, 1.000 / Estimate: 0.176, 0.725 / LogL: -35494.176
+Init pinv, alpha: 0.212, 1.000 / Estimate: 0.197, 0.780 / LogL: -35494.499
+Init pinv, alpha: 0.255, 1.000 / Estimate: 0.197, 0.778 / LogL: -35494.491
+Init pinv, alpha: 0.297, 1.000 / Estimate: 0.197, 0.780 / LogL: -35494.527
+Init pinv, alpha: 0.340, 1.000 / Estimate: 0.197, 0.779 / LogL: -35494.510
+Init pinv, alpha: 0.382, 1.000 / Estimate: 0.198, 0.781 / LogL: -35494.555
+Optimal pinv,alpha: 0.176, 0.725 / LogL: -35494.176
+
+Parameters optimization took 23.604 sec
+Computing ML distances based on estimated model parameters... 0.191 sec
+Computing BIONJ tree...
+0.055 seconds
+Log-likelihood of BIONJ tree: -35997.438
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.791 second
+Computing log-likelihood of 98 initial trees ... 6.330 seconds
+Current best score: -35489.445
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -35473.335
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -35473.174
+Iteration 10 / LogL: -35473.174 / Time: 0h:0m:40s
+UPDATE BEST LOG-LIKELIHOOD: -35473.173
+Iteration 20 / LogL: -35473.610 / Time: 0h:0m:48s
+Finish initializing candidate tree set (9)
+Current best tree score: -35473.173 / CPU time: 24.185
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -35473.728 / Time: 0h:1m:0s (0h:2m:36s left)
+Iteration 40 / LogL: -35487.492 / Time: 0h:1m:13s (0h:2m:1s left)
+Iteration 50 / LogL: -35871.911 / Time: 0h:1m:24s (0h:1m:35s left)
+Log-likelihood cutoff on original alignment: -35519.857
+Iteration 60 / LogL: -35473.431 / Time: 0h:1m:36s (0h:1m:13s left)
+Iteration 70 / LogL: -35478.598 / Time: 0h:1m:48s (0h:0m:55s left)
+Iteration 80 / LogL: -35473.448 / Time: 0h:2m:0s (0h:0m:38s left)
+UPDATE BEST LOG-LIKELIHOOD: -35473.173
+Iteration 90 / LogL: -35873.073 / Time: 0h:2m:12s (0h:0m:22s left)
+UPDATE BEST LOG-LIKELIHOOD: -35473.173
+Iteration 100 / LogL: -35478.515 / Time: 0h:2m:23s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -35519.857
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 106 ITERATIONS / Time: 0h:2m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -35473.173
+Optimal log-likelihood: -35473.170
+Rate parameters:  A-C: 1.86474  A-G: 5.34301  A-T: 1.86474  C-G: 1.00000  C-T: 10.34069  G-T: 1.00000
+Base frequencies:  A: 0.293  C: 0.237  G: 0.233  T: 0.237
+Proportion of invariable sites: 0.176
+Gamma shape alpha: 0.723
+Parameters optimization took 1 rounds (0.157 sec)
+BEST SCORE FOUND : -35473.170
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+6.929 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file ORF2_cleared_alignment_DNA.fas.splits.nex
+Total tree length: 4.924
+
+Total number of iterations: 106
+CPU time used for tree search: 126.073 sec (0h:2m:6s)
+Wall-clock time used for tree search: 126.741 sec (0h:2m:6s)
+Total CPU time used: 157.422 sec (0h:2m:37s)
+Total wall-clock time used: 158.423 sec (0h:2m:38s)
+
+Computing bootstrap consensus tree...
+Reading input file ORF2_cleared_alignment_DNA.fas.splits.nex...
+103 taxa and 380 splits.
+Consensus tree written to ORF2_cleared_alignment_DNA.fas.contree
+Reading input trees file ORF2_cleared_alignment_DNA.fas.contree
+Log-likelihood of consensus tree: -35473.173
+
+Analysis results written to: 
+  IQ-TREE report:                ORF2_cleared_alignment_DNA.fas.iqtree
+  Maximum-likelihood tree:       ORF2_cleared_alignment_DNA.fas.treefile
+  Likelihood distances:          ORF2_cleared_alignment_DNA.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ORF2_cleared_alignment_DNA.fas.splits.nex
+  Consensus tree:                ORF2_cleared_alignment_DNA.fas.contree
+  Screen log file:               ORF2_cleared_alignment_DNA.fas.log
+
+Date and Time: Sat Apr 27 10:57:50 2024
