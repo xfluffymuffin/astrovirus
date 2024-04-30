@@ -1,0 +1,717 @@
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phyloxml.org" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+<phylogeny rooted="true"><clade>
+<name>OROOT</name>
+<clade>
+<branch_length>0.0947552733</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0811524631</branch_length>
+<confidence type="bootstrap">99.7</confidence>
+<clade>
+<name>KP862744 human KOR 2014 NA kor85 human-stool</name>
+<branch_length>0.0198078940</branch_length>
+</clade>
+<clade>
+<branch_length>0.0107364358</branch_length>
+<confidence type="bootstrap">71.1</confidence>
+<clade>
+<name>AF260508 NA NA NA Yuc-8 NA NA</name>
+<branch_length>0.0151925859</branch_length>
+</clade>
+<clade>
+<name>MK059956 human USA NA Oxford NA cell-culture</name>
+<branch_length>0.0089100669</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.4820518520</branch_length>
+<confidence type="bootstrap">97.5</confidence>
+<clade>
+<branch_length>0.0135938735</branch_length>
+<confidence type="bootstrap">77.5</confidence>
+<clade>
+<name>DQ070852 NA BRA NA NA Goiania-GO-12-95-Brazil NA</name>
+<branch_length>0.0547769035</branch_length>
+</clade>
+<clade>
+<branch_length>0.0113302697</branch_length>
+<confidence type="bootstrap">98.5</confidence>
+<clade>
+<name>AY720891 NA NA NA Dresden NA NA</name>
+<branch_length>0.0261465442</branch_length>
+</clade>
+<clade>
+<name>MK059952 human USA NA Oxford NA cell-culture</name>
+<branch_length>0.0113123242</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0367563715</branch_length>
+<confidence type="bootstrap">99.7</confidence>
+<clade>
+<branch_length>0.0119745017</branch_length>
+<confidence type="bootstrap">99.8</confidence>
+<clade>
+<name>KC285113 human RUS 2010 NA HAstV-4-RUS-Novosibirsk-Nsc10-N1190-2010 feces</name>
+<branch_length>0.0144671279</branch_length>
+</clade>
+<clade>
+<branch_length>0.0024030824</branch_length>
+<confidence type="bootstrap">84.6</confidence>
+<clade>
+<name>KF039912 NA RUS 2005 NA Rus-Nsc05-623 NA</name>
+<branch_length>0.0128090393</branch_length>
+</clade>
+<clade>
+<branch_length>0.0190363710</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>MT906853 human BRA 2014 Hu-BRA-TO-207-2014 BRA-TO-207 stool</name>
+<branch_length>0.0004131272</branch_length>
+</clade>
+<clade>
+<branch_length>0.0013064563</branch_length>
+<confidence type="bootstrap">90.8</confidence>
+<clade>
+<name>MT906854 human BRA 2015 Hu-BRA-TO-71-2015 BRA-TO-71 stool-sample</name>
+<branch_length>0.0000024740</branch_length>
+</clade>
+<clade>
+<name>MT906855 human BRA 2014 Hu-BRA-TO-26-2014 BRA-TO-26 stool-sample</name>
+<branch_length>0.0000024740</branch_length>
+</clade>
+</clade></clade></clade></clade><clade>
+<branch_length>0.0134465751</branch_length>
+<confidence type="bootstrap">19.1</confidence>
+<clade>
+<name>KF039913 NA RUS 2010 NA Rus-Nsc10-N358 NA</name>
+<branch_length>0.0054477127</branch_length>
+</clade>
+<clade>
+<branch_length>0.0018714256</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>DQ344027 NA CHN NA NA Guangzhou NA</name>
+<branch_length>0.0134883174</branch_length>
+</clade>
+<clade>
+<branch_length>0.0178768310</branch_length>
+<confidence type="bootstrap">42.5</confidence>
+<clade>
+<branch_length>0.0024031545</branch_length>
+<confidence type="bootstrap">94.9</confidence>
+<clade>
+<name>OP432293 human CHN 2021 NA HAstV-4-RC-21027 NA</name>
+<branch_length>0.0004331427</branch_length>
+</clade>
+<clade>
+<name>OP432299 human CHN 2021 NA HAstV-4-RC-21045 NA</name>
+<branch_length>0.0017152140</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0007421490</branch_length>
+<confidence type="bootstrap">99.2</confidence>
+<clade>
+<branch_length>0.0041911363</branch_length>
+<clade>
+<name>OR371570 human CHN 2022 HAstV-4-Fuzhou-2022-10 NA feces</name>
+<branch_length>0.0010357475</branch_length>
+</clade>
+<clade>
+<branch_length>0.0012866403</branch_length>
+<confidence type="bootstrap">87</confidence>
+<clade>
+<name>OP432295 human CHN 2022 NA HAstV-4-QD-F-22056 NA</name>
+<branch_length>0.0049344823</branch_length>
+</clade>
+<clade>
+<name>ON571598 human CHN 2021 NA 2021-Fuzhou-37 feces</name>
+<branch_length>0.0015411644</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0020981320</branch_length>
+<confidence type="bootstrap">93.6</confidence>
+<clade>
+<branch_length>0.0013063411</branch_length>
+<confidence type="bootstrap">91.4</confidence>
+<clade>
+<name>OP432297 human CHN 2022 NA HAstV-4-QD-L-22001 NA</name>
+<branch_length>0.0000022764</branch_length>
+</clade>
+<clade>
+<name>OP432300 human CHN 2022 NA HAstV-4-QD-S-22022 NA</name>
+<branch_length>0.0000025045</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0025710854</branch_length>
+<confidence type="bootstrap">96.9</confidence>
+<clade>
+<name>OP432298 human CHN 2022 NA HAstV-4-QD-S-22015 NA</name>
+<branch_length>0.0012903412</branch_length>
+</clade>
+<clade>
+<branch_length>0.0008528578</branch_length>
+<confidence type="bootstrap">14.1</confidence>
+<clade>
+<name>OP432294 human CHN 2022 NA HAstV-4-QD-L-22040 NA</name>
+<branch_length>0.0000027535</branch_length>
+</clade>
+<clade>
+<branch_length>0.0004263049</branch_length>
+<confidence type="bootstrap">71.4</confidence>
+<clade>
+<name>OP432296 human CHN 2021 NA HAstV-4-RC-21047 NA</name>
+<branch_length>0.1060724179</branch_length>
+</clade>
+<clade>
+<name>OP432301 human CHN 2022 NA HAstV-4-QD-L-22019 NA</name>
+<branch_length>0.0000022246</branch_length>
+</clade>
+</clade></clade></clade></clade></clade></clade></clade></clade></clade></clade></clade><clade>
+<branch_length>0.0947552733</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0776010723</branch_length>
+<confidence type="bootstrap">95.7</confidence>
+<clade>
+<branch_length>0.3135646948</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>HM237363 NA NA NA NA Katano NA</name>
+<branch_length>0.0181361925</branch_length>
+</clade>
+<clade>
+<branch_length>0.0292861770</branch_length>
+<confidence type="bootstrap">98.9</confidence>
+<clade>
+<name>MK059954 human USA NA Oxford NA cell-culture</name>
+<branch_length>0.0083782746</branch_length>
+</clade>
+<clade>
+<branch_length>0.0110458166</branch_length>
+<confidence type="bootstrap">99.9</confidence>
+<clade>
+<name>GQ495608 human CHN 2007 NA 192-BJ07-CHN stool</name>
+<branch_length>0.0143972512</branch_length>
+</clade>
+<clade>
+<name>GQ901902 human RUS 2009 NA Rus-Nsc09-B4 NA</name>
+<branch_length>0.0138020417</branch_length>
+</clade>
+</clade></clade></clade><clade>
+<branch_length>0.2851510222</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0257615813</branch_length>
+<confidence type="bootstrap">94.3</confidence>
+<clade>
+<name>DQ028633 NA BRA NA NA Goiania-GO-12-94-Brazil stool</name>
+<branch_length>0.0289929662</branch_length>
+</clade>
+<clade>
+<name>MK059953 human USA NA Oxford NA cell-culture</name>
+<branch_length>0.0134941741</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0088899452</branch_length>
+<confidence type="bootstrap">59.4</confidence>
+<clade>
+<name>JQ403108 human CHN 2010 NA DL030 stool</name>
+<branch_length>0.0082926195</branch_length>
+</clade>
+<clade>
+<branch_length>0.0050489588</branch_length>
+<confidence type="bootstrap">95.8</confidence>
+<clade>
+<name>MT267476 human ZAF 2015 SA10098 NA Fecal-Specimen</name>
+<branch_length>0.0049473813</branch_length>
+</clade>
+<clade>
+<branch_length>0.0006760837</branch_length>
+<confidence type="bootstrap">77.5</confidence>
+<clade>
+<branch_length>0.0003341094</branch_length>
+<confidence type="bootstrap">76.4</confidence>
+<clade>
+<name>MN433706 human USA 2014 Hu-US-2014-CA-RGDS-1073 NA stool</name>
+<branch_length>0.0026996383</branch_length>
+</clade>
+<clade>
+<branch_length>0.0122970538</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>MW485044 human KEN 2019 KLF-HAstV5-002-2019 NA NA</name>
+<branch_length>0.0008549992</branch_length>
+</clade>
+<clade>
+<name>MW485045 human KEN 2019 KLF-HAstV5-003-2019 NA NA</name>
+<branch_length>0.0008752854</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0004016807</branch_length>
+<confidence type="bootstrap">72.3</confidence>
+<clade>
+<branch_length>0.0016479795</branch_length>
+<confidence type="bootstrap">91.8</confidence>
+<clade>
+<name>MF684776 human CHN 2013 NA 2013-Fuzhou-85 stool</name>
+<branch_length>0.0031163548</branch_length>
+</clade>
+<clade>
+<branch_length>0.0030144818</branch_length>
+<confidence type="bootstrap">97.8</confidence>
+<clade>
+<name>ON571595 human CHN 2019 NA 2019-Fuzhou-289 feces</name>
+<branch_length>0.0089731633</branch_length>
+</clade>
+<clade>
+<name>OR222910 human CHN 2021 NA SY2106 stool</name>
+<branch_length>0.0018157256</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0050105062</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>MT906858 human BRA 2014 Hu-BRA-TO-57-2014 BRA-TO-57 stool</name>
+<branch_length>0.0000026991</branch_length>
+</clade>
+<clade>
+<branch_length>0.0004173781</branch_length>
+<confidence type="bootstrap">82.3</confidence>
+<clade>
+<name>MT906859 human BRA 2014 Hu-BRA-TO-32-2014 BRA-TO-32 stool-sample</name>
+<branch_length>0.0000021113</branch_length>
+</clade>
+<clade>
+<branch_length>0.0000021113</branch_length>
+<clade>
+<name>MT906856 human BRA 2015 Hu-BRA-TO-65-2015 BRA-TO-65 stool</name>
+<branch_length>0.0000024740</branch_length>
+</clade>
+<clade>
+<name>MT906857 human BRA 2014 Hu-BRA-TO-40-2014 BRA-TO-40 stool</name>
+<branch_length>0.0000024740</branch_length>
+</clade>
+</clade></clade></clade></clade></clade></clade></clade></clade></clade><clade>
+<branch_length>0.1263379171</branch_length>
+<confidence type="bootstrap">99.9</confidence>
+<clade>
+<branch_length>0.1000446563</branch_length>
+<confidence type="bootstrap">99.2</confidence>
+<clade>
+<branch_length>0.4360654582</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>KF039910 NA RUS 2005 NA Rus-Nsc05-430 NA</name>
+<branch_length>0.1424921080</branch_length>
+</clade>
+<clade>
+<branch_length>0.0581067531</branch_length>
+<confidence type="bootstrap">97.5</confidence>
+<clade>
+<branch_length>0.0073271823</branch_length>
+<confidence type="bootstrap">76.3</confidence>
+<clade>
+<name>MK059950 human USA NA Oxford NA cell-culture</name>
+<branch_length>0.0259766912</branch_length>
+</clade>
+<clade>
+<name>MN433705 human USA 2014 Hu-US-2014-CA-RGDS-1072 NA stool</name>
+<branch_length>0.0567760221</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0287715856</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>MW485042 human KEN 2019 KLF-HAstV2-005-2019 NA NA</name>
+<branch_length>0.0245010426</branch_length>
+</clade>
+<clade>
+<branch_length>0.0028813534</branch_length>
+<confidence type="bootstrap">84.1</confidence>
+<clade>
+<name>KF039911 NA RUS 2006 NA Rus-Nsc06-1029 NA</name>
+<branch_length>0.0106949699</branch_length>
+</clade>
+<clade>
+<name>KC285152 human RUS 2011 NA HAstV-2-RUS-Novosibirsk-Nsc11-N2411-2011 feces</name>
+<branch_length>0.0157157918</branch_length>
+</clade>
+</clade></clade></clade></clade><clade>
+<branch_length>0.1168415781</branch_length>
+<confidence type="bootstrap">99.7</confidence>
+<clade>
+<name>MK059955 human USA NA Oxford NA cell-culture</name>
+<branch_length>0.2579404046</branch_length>
+</clade>
+<clade>
+<branch_length>0.1301564369</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0257702561</branch_length>
+<confidence type="bootstrap">90.9</confidence>
+<clade>
+<name>MT267483 human ZAF 2015 SA6118 NA Fecal-Specimen</name>
+<branch_length>0.0468786444</branch_length>
+</clade>
+<clade>
+<branch_length>0.0271502500</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>MK059951 human USA NA Oxford NA cell-culture</name>
+<branch_length>0.0054562298</branch_length>
+</clade>
+<clade>
+<branch_length>0.0184772395</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>GU223905 human RUS 2003 NA Rus-Nsc03-H191 NA</name>
+<branch_length>0.0029273802</branch_length>
+</clade>
+<clade>
+<branch_length>0.0008527890</branch_length>
+<confidence type="bootstrap">80.6</confidence>
+<clade>
+<name>GU732187 human RUS 2008 NA Rus-Nsc08-3364 NA</name>
+<branch_length>0.0088749671</branch_length>
+</clade>
+<clade>
+<name>JF491430 human RUS 2004 NA Rus-Nsc04-H355 NA</name>
+<branch_length>0.0025429435</branch_length>
+</clade>
+</clade></clade></clade></clade><clade>
+<branch_length>0.0225732567</branch_length>
+<confidence type="bootstrap">94.8</confidence>
+<clade>
+<name>MW485043 human KEN 2019 KLF-HAstV3-007-2019 NA NA</name>
+<branch_length>0.0322817804</branch_length>
+</clade>
+<clade>
+<branch_length>0.0173048135</branch_length>
+<confidence type="bootstrap">99.7</confidence>
+<clade>
+<name>MZ603079 NA NA 2011 NA HAstV-3-RVAB feces</name>
+<branch_length>0.0040921182</branch_length>
+</clade>
+<clade>
+<branch_length>0.0020016809</branch_length>
+<confidence type="bootstrap">83.2</confidence>
+<clade>
+<branch_length>0.0009934506</branch_length>
+<confidence type="bootstrap">79.2</confidence>
+<clade>
+<name>MG571777 human VEN 2015 NA NA stool</name>
+<branch_length>0.0055587674</branch_length>
+</clade>
+<clade>
+<branch_length>0.0016491897</branch_length>
+<confidence type="bootstrap">92.7</confidence>
+<clade>
+<name>MK296753 human IRL 2018 Hu-HAstV3-2016-East-Ireland 17W1028 feces</name>
+<branch_length>0.0055513747</branch_length>
+</clade>
+<clade>
+<name>LC732124 human JPN 2016 Human-JPN-2016-JP14989 Child-with-acute-gastroenteritis feces</name>
+<branch_length>0.0050365619</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0036804027</branch_length>
+<confidence type="bootstrap">97.3</confidence>
+<clade>
+<branch_length>0.0020560525</branch_length>
+<confidence type="bootstrap">81</confidence>
+<clade>
+<name>MN444721 human USA 2017 Hu-US-2017-CA-RGDS-1074 NA stool</name>
+<branch_length>0.0032639659</branch_length>
+</clade>
+<clade>
+<name>LC694985 human JPN 2019 NA HAstV3-190610-Tokyo-2019 NA</name>
+<branch_length>0.0047265731</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0041955275</branch_length>
+<confidence type="bootstrap">99.3</confidence>
+<clade>
+<name>LC732122 human JPN 2016 Human-JPN-2016-JP14641 Child-with-acute-gastroenteritis feces</name>
+<branch_length>0.0055089095</branch_length>
+</clade>
+<clade>
+<name>LC732123 human JPN 2016 Human-JPN-2016-JP14665 Child-with-acute-gastroenteritis feces</name>
+<branch_length>0.0003501571</branch_length>
+</clade>
+</clade></clade></clade></clade></clade></clade></clade></clade><clade>
+<branch_length>0.3691464419</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0218764929</branch_length>
+<confidence type="bootstrap">87.6</confidence>
+<clade>
+<name>FJ755404 human CHN 2007 Beijing-291-2007-CHN NA stool</name>
+<branch_length>0.0194028875</branch_length>
+</clade>
+<clade>
+<branch_length>0.0111191338</branch_length>
+<confidence type="bootstrap">89.7</confidence>
+<clade>
+<name>KF211475 human CHN 2010 NA JZ NA</name>
+<branch_length>0.0062253822</branch_length>
+</clade>
+<clade>
+<branch_length>0.0015852089</branch_length>
+<confidence type="bootstrap">76.1</confidence>
+<clade>
+<name>AY720892 NA NA NA Dresden NA NA</name>
+<branch_length>0.0077902362</branch_length>
+</clade>
+<clade>
+<branch_length>0.0051094955</branch_length>
+<confidence type="bootstrap">99.8</confidence>
+<clade>
+<name>JN887820 human KOR 2006 lhar-2011-kor NA stool</name>
+<branch_length>0.0046396023</branch_length>
+</clade>
+<clade>
+<name>FJ755403 human CHN 2006 Beijing-176-2006-CHN NA stool</name>
+<branch_length>0.0047804658</branch_length>
+</clade>
+</clade></clade></clade></clade><clade>
+<branch_length>0.0115732884</branch_length>
+<confidence type="bootstrap">18</confidence>
+<clade>
+<branch_length>0.0445054327</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0224529406</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>FJ755402 human CHN 2005 Beijing-128-2005-CHN NA stool</name>
+<branch_length>0.0018995285</branch_length>
+</clade>
+<clade>
+<name>FJ755405 human CHN 2007 Beijing-293-2007-CHN NA stool</name>
+<branch_length>0.0049324378</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0052752948</branch_length>
+<confidence type="bootstrap">77.6</confidence>
+<clade>
+<branch_length>0.0188290629</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>KC342249 human CHN 2012 NA km1 stool-sample</name>
+<branch_length>0.0131010767</branch_length>
+</clade>
+<clade>
+<name>ON571594 human CHN 2019 NA 2019-Fuzhou-26 feces</name>
+<branch_length>0.0150311440</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0204953120</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0003773763</branch_length>
+<clade>
+<name>NC 030922 NA IND 2004 NA V1347 NA</name>
+<branch_length>0.2027013777</branch_length>
+</clade>
+<clade>
+<name>OQ630461 human GIN 2021 NA SEN-21-286-S1 Stool-Sample-of-non-polio-AFP</name>
+<branch_length>0.0245887387</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0130638480</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0030351933</branch_length>
+<confidence type="bootstrap">95.1</confidence>
+<clade>
+<name>LC694996 human JPN 2018 NA HAstV1-181290-Tokyo-2018 NA</name>
+<branch_length>0.0004220721</branch_length>
+</clade>
+<clade>
+<name>LC694997 human JPN 2018 NA HAstV1-181289-Tokyo-2018 NA</name>
+<branch_length>0.0000024740</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0050879404</branch_length>
+<confidence type="bootstrap">99.3</confidence>
+<clade>
+<name>MW485040 human KEN 2019 KLF-HAstV1-008-2019 NA NA</name>
+<branch_length>0.0000021554</branch_length>
+</clade>
+<clade>
+<branch_length>0.0004220550</branch_length>
+<confidence type="bootstrap">81.3</confidence>
+<clade>
+<name>MW485039 human KEN 2019 KLF-HAstV1-006-2019 NA NA</name>
+<branch_length>0.0012670395</branch_length>
+</clade>
+<clade>
+<branch_length>0.0000024283</branch_length>
+<clade>
+<name>MW485038 human KEN 2019 KLF-HAstV1-001-2019 NA NA</name>
+<branch_length>0.0028128483</branch_length>
+</clade>
+<clade>
+<name>MW485041 human KEN 2019 KLF-HAstV1-010-2019 NA NA</name>
+<branch_length>0.0018069941</branch_length>
+</clade>
+</clade></clade></clade></clade></clade></clade></clade><clade>
+<branch_length>0.0172110978</branch_length>
+<confidence type="bootstrap">99.8</confidence>
+<clade>
+<branch_length>0.0098789547</branch_length>
+<confidence type="bootstrap">99.6</confidence>
+<clade>
+<name>L23513 NA NA NA NA Oxford NA</name>
+<branch_length>0.0031264112</branch_length>
+</clade>
+<clade>
+<name>MK059949 human USA NA Oxford NA cell-culture</name>
+<branch_length>0.0015564379</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0091782868</branch_length>
+<confidence type="bootstrap">99.8</confidence>
+<clade>
+<name>Z25771 NA NA NA NA NA NA</name>
+<branch_length>0.0090132742</branch_length>
+</clade>
+<clade>
+<branch_length>0.0229188172</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>HQ398856 human HUN 2010 Hu-Nyergesujfalu-HUN4520-2010-HUN NA fecal-sample</name>
+<branch_length>0.0072048433</branch_length>
+</clade>
+<clade>
+<branch_length>0.0040592047</branch_length>
+<confidence type="bootstrap">96.4</confidence>
+<clade>
+<branch_length>0.0029044880</branch_length>
+<confidence type="bootstrap">96.8</confidence>
+<clade>
+<name>MT832896 human BRA 2015 MAstV-1-Hu-BRA-TO-208-2015 TO-208 feces</name>
+<branch_length>0.0000024740</branch_length>
+</clade>
+<clade>
+<branch_length>0.0008429827</branch_length>
+<confidence type="bootstrap">90.5</confidence>
+<clade>
+<name>MT832892 human BRA 2015 MAstV-1-Hu-BRA-TO-98-2015 TO-98 feces</name>
+<branch_length>0.0008429537</branch_length>
+</clade>
+<clade>
+<branch_length>0.0000024136</branch_length>
+<clade>
+<name>MT832895 human BRA 2015 MAstV-1-Hu-BRA-TO-171-2015 TO-171 feces</name>
+<branch_length>0.0000024740</branch_length>
+</clade>
+<clade>
+<branch_length>0.0004222154</branch_length>
+<confidence type="bootstrap">92.5</confidence>
+<clade>
+<name>MT832894 human BRA 2011 MAstV-1-Hu-BRA-TO-162-2011 TO-162 feces</name>
+<branch_length>0.0000024740</branch_length>
+</clade>
+<clade>
+<branch_length>0.0000024740</branch_length>
+<clade>
+<name>MT832893 human BRA 2015 MAstV-1-Hu-BRA-TO-160-2015 TO-160 feces</name>
+<branch_length>0.0000000000</branch_length>
+</clade>
+<clade>
+<name>MT832897 human BRA 2015 MAstV-1-Hu-BRA-TO-161-2015 TO-161 feces</name>
+<branch_length>0.0000000000</branch_length>
+</clade>
+</clade></clade></clade></clade></clade><clade>
+<branch_length>0.0040389153</branch_length>
+<confidence type="bootstrap">99.2</confidence>
+<clade>
+<branch_length>0.0022169203</branch_length>
+<confidence type="bootstrap">94.6</confidence>
+<clade>
+<name>MN433703 human USA 2013 Hu-US-2013-CA-RGDS-1070 NA stool</name>
+<branch_length>0.0008400831</branch_length>
+</clade>
+<clade>
+<name>MN433704 human USA 2013 Hu-US-2013-CA-RGDS-1071 NA stool</name>
+<branch_length>0.0016976210</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0051046254</branch_length>
+<confidence type="bootstrap">99.7</confidence>
+<clade>
+<branch_length>0.0003965865</branch_length>
+<confidence type="bootstrap">74.7</confidence>
+<clade>
+<name>LC694990 human JPN 2018 NA HAstV1-181937-Tokyo-2018 NA</name>
+<branch_length>0.0064484601</branch_length>
+</clade>
+<clade>
+<branch_length>0.0029828072</branch_length>
+<confidence type="bootstrap">98.8</confidence>
+<clade>
+<name>LC694987 human JPN 2021 NA HAstV1-210984-Tokyo-2021 NA</name>
+<branch_length>0.0016846234</branch_length>
+</clade>
+<clade>
+<name>LC694992 human JPN 2021 NA HAstV1-210628-Tokyo-2021 NA</name>
+<branch_length>0.0004286978</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0020879171</branch_length>
+<confidence type="bootstrap">95.7</confidence>
+<clade>
+<branch_length>0.0021216780</branch_length>
+<confidence type="bootstrap">98.1</confidence>
+<clade>
+<name>LC694993 human JPN 2020 NA HAstV1-193061-Tokyo-2020 NA</name>
+<branch_length>0.0008369399</branch_length>
+</clade>
+<clade>
+<name>LC694994 human JPN 2020 NA HAstV1-193055-Tokyo-2020 NA</name>
+<branch_length>0.0017008478</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0000022884</branch_length>
+<clade>
+<branch_length>0.0004059705</branch_length>
+<confidence type="bootstrap">74.4</confidence>
+<clade>
+<name>LC694986 human JPN 2022 NA HAstV1-211185-Tokyo-2022 NA</name>
+<branch_length>0.0046859873</branch_length>
+</clade>
+<clade>
+<name>LC694995 human JPN 2020 NA HAstV1-192642-Tokyo-2020 NA</name>
+<branch_length>0.0029837724</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0004216906</branch_length>
+<confidence type="bootstrap">85.5</confidence>
+<clade>
+<branch_length>0.0000024740</branch_length>
+<clade>
+<name>ON571596 human CHN 2019 NA 2019-Fuzhou-306 feces</name>
+<branch_length>0.0029592589</branch_length>
+</clade>
+<clade>
+<name>ON571597 human CHN 2019 NA 2019-Pingtan-42 feces</name>
+<branch_length>0.0025414521</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0000025040</branch_length>
+<clade>
+<name>LC694989 human JPN 2021 NA HAstV1-210956-Tokyo-2021 NA</name>
+<branch_length>0.0029623308</branch_length>
+</clade>
+<clade>
+<branch_length>0.0004215886</branch_length>
+<confidence type="bootstrap">75.3</confidence>
+<clade>
+<name>LC694988 human JPN 2021 NA HAstV1-210963-Tokyo-2021 NA</name>
+<branch_length>0.0008439703</branch_length>
+</clade>
+<clade>
+<name>LC694991 human JPN 2021 NA HAstV1-210764-Tokyo-2021 NA</name>
+<branch_length>0.0004224733</branch_length>
+</clade>
+</clade></clade></clade></clade></clade></clade></clade></clade></clade></clade></clade></clade></clade></clade></clade></clade></phylogeny></phyloxml>
