@@ -22,28 +22,28 @@ def data_editor(path_old, path_new):
 
         for line in lines:
             if "GBID" in line:
-                mod.append(line + ",serotype_color")
+                mod.append(line + ",serotype")
             elif "MK059955" in line:
-                mod.append(line + ",blue")
+                mod.append(line + ",serotype_7")
             else:
                 for key, values in ser.items():
                     for id in values:
                         if key == "1" and id in line:
-                            mod.append(line + ",brown")
+                            mod.append(line + ",serotype_1")
                         if key == "2" and id in line:
-                            mod.append(line + ",pink")
+                            mod.append(line + ",serotype_2")
                         if key == "3" and id in line:
-                            mod.append(line + ",light_blue")
+                            mod.append(line + ",serotype_3")
                         if key == "4" and id in line:
-                            mod.append(line + ",violet")
+                            mod.append(line + ",serotype_4")
                         if key == "5" and id in line:
-                            mod.append(line + ",red")
+                            mod.append(line + ",serotype_5")
                         if key == "6" and id in line:
-                            mod.append(line + ",green")
+                            mod.append(line + ",serotype_6")
                         if key == "8" and id in line:
-                            mod.append(line + ",yellow")
+                            mod.append(line + ",serotype_8")
     with open(path_new, "w") as new:
         new.write("\n".join([x for x in mod]))
 
 
-data_editor(r"D:\PyCharm\BioPython\metadata.csv", r"D:\PyCharm\BioPython\metadata_serotypes_colored.csv")
+data_editor(r"D:\PyCharm\BioPython\add_serotypes_data\metadata.csv", r"D:\PyCharm\BioPython\add_serotypes_data\metadata_serotypes_colored.csv")
