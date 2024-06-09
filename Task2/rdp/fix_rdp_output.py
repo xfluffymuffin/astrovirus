@@ -19,6 +19,6 @@ def fix_rdp_output(path_old, path_new):
                         new.write(">" + str(record.id) + "\n" +
                                         str(record.seq.upper()) + "\n")
 
-
+# Названия файлов были впоследствии возвращены к исходным 
 fix_rdp_output(r"D:\PyCharm\BioPython\rdp\ORF_1A_1B_2\ORF_1A_1B_2_serotype_8.fas",
                r"D:\PyCharm\BioPython\rdp\ORF_1A_1B_2\ORF_1A_1B_2_serotype_8_desc_fix.fas")
