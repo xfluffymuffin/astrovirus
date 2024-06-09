@@ -17,7 +17,7 @@ def fix_rdp_output(path_old, path_new):
                     record.id = x
                     with open(path_new, "a") as new:
                         new.write(">" + str(record.id) + "\n" +
-                                  str(record.seq.upper()) + "\n")
+                                        str(record.seq.upper()) + "\n")
 
 
 fix_rdp_output(r"D:\PyCharm\BioPython\rdp\ORF_1A_1B_2\ORF_1A_1B_2_serotype_8.fas",
