@@ -29,8 +29,8 @@ def check_gaps(old_path, new_path_csv, new_path_fasta, threshold, exception):
     df = pd.DataFrame({'Names': names, "Count": res_len})
     df.to_csv(new_path_csv, index=False)
 
-    print('\nFollowing sequences exceeded threshold: \n '
-          '(sequence name --> number of continuous gaps)\n')
+    print('\nFollowing sequences exceeded threshold:'
+          '\n(sequence name --> number of continuous gaps)\n')
     for index, row in df.iterrows():
         if max(row['Count']) >= threshold:
             print(row['Names'] + " -->", max(row['Count']))
