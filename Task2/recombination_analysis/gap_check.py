@@ -4,7 +4,7 @@ import argparse
 import os
 
 
-def fix_gaps(old_path, new_path_csv, new_path_fasta, threshold, exception):
+def check_gaps(old_path, new_path_csv, new_path_fasta, threshold, exception):
     seqs, names, res_len, clean = [], [], [], [] #
     # seqs - contains ALL records from the input file
     # names - contains names of ALL sequences
@@ -71,4 +71,4 @@ if __name__ == "__main__":
     if not args.output_fasta:
         args.output_fasta = os.path.split(args.input)[0] + rf'\{cut_input_path}_fewer_gaps.fas'
 
-    fix_gaps(args.input, args.output_csv, args.output_fasta, args.threshold, args.exception)
+    check_gaps(args.input, args.output_csv, args.output_fasta, args.threshold, args.exception)
