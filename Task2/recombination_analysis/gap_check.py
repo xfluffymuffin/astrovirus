@@ -13,7 +13,7 @@ def check_gaps(old_path, new_path_csv, new_path_fasta, threshold, exception):
     count = 0
 
     for record in SeqIO.parse(old_path, 'fasta'):
-        seqs.append(record.seq)
+        seqs.append(record.seq + 'e')
         names.append(record.id)
 
     for record in range(len(seqs)):
@@ -21,7 +21,7 @@ def check_gaps(old_path, new_path_csv, new_path_fasta, threshold, exception):
         for letter in seqs[record]:
             if letter == "-":
                 count += 1
-            elif letter in "ATGC":
+            elif letter in "ATGCe":
                 inter.append(count)
                 count = 0
 
