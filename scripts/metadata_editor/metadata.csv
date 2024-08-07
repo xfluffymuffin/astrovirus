@@ -1,0 +1,126 @@
+GBID,country,host,collection_date,strain,isolate,isolation_source
+OR371570,China:Fuzhou,Homo sapiens,2022-01-04,HAstV-4_Fuzhou_2022-10,NaN,feces
+OR222910,China,Homo sapiens,2021,NaN,SY2106,stool
+LC732124,"Japan: Gunma, Kiryu",Homo sapiens,2016-05-24,Human/JPN/2016/JP14989,Child with acute gastroenteritis,feces
+LC732123,"Japan: Gunma, Kiryu",Homo sapiens,2016-05-07,Human/JPN/2016/JP14665,Child with acute gastroenteritis,feces
+LC732122,"Japan: Gunma, Kiryu",Homo sapiens,2016-04-24,Human/JPN/2016/JP14641,Child with acute gastroenteritis,feces
+ON807353,France,environment,23-Jul-2007,NaN,G22-011,sewage
+ON807352,France,environment,05-Feb-2014,NaN,G22-010,sewage
+ON807351,France,environment,24-Jan-2006,NaN,G22-009,sewage
+ON807350,France,environment,19-Mar-2014,NaN,G22-008,sewage
+ON807349,France,environment,28-Feb-2006,NaN,G22-007,sewage
+ON807348,France,environment,06-Jun-2016,NaN,G22-006,sewage
+ON807347,France,environment,05-Feb-2014,NaN,G22-005,sewage
+ON807346,France,environment,23-Jul-2007,NaN,G22-004,sewage
+ON807345,France,environment,23-Jul-2006,NaN,G22-003,sewage
+ON807344,France,environment,28-Feb-2006,NaN,G22-002,sewage
+ON807318,France,environment,02-Jun-2016,NaN,G22-001,sewage
+OQ630461,Guinea,Homo sapiens,13-Jan-2021,NaN,SEN_21_286_S1,Stool Sample of non-polio AFP
+ON571598,China: Fuzhou,Homo sapiens,2021,NaN,2021/Fuzhou/37,feces
+ON571597,China: Pingtan,Homo sapiens,2019,NaN,2019/Pingtan/42,feces
+ON571596,China: Fuzhou,Homo sapiens,2019,NaN,2019/Fuzhou/306,feces
+ON571595,China: Fuzhou,Homo sapiens,2019,NaN,2019/Fuzhou/289,feces
+ON571594,China: Fuzhou,Homo sapiens,2019,NaN,2019/Fuzhou/26,feces
+OP432301,China,Homo sapiens,10-Mar-2022,NaN,HAstV-4/QD-L-22019,NaN
+OP432300,China,Homo sapiens,26-Mar-2022,NaN,HAstV-4/QD-S-22022,NaN
+OP432299,China,Homo sapiens,26-May-2021,NaN,HAstV-4/RC-21045,NaN
+OP432298,China,Homo sapiens,15-Feb-2022,NaN,HAstV-4/QD-S-22015,NaN
+OP432297,China,Homo sapiens,13-Feb-2022,NaN,HAstV-4/QD-L-22001,NaN
+OP432296,China,Homo sapiens,26-May-2021,NaN,HAstV-4/RC-21047,NaN
+OP432295,China,Homo sapiens,16-Apr-2022,NaN,HAstV-4/QD-F-22056,NaN
+OP432294,China,Homo sapiens,28-Mar-2022,NaN,HAstV-4/QD-L-22040,NaN
+OP432293,China,Homo sapiens,31-Mar-2021,NaN,HAstV-4/RC-21027,NaN
+MT766324,China: Xinjiang,NaN,12-Aug-2018,NaN,AstV/CHN/XJ/env/2018/ht8-ctg1,sewage
+MT766321,China: Xinjiang,NaN,01-Aug-2018,NaN,AstV/CHN/XJ/env/2018/ks8-ctg1,sewage
+MT766320,China: Xinjiang,NaN,17-Jul-2018,NaN,AstV/CHN/XJ/env/2018/ks7-ctg2,sewage
+MT766323,China: Xinjiang,NaN,30-Mar-2018,NaN,AstV/CHN/XJ/env/2018/ht3-ctg1,sewage
+MT766322,China: Xinjiang,NaN,01-Nov-2018,NaN,AstV/CHN/XJ/env/2018/ks11-ctg1,sewage
+LC694997,Japan:Tokyo,Homo sapiens,2018-08,NaN,HAstV1/181289/Tokyo/2018,NaN
+LC694996,Japan:Tokyo,Homo sapiens,2018-08,NaN,HAstV1/181290/Tokyo/2018,NaN
+LC694995,Japan:Tokyo,Homo sapiens,2020-02,NaN,HAstV1/192642/Tokyo/2020,NaN
+LC694994,Japan:Tokyo,Homo sapiens,2020-03,NaN,HAstV1/193055/Tokyo/2020,NaN
+LC694993,Japan:Tokyo,Homo sapiens,2020-03,NaN,HAstV1/193061/Tokyo/2020,NaN
+LC694992,Japan:Tokyo,Homo sapiens,2021-10,NaN,HAstV1/210628/Tokyo/2021,NaN
+LC694991,Japan:Tokyo,Homo sapiens,2021-11,NaN,HAstV1/210764/Tokyo/2021,NaN
+LC694990,Japan:Tokyo,Homo sapiens,2018-10,NaN,HAstV1/181937/Tokyo/2018,NaN
+LC694989,Japan:Tokyo,Homo sapiens,2021-12,NaN,HAstV1/210956/Tokyo/2021,NaN
+LC694988,Japan:Tokyo,Homo sapiens,2021-12,NaN,HAstV1/210963/Tokyo/2021,NaN
+LC694987,Japan:Tokyo,Homo sapiens,2021-12,NaN,HAstV1/210984/Tokyo/2021,NaN
+LC694986,Japan:Tokyo,Homo sapiens,2022-01,NaN,HAstV1/211185/Tokyo/2022,NaN
+LC694985,Japan:Tokyo,Homo sapiens,2019-07,NaN,HAstV3/190610/Tokyo/2019,NaN
+MZ603079,NaN,NaN,2011,NaN,HAstV-3_RVAB,feces
+MT832897,Brazil,Homo sapiens,2015,MAstV-1/Hu/BRA/TO-161/2015,TO-161,feces
+MT832896,Brazil,Homo sapiens,2015,MAstV-1/Hu/BRA/TO-208/2015,TO-208,feces
+MT832895,Brazil,Homo sapiens,2015,MAstV-1/Hu/BRA/TO-171/2015,TO-171,feces
+MT832894,Brazil,Homo sapiens,2011,MAstV-1/Hu/BRA/TO-162/2011,TO-162,feces
+MT832893,Brazil,Homo sapiens,2015,MAstV-1/Hu/BRA/TO-160/2015,TO-160,feces
+MT832892,Brazil,Homo sapiens,2015,MAstV-1/Hu/BRA/TO-98/2015,TO-98,feces
+MT906859,Brazil,Homo sapiens,2014,Hu/BRA/TO-32/2014,BRA/TO-32,stool sample
+MT906858,Brazil,Homo sapiens,2014,Hu/BRA/TO-57/2014,BRA/TO-57,stool
+MT906857,Brazil,Homo sapiens,2014,Hu/BRA/TO-40/2014,BRA/TO-40,stool
+MT906856,Brazil,Homo sapiens,2015,Hu/BRA/TO-65/2015,BRA/TO-65,stool
+MT906855,Brazil,Homo sapiens,2014,Hu/BRA/TO-26/2014,BRA/TO-26,stool sample
+MT906854,Brazil,Homo sapiens,2015,Hu/BRA/TO-71/2015,BRA/TO-71,stool sample
+MT906853,Brazil,Homo sapiens,2014,Hu/BRA/TO-207/2014,BRA/TO-207,stool
+MT267483,South Africa,Homo sapiens; infant (<5 years),2015,SA6118,NaN,Fecal Specimen
+MT267476,South Africa,Homo sapiens; infant (<5 years),2015,SA10098,NaN,Fecal Specimen
+MW485045,Kenya,Homo sapiens,01-Jun-2019,KLF/HAstV5/003/2019,NaN,NaN
+MW485044,Kenya,Homo sapiens,01-Jun-2019,KLF/HAstV5/002/2019,NaN,NaN
+MW485043,Kenya,Homo sapiens,15-Apr-2019,KLF/HAstV3/007/2019,NaN,NaN
+MW485042,Kenya,Homo sapiens,19-Jun-2019,KLF/HAstV2/005/2019,NaN,NaN
+MW485041,Kenya,Homo sapiens,18-Jul-2019,KLF/HAstV1/010/2019,NaN,NaN
+MW485040,Kenya,Homo sapiens,26-Apr-2019,KLF/HAstV1/008/2019,NaN,NaN
+MW485039,Kenya,Homo sapiens,23-Jul-2019,KLF/HAstV1/006/2019,NaN,NaN
+MW485038,Kenya,Homo sapiens,13-Apr-2019,KLF/HAstV1/001/2019,NaN,NaN
+MN433706,USA: CA,Homo sapiens,May-2014,Hu/US/2014/CA-RGDS-1073,NaN,stool
+MN433705,USA: CA,Homo sapiens,May-2014,Hu/US/2014/CA-RGDS-1072,NaN,stool
+MN433704,USA: CA,Homo sapiens,May-2013,Hu/US/2013/CA-RGDS-1071,NaN,stool
+MN433703,USA: CA,Homo sapiens,Jan-2013,Hu/US/2013/CA-RGDS-1070,NaN,stool
+MN444721,USA: NV,Homo sapiens,May-2017,Hu/US/2017/CA-RGDS-1074,NaN,stool
+KC285113,Russia: Novosibirsk,Homo sapiens; sex: M; age: 9 months,06-Nov-2010,NaN,HAstV-4/RUS/Novosibirsk/Nsc10-N1190/2010,feces
+KC285152,Russia: Novosibirsk,Homo sapiens; sex: F; age: 3 months,15-Jun-2011,NaN,HAstV-2/RUS/Novosibirsk/Nsc11-N2411/2011,feces
+MN510442,France,NaN,22-Mar-2018,NaN,G19054,sewage
+MN510441,France,NaN,22-Feb-2018,NaN,G19053,sewage
+MN510440,France,NaN,06-Feb-2018,NaN,G19052,sewage
+MN510439,France,NaN,22-Mar-2018,NaN,G19051,sewage
+MK296753,Ireland,Homo sapiens; female,28-Dec-2018,Hu/HAstV3/2016/East/Ireland,17W1028,feces
+MK059956,USA,Homo sapiens,NaN,Oxford,NaN,cell culture
+MK059955,USA,Homo sapiens,NaN,Oxford,NaN,cell culture
+MK059954,USA,Homo sapiens,NaN,Oxford,NaN,cell culture
+MK059953,USA,Homo sapiens,NaN,Oxford,NaN,cell culture
+MK059952,USA,Homo sapiens,NaN,Oxford,NaN,cell culture
+MK059951,USA,Homo sapiens,NaN,Oxford,NaN,cell culture
+MK059950,USA,Homo sapiens,NaN,Oxford,NaN,cell culture
+MK059949,USA,Homo sapiens,NaN,Oxford,NaN,cell culture
+NC_030922,India:Kolkata,NaN,02-Sep-2004,NaN,V1347,faecal specimen of a child suffering from acute watery diarrhoea
+MF684776,China,Homo sapiens,2013,NaN,2013/Fuzhou/85,stool
+MG571777,Venezuela,Homo sapiens,2015,NaN,NaN,stool
+JF491430,Russia,Homo sapiens,21-Feb-2004,NaN,Rus-Nsc04-H355,NaN
+GQ901902,Russia,Homo sapiens,01-Mar-2009,NaN,Rus-Nsc09-B4,NaN
+GU732187,Russia,Homo sapiens,21-Apr-2008,NaN,Rus-Nsc08-3364,NaN
+GU223905,Russia,Homo sapiens,10-Nov-2003,NaN,Rus-Nsc03-H191,NaN
+DQ344027,China,NaN,NaN,NaN,Guangzhou,NaN
+DQ070852,Brazil,NaN,NaN,NaN,Goiania/GO/12/95/Brazil,NaN
+DQ028633,Brazil,NaN,NaN,NaN,Goiania/GO/12/94/Brazil,stool
+AY720892,NaN,NaN,NaN,Dresden,NaN,NaN
+AY720891,NaN,NaN,NaN,Dresden,NaN,NaN
+AF260508,NaN,NaN,NaN,Yuc-8,NaN,NaN
+HQ398856,Hungary,Homo sapiens,Jun-2010,Hu/Nyergesujfalu/HUN4520/2010/HUN,NaN,fecal sample
+HM237363,NaN,NaN,NaN,NaN,Katano,NaN
+L23513,NaN,NaN,NaN,NaN,Oxford,NaN
+GQ495608,China,Homo sapiens,Nov-2007,NaN,192-BJ07-CHN,stool
+FJ755405,China,Homo sapiens,Nov-2007,Beijing/293/2007/CHN,NaN,stool
+FJ755404,China,Homo sapiens,Nov-2007,Beijing/291/2007/CHN,NaN,stool
+FJ755403,China,Homo sapiens,Oct-2006,Beijing/176/2006/CHN,NaN,stool
+FJ755402,China,Homo sapiens,Apr-2005,Beijing/128/2005/CHN,NaN,stool
+KF211475,China: Jinzhou,Homo sapiens,18-Nov-2010,NaN,JZ,NaN
+KP862744,South Korea,Homo sapiens,20-Mar-2014,NaN,kor85,human stool
+KF039913,Russia: Novosibirsk,NaN,07-May-2010,NaN,Rus-Nsc10-N358,NaN
+KF039912,Russia: Novosibirsk,NaN,20-Oct-2005,NaN,Rus-Nsc05-623,NaN
+KF039911,Russia: Novosibirsk,NaN,17-Apr-2006,NaN,Rus-Nsc06-1029,NaN
+KF039910,Russia: Novosibirsk,NaN,10-Aug-2005,NaN,Rus-Nsc05-430,NaN
+KC342249,China,Homo sapiens,20-Aug-2012,NaN,km1,stool sample
+JN887820,South Korea,Homo sapiens,Feb-2006,lhar/2011/kor,NaN,stool
+AB308374,India:Kolkata,NaN,02-Sep-2004,NaN,V1347,faecal specimen of a child suffering from acute watery diarrhoea
+JQ403108,China,Homo sapiens,2010,NaN,DL030,stool
+Z25771,NaN,NaN,NaN,NaN,NaN,NaN

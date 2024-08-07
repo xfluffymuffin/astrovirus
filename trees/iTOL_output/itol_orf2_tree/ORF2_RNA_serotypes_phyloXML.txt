@@ -1,0 +1,690 @@
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phyloxml.org" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+<phylogeny rooted="true"><clade>
+<clade>
+<branch_length>0.09433908185</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0771791296</branch_length>
+<confidence type="bootstrap">96.1</confidence>
+<clade>
+<branch_length>0.2831673615</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0088278691</branch_length>
+<confidence type="bootstrap">58.8</confidence>
+<clade>
+<branch_length>0.0050377034</branch_length>
+<confidence type="bootstrap">96.2</confidence>
+<clade>
+<branch_length>0.0006741397</branch_length>
+<confidence type="bootstrap">78.2</confidence>
+<clade>
+<branch_length>0.0004004910</branch_length>
+<confidence type="bootstrap">73.6</confidence>
+<clade>
+<branch_length>0.0016434196</branch_length>
+<confidence type="bootstrap">92</confidence>
+<clade>
+<branch_length>0.0030123160</branch_length>
+<confidence type="bootstrap">97.7</confidence>
+<clade>
+<name>OR222910 human CHN 2021 NA SY2106 stool serotype 5</name>
+<branch_length>0.0018143009</branch_length>
+</clade>
+<clade>
+<name>ON571595 human CHN 2019 NA 2019-Fuzhou-289 feces serotype 5</name>
+<branch_length>0.0089657678</branch_length>
+</clade>
+</clade><clade>
+<name>MF684776 human CHN 2013 NA 2013-Fuzhou-85 stool serotype 5</name>
+<branch_length>0.0031142852</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0050089307</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0004159522</branch_length>
+<confidence type="bootstrap">81.1</confidence>
+<clade>
+<name>MT906859 human BRA 2014 Hu-BRA-TO-32-2014 BRA-TO-32 stool-sample serotype 5</name>
+<branch_length>0.0000021121</branch_length>
+</clade>
+<clade>
+<branch_length>0.0000021121</branch_length>
+<clade>
+<name>MT906857 human BRA 2014 Hu-BRA-TO-40-2014 BRA-TO-40 stool serotype 5</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+<clade>
+<name>MT906856 human BRA 2015 Hu-BRA-TO-65-2015 BRA-TO-65 stool serotype 5</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+</clade></clade><clade>
+<name>MT906858 human BRA 2014 Hu-BRA-TO-57-2014 BRA-TO-57 stool serotype 5</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0003271423</branch_length>
+<confidence type="bootstrap">70.8</confidence>
+<clade>
+<name>MW485044 human KEN 2019 KLF-HAstV5-002-2019 NA NA serotype 5</name>
+<branch_length>0.0131684375</branch_length>
+</clade>
+<clade>
+<name>MN433706 human USA 2014 Hu-US-2014-CA-RGDS-1073 NA stool serotype 5</name>
+<branch_length>0.0027013985</branch_length>
+</clade>
+</clade></clade><clade>
+<name>MT267476 human ZAF 2015 SA10098 NA Fecal-Specimen serotype 5</name>
+<branch_length>0.0049464917</branch_length>
+</clade>
+</clade><clade>
+<name>JQ403108 human CHN 2010 NA DL030 stool serotype 5</name>
+<branch_length>0.0082884097</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0257751670</branch_length>
+<confidence type="bootstrap">94.5</confidence>
+<clade>
+<name>MK059953 human USA NA Oxford NA cell-culture serotype 5</name>
+<branch_length>0.0134676710</branch_length>
+</clade>
+<clade>
+<name>DQ028633 NA BRA NA NA Goiania-GO-12-94-Brazil stool serotype 5</name>
+<branch_length>0.0289855444</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.3129795841</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0295357874</branch_length>
+<confidence type="bootstrap">98.4</confidence>
+<clade>
+<branch_length>0.0110579810</branch_length>
+<confidence type="bootstrap">99.7</confidence>
+<clade>
+<name>GQ901902 human RUS 2009 NA Rus-Nsc09-B4 NA serotype 6</name>
+<branch_length>0.0137861238</branch_length>
+</clade>
+<clade>
+<name>GQ495608 human CHN 2007 NA 192-BJ07-CHN stool serotype 6</name>
+<branch_length>0.0143794536</branch_length>
+</clade>
+</clade><clade>
+<name>MK059954 human USA NA Oxford NA cell-culture serotype 6</name>
+<branch_length>0.0083541326</branch_length>
+</clade>
+</clade><clade>
+<name>HM237363 NA NA NA NA Katano NA serotype 6</name>
+<branch_length>0.0178340472</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.1263247259</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0995193012</branch_length>
+<confidence type="bootstrap">99.4</confidence>
+<clade>
+<branch_length>0.1170333676</branch_length>
+<confidence type="bootstrap">99.8</confidence>
+<clade>
+<branch_length>0.1296820698</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0223257802</branch_length>
+<confidence type="bootstrap">94.4</confidence>
+<clade>
+<branch_length>0.0180220001</branch_length>
+<confidence type="bootstrap">99.8</confidence>
+<clade>
+<branch_length>0.0008605800</branch_length>
+<confidence type="bootstrap">79.7</confidence>
+<clade>
+<branch_length>0.0014101025</branch_length>
+<confidence type="bootstrap">86</confidence>
+<clade>
+<name>LC732124 human JPN 2016 Human-JPN-2016-JP14989 Child-with-acute-gastroenteritis feces serotype 3</name>
+<branch_length>0.0047531932</branch_length>
+</clade>
+<clade>
+<name>MK296753 human IRL 2018 Hu-HAstV3-2016-East-Ireland 17W1028 feces serotype 3</name>
+<branch_length>0.0058139003</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0045100846</branch_length>
+<confidence type="bootstrap">98.8</confidence>
+<clade>
+<branch_length>0.0038339016</branch_length>
+<confidence type="bootstrap">98.7</confidence>
+<clade>
+<name>LC732123 human JPN 2016 Human-JPN-2016-JP14665 Child-with-acute-gastroenteritis feces serotype 3</name>
+<branch_length>0.0003554329</branch_length>
+</clade>
+<clade>
+<name>LC732122 human JPN 2016 Human-JPN-2016-JP14641 Child-with-acute-gastroenteritis feces serotype 3</name>
+<branch_length>0.0054952923</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0022289725</branch_length>
+<confidence type="bootstrap">91.7</confidence>
+<clade>
+<name>LC694985 human JPN 2019 NA HAstV3-190610-Tokyo-2019 NA serotype 3</name>
+<branch_length>0.0049094528</branch_length>
+</clade>
+<clade>
+<name>MN444721 human USA 2017 Hu-US-2017-CA-RGDS-1074 NA stool serotype 3</name>
+<branch_length>0.0030719468</branch_length>
+</clade>
+</clade></clade></clade><clade>
+<name>MG571777 human VEN 2015 NA NA stool serotype 3</name>
+<branch_length>0.0053441266</branch_length>
+</clade>
+</clade><clade>
+<name>MW485043 human KEN 2019 KLF-HAstV3-007-2019 NA NA serotype 3</name>
+<branch_length>0.0317277968</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0259596698</branch_length>
+<confidence type="bootstrap">92.5</confidence>
+<clade>
+<name>MT267483 human ZAF 2015 SA6118 NA Fecal-Specimen serotype 3</name>
+<branch_length>0.0464288934</branch_length>
+</clade>
+<clade>
+<branch_length>0.0276100818</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0184590361</branch_length>
+<confidence type="bootstrap">99.9</confidence>
+<clade>
+<branch_length>0.0008488794</branch_length>
+<confidence type="bootstrap">82.8</confidence>
+<clade>
+<name>JF491430 human RUS 2004 NA Rus-Nsc04-H355 NA serotype 3</name>
+<branch_length>0.0025399209</branch_length>
+</clade>
+<clade>
+<name>GU732187 human RUS 2008 NA Rus-Nsc08-3364 NA serotype 3</name>
+<branch_length>0.0088641178</branch_length>
+</clade>
+</clade><clade>
+<name>GU223905 human RUS 2003 NA Rus-Nsc03-H191 NA serotype 3</name>
+<branch_length>0.0029252409</branch_length>
+</clade>
+</clade><clade>
+<name>MK059951 human USA NA Oxford NA cell-culture serotype 3</name>
+<branch_length>0.0054410003</branch_length>
+</clade>
+</clade></clade></clade><clade>
+<name>MK059955 human USA NA Oxford NA cell-culture serotype 7</name>
+<branch_length>0.2568805648</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.4343154855</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0575247841</branch_length>
+<confidence type="bootstrap">97.6</confidence>
+<clade>
+<branch_length>0.0286404714</branch_length>
+<confidence type="bootstrap">99.8</confidence>
+<clade>
+<name>MW485042 human KEN 2019 KLF-HAstV2-005-2019 NA NA serotype 2</name>
+<branch_length>0.0244775439</branch_length>
+</clade>
+<clade>
+<branch_length>0.0028695037</branch_length>
+<confidence type="bootstrap">82.8</confidence>
+<clade>
+<name>KC285152 human RUS 2011 NA HAstV-2-RUS-Novosibirsk-Nsc11-N2411-2011 feces serotype 2</name>
+<branch_length>0.0157009921</branch_length>
+</clade>
+<clade>
+<name>KF039911 NA RUS 2006 NA Rus-Nsc06-1029 NA serotype 2</name>
+<branch_length>0.0106820762</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0074095537</branch_length>
+<confidence type="bootstrap">75.1</confidence>
+<clade>
+<name>MN433705 human USA 2014 Hu-US-2014-CA-RGDS-1072 NA stool serotype 2</name>
+<branch_length>0.0566754048</branch_length>
+</clade>
+<clade>
+<name>MK059950 human USA NA Oxford NA cell-culture serotype 2</name>
+<branch_length>0.0259481035</branch_length>
+</clade>
+</clade></clade><clade>
+<name>KF039910 NA RUS 2005 NA Rus-Nsc05-430 NA serotype 2</name>
+<branch_length>0.1428469126</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.3681275470</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0109511132</branch_length>
+<confidence type="bootstrap">18.1</confidence>
+<clade>
+<branch_length>0.0444553914</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0052565428</branch_length>
+<confidence type="bootstrap">77.6</confidence>
+<clade>
+<branch_length>0.0204895821</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0003555845</branch_length>
+<clade>
+<name>OQ630461 human GIN 2021 NA SEN-21-286-S1 Stool-Sample-of-non-polio-AFP serotype 1</name>
+<branch_length>0.0245636882</branch_length>
+</clade>
+<clade>
+<name>NC 030922 NA IND 2004 NA V1347 NA serotype 1</name>
+<branch_length>0.2022882208</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0130556206</branch_length>
+<confidence type="bootstrap">99.9</confidence>
+<clade>
+<branch_length>0.0030325587</branch_length>
+<confidence type="bootstrap">95.5</confidence>
+<clade>
+<name>LC694997 human JPN 2018 NA HAstV1-181289-Tokyo-2018 NA serotype 1</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+<clade>
+<name>LC694996 human JPN 2018 NA HAstV1-181290-Tokyo-2018 NA serotype 1</name>
+<branch_length>0.0004214741</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0050842156</branch_length>
+<confidence type="bootstrap">98.8</confidence>
+<clade>
+<branch_length>0.0004229267</branch_length>
+<confidence type="bootstrap">41.9</confidence>
+<clade>
+<name>MW485041 human KEN 2019 KLF-HAstV1-010-2019 NA NA serotype 1</name>
+<branch_length>0.0018054777</branch_length>
+</clade>
+<clade>
+<name>MW485039 human KEN 2019 KLF-HAstV1-006-2019 NA NA serotype 1</name>
+<branch_length>0.0012644271</branch_length>
+</clade>
+</clade><clade>
+<name>MW485040 human KEN 2019 KLF-HAstV1-008-2019 NA NA serotype 1</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+</clade></clade></clade><clade>
+<branch_length>0.0187967567</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>ON571594 human CHN 2019 NA 2019-Fuzhou-26 feces serotype 1</name>
+<branch_length>0.0150128834</branch_length>
+</clade>
+<clade>
+<name>KC342249 human CHN 2012 NA km1 stool-sample serotype 1</name>
+<branch_length>0.0130890065</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0224180090</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>FJ755405 human CHN 2007 Beijing-293-2007-CHN NA stool serotype 1</name>
+<branch_length>0.0049302979</branch_length>
+</clade>
+<clade>
+<name>FJ755402 human CHN 2005 Beijing-128-2005-CHN NA stool serotype 1</name>
+<branch_length>0.0018949065</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0171801739</branch_length>
+<confidence type="bootstrap">99.8</confidence>
+<clade>
+<branch_length>0.0092078581</branch_length>
+<confidence type="bootstrap">99.2</confidence>
+<clade>
+<branch_length>0.0228938971</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0040533127</branch_length>
+<confidence type="bootstrap">96.1</confidence>
+<clade>
+<branch_length>0.0040359579</branch_length>
+<confidence type="bootstrap">98.9</confidence>
+<clade>
+<branch_length>0.0050992799</branch_length>
+<confidence type="bootstrap">99.8</confidence>
+<clade>
+<branch_length>0.0020851235</branch_length>
+<confidence type="bootstrap">96</confidence>
+<clade>
+<branch_length>0.0000024749</branch_length>
+<clade>
+<branch_length>0.0004205739</branch_length>
+<confidence type="bootstrap">84.5</confidence>
+<clade>
+<branch_length>0.0000024749</branch_length>
+<clade>
+<name>ON571597 human CHN 2019 NA 2019-Pingtan-42 feces serotype 1</name>
+<branch_length>0.0025387786</branch_length>
+</clade>
+<clade>
+<name>ON571596 human CHN 2019 NA 2019-Fuzhou-306 feces serotype 1</name>
+<branch_length>0.0029571671</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0000024749</branch_length>
+<clade>
+<branch_length>0.0004205136</branch_length>
+<confidence type="bootstrap">79</confidence>
+<clade>
+<name>LC694991 human JPN 2021 NA HAstV1-210764-Tokyo-2021 NA serotype 1</name>
+<branch_length>0.0004213797</branch_length>
+</clade>
+<clade>
+<name>LC694988 human JPN 2021 NA HAstV1-210963-Tokyo-2021 NA serotype 1</name>
+<branch_length>0.0008429042</branch_length>
+</clade>
+</clade><clade>
+<name>LC694989 human JPN 2021 NA HAstV1-210956-Tokyo-2021 NA serotype 1</name>
+<branch_length>0.0029602310</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0004049054</branch_length>
+<confidence type="bootstrap">74.1</confidence>
+<clade>
+<name>LC694995 human JPN 2020 NA HAstV1-192642-Tokyo-2020 NA serotype 1</name>
+<branch_length>0.0029819335</branch_length>
+</clade>
+<clade>
+<name>LC694986 human JPN 2022 NA HAstV1-211185-Tokyo-2022 NA serotype 1</name>
+<branch_length>0.0046828170</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0021192979</branch_length>
+<confidence type="bootstrap">97.9</confidence>
+<clade>
+<name>LC694994 human JPN 2020 NA HAstV1-193055-Tokyo-2020 NA serotype 1</name>
+<branch_length>0.0016984921</branch_length>
+</clade>
+<clade>
+<name>LC694993 human JPN 2020 NA HAstV1-193061-Tokyo-2020 NA serotype 1</name>
+<branch_length>0.0008360737</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0003964895</branch_length>
+<confidence type="bootstrap">72</confidence>
+<clade>
+<branch_length>0.0029790802</branch_length>
+<confidence type="bootstrap">98.5</confidence>
+<clade>
+<name>LC694992 human JPN 2021 NA HAstV1-210628-Tokyo-2021 NA serotype 1</name>
+<branch_length>0.0004273777</branch_length>
+</clade>
+<clade>
+<name>LC694987 human JPN 2021 NA HAstV1-210984-Tokyo-2021 NA serotype 1</name>
+<branch_length>0.0016824578</branch_length>
+</clade>
+</clade><clade>
+<name>LC694990 human JPN 2018 NA HAstV1-181937-Tokyo-2018 NA serotype 1</name>
+<branch_length>0.0064416831</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0022148518</branch_length>
+<confidence type="bootstrap">95.6</confidence>
+<clade>
+<name>MN433704 human USA 2013 Hu-US-2013-CA-RGDS-1071 NA stool serotype 1</name>
+<branch_length>0.0016954466</branch_length>
+</clade>
+<clade>
+<name>MN433703 human USA 2013 Hu-US-2013-CA-RGDS-1070 NA stool serotype 1</name>
+<branch_length>0.0008390451</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.0029021416</branch_length>
+<confidence type="bootstrap">95.7</confidence>
+<clade>
+<branch_length>0.0008419325</branch_length>
+<confidence type="bootstrap">90.9</confidence>
+<clade>
+<branch_length>0.0000024749</branch_length>
+<clade>
+<branch_length>0.0004211174</branch_length>
+<confidence type="bootstrap">91.5</confidence>
+<clade>
+<branch_length>0.0000024749</branch_length>
+<clade>
+<name>MT832897 human BRA 2015 MAstV-1-Hu-BRA-TO-161-2015 TO-161 feces serotype 1</name>
+<branch_length>0.0000000000</branch_length>
+</clade>
+<clade>
+<name>MT832893 human BRA 2015 MAstV-1-Hu-BRA-TO-160-2015 TO-160 feces serotype 1</name>
+<branch_length>0.0000000000</branch_length>
+</clade>
+</clade><clade>
+<name>MT832894 human BRA 2011 MAstV-1-Hu-BRA-TO-162-2011 TO-162 feces serotype 1</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+</clade><clade>
+<name>MT832895 human BRA 2015 MAstV-1-Hu-BRA-TO-171-2015 TO-171 feces serotype 1</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+</clade><clade>
+<name>MT832892 human BRA 2015 MAstV-1-Hu-BRA-TO-98-2015 TO-98 feces serotype 1</name>
+<branch_length>0.0008419033</branch_length>
+</clade>
+</clade><clade>
+<name>MT832896 human BRA 2015 MAstV-1-Hu-BRA-TO-208-2015 TO-208 feces serotype 1</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+</clade></clade><clade>
+<name>HQ398856 human HUN 2010 Hu-Nyergesujfalu-HUN4520-2010-HUN NA fecal-sample serotype 1</name>
+<branch_length>0.0071997013</branch_length>
+</clade>
+</clade><clade>
+<name>Z25771 NA NA NA NA NA NA serotype 1</name>
+<branch_length>0.0090000198</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0098330262</branch_length>
+<confidence type="bootstrap">99.4</confidence>
+<clade>
+<name>MK059949 human USA NA Oxford NA cell-culture serotype 1</name>
+<branch_length>0.0015540773</branch_length>
+</clade>
+<clade>
+<name>L23513 NA NA NA NA Oxford NA serotype 1</name>
+<branch_length>0.0031234077</branch_length>
+</clade>
+</clade></clade></clade><clade>
+<branch_length>0.0224637630</branch_length>
+<confidence type="bootstrap">85.5</confidence>
+<clade>
+<name>FJ755404 human CHN 2007 Beijing-291-2007-CHN NA stool serotype 1</name>
+<branch_length>0.0194021475</branch_length>
+</clade>
+<clade>
+<branch_length>0.0110898216</branch_length>
+<confidence type="bootstrap">86.6</confidence>
+<clade>
+<branch_length>0.0015793943</branch_length>
+<confidence type="bootstrap">76.2</confidence>
+<clade>
+<branch_length>0.0051062410</branch_length>
+<confidence type="bootstrap">99.4</confidence>
+<clade>
+<name>FJ755403 human CHN 2006 Beijing-176-2006-CHN NA stool serotype 1</name>
+<branch_length>0.0047748362</branch_length>
+</clade>
+<clade>
+<name>JN887820 human KOR 2006 lhar-2011-kor NA stool serotype 1</name>
+<branch_length>0.0046333127</branch_length>
+</clade>
+</clade><clade>
+<name>AY720892 NA NA NA Dresden NA NA serotype 1</name>
+<branch_length>0.0077818330</branch_length>
+</clade>
+</clade><clade>
+<name>KF211475 human CHN 2010 NA JZ NA serotype 1</name>
+<branch_length>0.0062231264</branch_length>
+</clade>
+</clade></clade></clade></clade></clade><clade>
+<branch_length>0.09433908185</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0811742926</branch_length>
+<confidence type="bootstrap">99.8</confidence>
+<clade>
+<name>KP862744 human KOR 2014 NA kor85 human-stool serotype 8</name>
+<branch_length>0.0196396465</branch_length>
+</clade>
+<clade>
+<branch_length>0.0108678104</branch_length>
+<confidence type="bootstrap">75.7</confidence>
+<clade>
+<name>MK059956 human USA NA Oxford NA cell-culture serotype 8</name>
+<branch_length>0.0088965558</branch_length>
+</clade>
+<clade>
+<name>AF260508 NA NA NA Yuc-8 NA NA serotype 8</name>
+<branch_length>0.0151776670</branch_length>
+</clade>
+</clade></clade><clade>
+<branch_length>0.4801940126</branch_length>
+<confidence type="bootstrap">96.7</confidence>
+<clade>
+<branch_length>0.0138815380</branch_length>
+<confidence type="bootstrap">76</confidence>
+<clade>
+<branch_length>0.0113957869</branch_length>
+<confidence type="bootstrap">98</confidence>
+<clade>
+<name>MK059952 human USA NA Oxford NA cell-culture serotype 4</name>
+<branch_length>0.0114196415</branch_length>
+</clade>
+<clade>
+<name>AY720891 NA NA NA Dresden NA NA serotype 4</name>
+<branch_length>0.0259541240</branch_length>
+</clade>
+</clade><clade>
+<name>DQ070852 NA BRA NA NA Goiania-GO-12-95-Brazil NA serotype 4</name>
+<branch_length>0.0547202244</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0364518996</branch_length>
+<confidence type="bootstrap">99.7</confidence>
+<clade>
+<branch_length>0.0139796478</branch_length>
+<confidence type="bootstrap">99.6</confidence>
+<clade>
+<branch_length>0.0177188590</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<branch_length>0.0013029383</branch_length>
+<confidence type="bootstrap">93.4</confidence>
+<clade>
+<name>MT906855 human BRA 2014 Hu-BRA-TO-26-2014 BRA-TO-26 stool-sample serotype 4</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+<clade>
+<name>MT906854 human BRA 2015 Hu-BRA-TO-71-2015 BRA-TO-71 stool-sample serotype 4</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+</clade><clade>
+<name>MT906853 human BRA 2014 Hu-BRA-TO-207-2014 BRA-TO-207 stool serotype 4</name>
+<branch_length>0.0004125046</branch_length>
+</clade>
+</clade><clade>
+<name>KF039912 NA RUS 2005 NA Rus-Nsc05-623 NA serotype 4</name>
+<branch_length>0.0146472687</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0123976931</branch_length>
+<confidence type="bootstrap">13.5</confidence>
+<clade>
+<name>KF039913 NA RUS 2010 NA Rus-Nsc10-N358 NA serotype 4</name>
+<branch_length>0.0057062018</branch_length>
+</clade>
+<clade>
+<branch_length>0.0016475130</branch_length>
+<confidence type="bootstrap">100</confidence>
+<clade>
+<name>DQ344027 NA CHN NA NA Guangzhou NA serotype 4</name>
+<branch_length>0.0134151729</branch_length>
+</clade>
+<clade>
+<branch_length>0.0178019859</branch_length>
+<confidence type="bootstrap">44.4</confidence>
+<clade>
+<branch_length>0.0023950401</branch_length>
+<confidence type="bootstrap">96</confidence>
+<clade>
+<name>OP432299 human CHN 2021 NA HAstV-4-RC-21045 NA serotype 4</name>
+<branch_length>0.0017114328</branch_length>
+</clade>
+<clade>
+<name>OP432293 human CHN 2021 NA HAstV-4-RC-21027 NA serotype 4</name>
+<branch_length>0.0004313561</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0007442852</branch_length>
+<confidence type="bootstrap">99</confidence>
+<clade>
+<branch_length>0.0020941981</branch_length>
+<confidence type="bootstrap">92.5</confidence>
+<clade>
+<branch_length>0.0025660453</branch_length>
+<confidence type="bootstrap">97.1</confidence>
+<clade>
+<branch_length>0.0008510879</branch_length>
+<confidence type="bootstrap">14.5</confidence>
+<clade>
+<branch_length>0.0004242259</branch_length>
+<confidence type="bootstrap">70.4</confidence>
+<clade>
+<name>OP432301 human CHN 2022 NA HAstV-4-QD-L-22019 NA serotype 4</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+<clade>
+<name>OP432296 human CHN 2021 NA HAstV-4-RC-21047 NA serotype 4</name>
+<branch_length>0.1057928275</branch_length>
+</clade>
+</clade><clade>
+<name>OP432294 human CHN 2022 NA HAstV-4-QD-L-22040 NA serotype 4</name>
+<branch_length>0.0000027705</branch_length>
+</clade>
+</clade><clade>
+<name>OP432298 human CHN 2022 NA HAstV-4-QD-S-22015 NA serotype 4</name>
+<branch_length>0.0012878031</branch_length>
+</clade>
+</clade><clade>
+<branch_length>0.0013032494</branch_length>
+<confidence type="bootstrap">89.9</confidence>
+<clade>
+<name>OP432300 human CHN 2022 NA HAstV-4-QD-S-22022 NA serotype 4</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+<clade>
+<name>OP432297 human CHN 2022 NA HAstV-4-QD-L-22001 NA serotype 4</name>
+<branch_length>0.0000024749</branch_length>
+</clade>
+</clade></clade><clade>
+<name>OROOT</name>
+<branch_length>0.0041843278</branch_length>
+<clade>
+<name>OR371570 human CHN 2022 HAstV-4-Fuzhou-2022-10 NA feces serotype 4</name>
+<branch_length>0.0010333637</branch_length>
+</clade>
+<clade>
+<branch_length>0.0012842580</branch_length>
+<confidence type="bootstrap">84</confidence>
+<clade>
+<name>ON571598 human CHN 2021 NA 2021-Fuzhou-37 feces serotype 4</name>
+<branch_length>0.0015379352</branch_length>
+</clade>
+<clade>
+<name>OP432295 human CHN 2022 NA HAstV-4-QD-F-22056 NA serotype 4</name>
+<branch_length>0.0049252446</branch_length>
+</clade>
+</clade></clade></clade></clade></clade></clade></clade></clade></clade></clade></phylogeny></phyloxml>

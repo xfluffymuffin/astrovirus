@@ -1,0 +1,328 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fermat (AVX2, FMA3, 1009 GB RAM)
+Command: ../../iqtree -s ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas -st DNA -m TEST -bb 1000 -alrt 1000
+Seed:    210474 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Jun  8 01:53:40 2024
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 100 sequences with 2644 columns, 1483 distinct patterns
+1390 parsimony-informative, 242 singleton sites, 1012 constant sites
+                                                                                                  Gap/Ambiguity  Composition  p-value
+   1  OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4                                 12.41%    passed     50.56%
+   2  OR222910_human_CHN_2021_NA_SY2106_stool_serotype_5                                                 11.04%    passed     70.74%
+   3  LC732124_human_JPN_2016_Human-JPN-2016-JP14989_Child-with-acute-gastroenteritis_feces_serotype_3   10.33%    passed     77.32%
+   4  LC732123_human_JPN_2016_Human-JPN-2016-JP14665_Child-with-acute-gastroenteritis_feces_serotype_3    9.80%    passed     80.07%
+   5  LC732122_human_JPN_2016_Human-JPN-2016-JP14641_Child-with-acute-gastroenteritis_feces_serotype_3    9.80%    passed     83.52%
+   6  OQ630461_human_GIN_2021_NA_SEN-21-286-S1_Stool-Sample-of-non-polio-AFP_serotype_1                  18.04%    passed     98.56%
+   7  ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4                                         12.41%    passed     51.85%
+   8  ON571597_human_CHN_2019_NA_2019-Pingtan-42_feces_serotype_1                                        10.59%    passed     69.17%
+   9  ON571596_human_CHN_2019_NA_2019-Fuzhou-306_feces_serotype_1                                        10.59%    passed     69.86%
+  10  ON571595_human_CHN_2019_NA_2019-Fuzhou-289_feces_serotype_5                                        11.04%    passed     78.33%
+  11  ON571594_human_CHN_2019_NA_2019-Fuzhou-26_feces_serotype_1                                         10.59%    passed     60.35%
+  12  OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4                                        12.41%    passed     51.70%
+  13  OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4                                        12.41%    passed     50.77%
+  14  OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4                                          12.41%    passed     57.07%
+  15  OP432298_human_CHN_2022_NA_HAstV-4-QD-S-22015_NA_serotype_4                                        12.41%    passed     56.37%
+  16  OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4                                        12.41%    passed     50.77%
+  17  OP432296_human_CHN_2021_NA_HAstV-4-RC-21047_NA_serotype_4                                          12.41%    passed     82.96%
+  18  OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4                                        12.41%    passed     26.98%
+  19  OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4                                        12.41%    passed     49.27%
+  20  OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4                                          12.41%    passed     53.17%
+  21  LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1                                  10.59%    passed     57.53%
+  22  LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1                                  10.59%    passed     59.11%
+  23  LC694995_human_JPN_2020_NA_HAstV1-192642-Tokyo-2020_NA_serotype_1                                  10.59%    passed     64.29%
+  24  LC694994_human_JPN_2020_NA_HAstV1-193055-Tokyo-2020_NA_serotype_1                                  10.59%    passed     64.38%
+  25  LC694993_human_JPN_2020_NA_HAstV1-193061-Tokyo-2020_NA_serotype_1                                  10.59%    passed     55.30%
+  26  LC694992_human_JPN_2021_NA_HAstV1-210628-Tokyo-2021_NA_serotype_1                                  10.59%    passed     78.58%
+  27  LC694991_human_JPN_2021_NA_HAstV1-210764-Tokyo-2021_NA_serotype_1                                  10.59%    passed     68.77%
+  28  LC694990_human_JPN_2018_NA_HAstV1-181937-Tokyo-2018_NA_serotype_1                                  10.59%    passed     80.41%
+  29  LC694989_human_JPN_2021_NA_HAstV1-210956-Tokyo-2021_NA_serotype_1                                  10.59%    passed     54.18%
+  30  LC694988_human_JPN_2021_NA_HAstV1-210963-Tokyo-2021_NA_serotype_1                                  10.59%    passed     67.53%
+  31  LC694987_human_JPN_2021_NA_HAstV1-210984-Tokyo-2021_NA_serotype_1                                  10.59%    passed     82.98%
+  32  LC694986_human_JPN_2022_NA_HAstV1-211185-Tokyo-2022_NA_serotype_1                                  10.59%    passed     56.87%
+  33  LC694985_human_JPN_2019_NA_HAstV3-190610-Tokyo-2019_NA_serotype_3                                   9.80%    passed     88.16%
+  34  MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1                         10.59%    passed     60.27%
+  35  MT832896_human_BRA_2015_MAstV-1-Hu-BRA-TO-208-2015_TO-208_feces_serotype_1                         10.59%    passed     53.43%
+  36  MT832895_human_BRA_2015_MAstV-1-Hu-BRA-TO-171-2015_TO-171_feces_serotype_1                         10.59%    passed     57.91%
+  37  MT832894_human_BRA_2011_MAstV-1-Hu-BRA-TO-162-2011_TO-162_feces_serotype_1                         10.59%    passed     60.27%
+  38  MT832893_human_BRA_2015_MAstV-1-Hu-BRA-TO-160-2015_TO-160_feces_serotype_1                         10.59%    passed     60.27%
+  39  MT832892_human_BRA_2015_MAstV-1-Hu-BRA-TO-98-2015_TO-98_feces_serotype_1                           10.59%    passed     59.87%
+  40  MT906859_human_BRA_2014_Hu-BRA-TO-32-2014_BRA-TO-32_stool-sample_serotype_5                         4.24%    passed     74.29%
+  41  MT906858_human_BRA_2014_Hu-BRA-TO-57-2014_BRA-TO-57_stool_serotype_5                               11.04%    passed     72.29%
+  42  MT906857_human_BRA_2014_Hu-BRA-TO-40-2014_BRA-TO-40_stool_serotype_5                               11.04%    passed     75.38%
+  43  MT906856_human_BRA_2015_Hu-BRA-TO-65-2015_BRA-TO-65_stool_serotype_5                               12.97%    passed     61.62%
+  44  MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4                        12.41%    passed     69.16%
+  45  MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4                        12.41%    passed     69.16%
+  46  MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4                             12.41%    passed     71.16%
+  47  MT267483_human_ZAF_2015_SA6118_NA_Fecal-Specimen_serotype_3                                         9.80%    passed     90.53%
+  48  MT267476_human_ZAF_2015_SA10098_NA_Fecal-Specimen_serotype_5                                       11.04%    passed     81.33%
+  49  MW485044_human_KEN_2019_KLF-HAstV5-002-2019_NA_NA_serotype_5                                       12.29%    passed     28.57%
+  50  MW485043_human_KEN_2019_KLF-HAstV3-007-2019_NA_NA_serotype_3                                       10.14%    passed     88.13%
+  51  MW485042_human_KEN_2019_KLF-HAstV2-005-2019_NA_NA_serotype_2                                        9.23%    passed     71.82%
+  52  MW485041_human_KEN_2019_KLF-HAstV1-010-2019_NA_NA_serotype_1                                       17.02%    passed     80.64%
+  53  MW485040_human_KEN_2019_KLF-HAstV1-008-2019_NA_NA_serotype_1                                       10.59%    passed     41.68%
+  54  MW485039_human_KEN_2019_KLF-HAstV1-006-2019_NA_NA_serotype_1                                       10.59%    passed     39.94%
+  55  MN433706_human_USA_2014_Hu-US-2014-CA-RGDS-1073_NA_stool_serotype_5                                11.04%    passed     79.03%
+  56  MN433705_human_USA_2014_Hu-US-2014-CA-RGDS-1072_NA_stool_serotype_2                                 9.46%    passed     34.60%
+  57  MN433704_human_USA_2013_Hu-US-2013-CA-RGDS-1071_NA_stool_serotype_1                                10.59%    passed     72.09%
+  58  MN433703_human_USA_2013_Hu-US-2013-CA-RGDS-1070_NA_stool_serotype_1                                10.59%    passed     72.09%
+  59  MN444721_human_USA_2017_Hu-US-2017-CA-RGDS-1074_NA_stool_serotype_3                                 9.80%    passed     76.14%
+  60  KC285152_human_RUS_2011_NA_HAstV-2-RUS-Novosibirsk-Nsc11-N2411-2011_feces_serotype_2                9.23%    passed     67.94%
+  61  MK296753_human_IRL_2018_Hu-HAstV3-2016-East-Ireland_17W1028_feces_serotype_3                        9.80%    passed     74.81%
+  62  MF684776_human_CHN_2013_NA_2013-Fuzhou-85_stool_serotype_5                                         11.04%    passed     65.10%
+  63  MG571777_human_VEN_2015_NA_NA_stool_serotype_3                                                      9.80%    passed     72.32%
+  64  JF491430_human_RUS_2004_NA_Rus-Nsc04-H355_NA_serotype_3                                             9.80%    passed     98.82%
+  65  GQ901902_human_RUS_2009_NA_Rus-Nsc09-B4_NA_serotype_6                                              11.61%    passed     99.66%
+  66  GU732187_human_RUS_2008_NA_Rus-Nsc08-3364_NA_serotype_3                                             9.80%    passed     98.57%
+  67  GU223905_human_RUS_2003_NA_Rus-Nsc03-H191_NA_serotype_3                                             9.80%    passed     99.74%
+  68  HQ398856_human_HUN_2010_Hu-Nyergesujfalu-HUN4520-2010-HUN_NA_fecal-sample_serotype_1               10.59%    passed     42.89%
+  69  GQ495608_human_CHN_2007_NA_192-BJ07-CHN_stool_serotype_6                                           11.61%    passed     92.04%
+  70  FJ755405_human_CHN_2007_Beijing-293-2007-CHN_NA_stool_serotype_1                                   10.59%    passed     98.00%
+  71  FJ755404_human_CHN_2007_Beijing-291-2007-CHN_NA_stool_serotype_1                                   10.59%    passed     85.08%
+  72  FJ755403_human_CHN_2006_Beijing-176-2006-CHN_NA_stool_serotype_1                                   10.59%    passed     65.53%
+  73  FJ755402_human_CHN_2005_Beijing-128-2005-CHN_NA_stool_serotype_1                                   10.59%    passed     95.73%
+  74  KF211475_human_CHN_2010_NA_JZ_NA_serotype_1                                                        10.59%    passed     58.99%
+  75  KP862744_human_KOR_2014_NA_kor85_human-stool_serotype_8                                            11.16%    passed     67.15%
+  76  KF039913_NA_RUS_2010_NA_Rus-Nsc10-N358_NA_serotype_4                                               12.41%    passed     31.96%
+  77  KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4                                                12.41%    passed     27.15%
+  78  KF039911_NA_RUS_2006_NA_Rus-Nsc06-1029_NA_serotype_2                                                9.23%    passed     63.40%
+  79  KF039910_NA_RUS_2005_NA_Rus-Nsc05-430_NA_serotype_2                                                 9.34%    passed     69.81%
+  80  KC342249_human_CHN_2012_NA_km1_stool-sample_serotype_1                                             10.59%    passed     72.75%
+  81  JN887820_human_KOR_2006_lhar-2011-kor_NA_stool_serotype_1                                          10.59%    passed     57.95%
+  82  NC_030922_NA_IND_2004_NA_V1347_NA_serotype_1                                                        9.80%    passed     59.17%
+  83  JQ403108_human_CHN_2010_NA_DL030_stool_serotype_5                                                  11.04%    passed     77.69%
+  84  MK059956_human_USA_NA_Oxford_NA_cell-culture_serotype_8                                            11.16%    passed     87.87%
+  85  MK059955_human_USA_NA_Oxford_NA_cell-culture_serotype_7                                            10.14%    passed     96.43%
+  86  MK059954_human_USA_NA_Oxford_NA_cell-culture_serotype_6                                            11.61%    passed     99.51%
+  87  MK059953_human_USA_NA_Oxford_NA_cell-culture_serotype_5                                            11.04%    passed     91.95%
+  88  MK059952_human_USA_NA_Oxford_NA_cell-culture_serotype_4                                            12.41%    passed     60.11%
+  89  MK059951_human_USA_NA_Oxford_NA_cell-culture_serotype_3                                             9.80%    passed     79.44%
+  90  MK059950_human_USA_NA_Oxford_NA_cell-culture_serotype_2                                             9.46%    passed     66.39%
+  91  MK059949_human_USA_NA_Oxford_NA_cell-culture_serotype_1                                            10.59%    passed     74.03%
+  92  DQ344027_NA_CHN_NA_NA_Guangzhou_NA_serotype_4                                                      12.41%    passed     49.30%
+  93  DQ070852_NA_BRA_NA_NA_Goiania-GO-12-95-Brazil_NA_serotype_4                                        12.41%    passed     82.28%
+  94  DQ028633_NA_BRA_NA_NA_Goiania-GO-12-94-Brazil_stool_serotype_5                                     11.04%    passed     67.32%
+  95  AY720892_NA_NA_NA_Dresden_NA_NA_serotype_1                                                         10.59%    passed     60.40%
+  96  AY720891_NA_NA_NA_Dresden_NA_NA_serotype_4                                                         12.41%    passed     51.06%
+  97  AF260508_NA_NA_NA_Yuc-8_NA_NA_serotype_8                                                            4.35%    passed     67.36%
+  98  HM237363_NA_NA_NA_NA_Katano_NA_serotype_6                                                          11.61%    passed     98.84%
+  99  L23513_NA_NA_NA_NA_Oxford_NA_serotype_1                                                            10.59%    passed     83.99%
+ 100  Z25771_NA_NA_NA_NA_NA_NA_serotype_1                                                                10.70%    passed     74.83%
+****  TOTAL                                                                                              10.92%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4 is identical to OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4 but kept for subsequent analysis
+NOTE: MT832894_human_BRA_2011_MAstV-1-Hu-BRA-TO-162-2011_TO-162_feces_serotype_1 is identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1 but kept for subsequent analysis
+NOTE: MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4 is identical to MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MT832893_human_BRA_2015_MAstV-1-Hu-BRA-TO-160-2015_TO-160_feces_serotype_1 (identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.017 seconds
+NOTE: ModelFinder requires 24 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 2644) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            39397.900    195 79185.800    79217.026    80332.410
+  2  JC+I          37776.442    196 75944.885    75976.443    77097.374
+  3  JC+G4         36971.621    196 74335.243    74366.801    75487.732
+  4  JC+I+G4       36955.861    197 74305.723    74337.616    75464.092
+  5  F81+F         39379.236    198 79154.473    79186.703    80318.722
+  6  F81+F+I       37746.455    199 75890.910    75923.479    77061.039
+  7  F81+F+G4      36954.325    199 74306.649    74339.219    75476.779
+  8  F81+F+I+G4    36938.013    200 74276.027    74308.937    75452.037
+  9  K2P           38071.613    196 76535.226    76566.785    77687.716
+ 10  K2P+I         36360.779    197 73115.559    73147.452    74273.928
+ 11  K2P+G4        35396.908    197 71187.816    71219.710    72346.186
+ 12  K2P+I+G4      35384.111    198 71164.222    71196.452    72328.471
+ 13  HKY+F         38048.897    199 76495.793    76528.363    77665.923
+ 14  HKY+F+I       36308.700    200 73017.400    73050.310    74193.409
+ 15  HKY+F+G4      35340.837    200 71081.675    71114.585    72257.684
+ 16  HKY+F+I+G4    35326.956    201 71055.913    71089.166    72237.802
+ 17  TNe           37961.295    197 76316.590    76348.483    77474.959
+ 18  TNe+I         36254.469    198 72904.938    72937.169    74069.187
+ 19  TNe+G4        35314.912    198 71025.825    71058.055    72190.074
+ 20  TNe+I+G4      35301.722    199 71001.443    71034.013    72171.573
+ 21  TN+F          37891.225    200 76182.450    76215.361    77358.460
+ 22  TN+F+I        36165.433    201 72732.865    72766.118    73914.755
+ 23  TN+F+G4       35226.923    201 70855.847    70889.100    72037.736
+ 24  TN+F+I+G4     35212.568    202 70829.137    70862.735    72016.907
+ 25  K3P           38069.896    197 76533.791    76565.685    77692.161
+ 26  K3P+I         36358.982    198 73113.964    73146.195    74278.213
+ 27  K3P+G4        35396.801    198 71189.602    71221.833    72353.852
+ 28  K3P+I+G4      35383.763    199 71165.526    71198.095    72335.655
+ 29  K3Pu+F        38047.239    200 76494.478    76527.388    77670.488
+ 30  K3Pu+F+I      36306.784    201 73015.568    73048.821    74197.458
+ 31  K3Pu+F+G4     35340.752    201 71083.505    71116.758    72265.394
+ 32  K3Pu+F+I+G4   35326.737    202 71057.473    71091.071    72245.243
+ 33  TPM2+F        37975.206    200 76350.411    76383.321    77526.421
+ 34  TPM2+F+I      36259.524    201 72921.048    72954.302    74102.938
+ 35  TPM2+F+G4     35289.878    201 70981.756    71015.010    72163.646
+ 36  TPM2+F+I+G4   35276.771    202 70957.542    70991.140    72145.312
+ 37  TPM2u+F       37975.213    200 76350.425    76383.336    77526.435
+ 38  TPM2u+F+I     36259.523    201 72921.045    72954.298    74102.935
+ 39  TPM2u+F+G4    35289.878    201 70981.757    71015.010    72163.647
+ 40  TPM2u+F+I+G4  35276.768    202 70957.536    70991.134    72145.306
+ 41  TPM3+F        38035.210    200 76470.420    76503.331    77646.430
+ 42  TPM3+F+I      36290.137    201 72982.273    73015.526    74164.163
+ 43  TPM3+F+G4     35335.825    201 71073.650    71106.903    72255.539
+ 44  TPM3+F+I+G4   35321.210    202 71046.421    71080.018    72234.190
+ 45  TPM3u+F       38035.210    200 76470.421    76503.331    77646.430
+ 46  TPM3u+F+I     36290.136    201 72982.272    73015.526    74164.162
+ 47  TPM3u+F+G4    35335.824    201 71073.649    71106.902    72255.539
+ 48  TPM3u+F+I+G4  35321.204    202 71046.409    71080.006    72234.178
+ 49  TIMe          37959.552    198 76315.105    76347.335    77479.354
+ 50  TIMe+I        36252.628    199 72903.257    72935.826    74073.386
+ 51  TIMe+G4       35314.791    199 71027.582    71060.152    72197.712
+ 52  TIMe+I+G4     35301.497    200 71002.995    71035.905    72179.004
+ 53  TIM+F         37889.551    201 76181.102    76214.355    77362.991
+ 54  TIM+F+I       36163.468    202 72730.936    72764.534    73918.706
+ 55  TIM+F+G4      35226.846    202 70857.692    70891.289    72045.461
+ 56  TIM+F+I+G4    35212.446    203 70830.893    70864.837    72024.542
+ 57  TIM2e         37850.000    198 76096.000    76128.230    77260.249
+ 58  TIM2e+I       36174.565    199 72747.129    72779.699    73917.259
+ 59  TIM2e+G4      35218.801    199 70835.601    70868.171    72005.731
+ 60  TIM2e+I+G4    35206.153    200 70812.307    70845.217    71988.316
+ 61  TIM2+F        37819.712    201 76041.424    76074.677    77223.314
+ 62  TIM2+F+I      36116.601    202 72637.202    72670.799    73824.971
+ 63  TIM2+F+G4     35170.651    202 70745.301    70778.899    71933.071
+ 64  TIM2+F+I+G4   35157.249    203 70720.499    70754.443    71914.149
+ 65  TIM3e         37946.804    198 76289.608    76321.838    77453.857
+ 66  TIM3e+I       36234.597    199 72867.194    72899.764    74037.324
+ 67  TIM3e+G4      35309.868    199 71017.736    71050.305    72187.865
+ 68  TIM3e+I+G4    35295.990    200 70991.980    71024.890    72167.989
+ 69  TIM3+F        37876.638    201 76155.276    76188.530    77337.166
+ 70  TIM3+F+I      36145.271    202 72694.542    72728.139    73882.311
+ 71  TIM3+F+G4     35222.029    202 70848.059    70881.657    72035.829
+ 72  TIM3+F+I+G4   35207.031    203 70820.062    70854.007    72013.712
+ 73  TVMe          37945.020    199 76288.039    76320.609    77458.169
+ 74  TVMe+I        36264.136    200 72928.272    72961.182    74104.282
+ 75  TVMe+G4       35297.671    200 70995.342    71028.253    72171.352
+ 76  TVMe+I+G4     35284.803    201 70971.607    71004.860    72153.497
+ 77  TVM+F         37961.554    202 76327.109    76360.707    77514.879
+ 78  TVM+F+I       36240.935    203 72887.869    72921.814    74081.519
+ 79  TVM+F+G4      35284.300    203 70974.601    71008.545    72168.251
+ 80  TVM+F+I+G4    35270.594    204 70949.188    70983.481    72148.718
+ 81  SYM           37835.547    200 76071.093    76104.004    77247.103
+ 82  SYM+I         36154.754    201 72711.509    72744.762    73893.398
+ 83  SYM+G4        35213.108    201 70828.215    70861.468    72010.105
+ 84  SYM+I+G4      35199.886    202 70803.772    70837.370    71991.542
+ 85  GTR+F         37805.162    203 76016.323    76050.267    77209.973
+ 86  GTR+F+I       36096.433    204 72600.866    72635.159    73800.396
+ 87  GTR+F+G4      35165.254    204 70738.509    70772.801    71938.038
+ 88  GTR+F+I+G4    35151.250    205 70712.500    70747.143    71917.910
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         TIM2+F+I+G4
+Best-fit model: TIM2+F+I+G4 chosen according to BIC
+
+All model information printed to ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.model.gz
+CPU time for ModelFinder: 30.204 seconds (0h:0m:30s)
+Wall-clock time for ModelFinder: 30.439 seconds (0h:0m:30s)
+Generating 1000 samples for ultrafast bootstrap (seed: 210474)...
+
+NOTE: 24 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.456 / LogL: -35170.650
+Init pinv, alpha: 0.043, 1.000 / Estimate: 0.139, 0.645 / LogL: -35158.239
+Init pinv, alpha: 0.085, 1.000 / Estimate: 0.139, 0.644 / LogL: -35158.278
+Init pinv, alpha: 0.128, 1.000 / Estimate: 0.141, 0.649 / LogL: -35158.156
+Init pinv, alpha: 0.170, 1.000 / Estimate: 0.176, 0.725 / LogL: -35157.242
+Init pinv, alpha: 0.213, 1.000 / Estimate: 0.197, 0.779 / LogL: -35157.603
+Init pinv, alpha: 0.255, 1.000 / Estimate: 0.196, 0.777 / LogL: -35157.581
+Init pinv, alpha: 0.298, 1.000 / Estimate: 0.197, 0.779 / LogL: -35157.618
+Init pinv, alpha: 0.340, 1.000 / Estimate: 0.196, 0.777 / LogL: -35157.599
+Init pinv, alpha: 0.383, 1.000 / Estimate: 0.197, 0.780 / LogL: -35157.642
+Optimal pinv,alpha: 0.176, 0.725 / LogL: -35157.242
+
+Parameters optimization took 21.771 sec
+Computing ML distances based on estimated model parameters... 0.172 sec
+Computing BIONJ tree...
+0.073 seconds
+Log-likelihood of BIONJ tree: -35550.228
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.802 second
+Computing log-likelihood of 98 initial trees ... 5.937 seconds
+Current best score: -35157.242
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -35141.987
+UPDATE BEST LOG-LIKELIHOOD: -35141.979
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -35141.855
+Iteration 10 / LogL: -35141.977 / Time: 0h:0m:38s
+Iteration 20 / LogL: -35141.977 / Time: 0h:0m:46s
+Finish initializing candidate tree set (9)
+Current best tree score: -35141.855 / CPU time: 23.804
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -35142.400 / Time: 0h:0m:57s (0h:2m:31s left)
+Iteration 40 / LogL: -35160.254 / Time: 0h:1m:8s (0h:1m:57s left)
+Iteration 50 / LogL: -35141.981 / Time: 0h:1m:18s (0h:1m:31s left)
+Log-likelihood cutoff on original alignment: -35184.314
+Iteration 60 / LogL: -35142.101 / Time: 0h:1m:29s (0h:1m:11s left)
+Iteration 70 / LogL: -35190.943 / Time: 0h:1m:40s (0h:0m:53s left)
+Iteration 80 / LogL: -35142.296 / Time: 0h:1m:52s (0h:0m:38s left)
+Iteration 90 / LogL: -35141.858 / Time: 0h:2m:3s (0h:0m:23s left)
+Iteration 100 / LogL: -35142.298 / Time: 0h:2m:13s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -35184.314
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 108 ITERATIONS / Time: 0h:2m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -35141.855
+Optimal log-likelihood: -35141.853
+Rate parameters:  A-C: 1.86179  A-G: 5.33665  A-T: 1.86179  C-G: 1.00000  C-T: 10.28575  G-T: 1.00000
+Base frequencies:  A: 0.293  C: 0.237  G: 0.233  T: 0.237
+Proportion of invariable sites: 0.175
+Gamma shape alpha: 0.721
+Parameters optimization took 1 rounds (0.142 sec)
+BEST SCORE FOUND : -35141.853
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+6.219 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.splits.nex
+Total tree length: 4.886
+
+Total number of iterations: 108
+CPU time used for tree search: 119.868 sec (0h:1m:59s)
+Wall-clock time used for tree search: 120.338 sec (0h:2m:0s)
+Total CPU time used: 148.692 sec (0h:2m:28s)
+Total wall-clock time used: 149.553 sec (0h:2m:29s)
+
+Computing bootstrap consensus tree...
+Reading input file ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.splits.nex...
+99 taxa and 364 splits.
+Consensus tree written to ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.contree
+Reading input trees file ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.contree
+Log-likelihood of consensus tree: -35141.974
+
+Analysis results written to: 
+  IQ-TREE report:                ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.iqtree
+  Maximum-likelihood tree:       ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.treefile
+  Likelihood distances:          ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.splits.nex
+  Consensus tree:                ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.contree
+  Screen log file:               ORF_2_cleared_alignment_DNA_serotypes_no_amb.fas.log
+
+Date and Time: Sat Jun  8 01:56:41 2024
