@@ -331,7 +331,7 @@ The query variable was assigned the following value:
 ```
 "Mamastrovirus 1"[porgn] AND "6000"[SLEN] : "8000"[SLEN]
 ```
-The content of main_output.txt is partially shown below (result of data download by query):
+The content of main_output.txt is partially shown below (result of data download by query, translated from Russian):
 ```
 125 records loaded
 
