@@ -211,6 +211,10 @@ sewage: 20
 
 На вход подается выравнивание либо обычная последовательность/несколько последовательностей. На основе этого файла создается *query.fa*, где содержатся последовательности, готовые к прогону через веб-сервер BLAST. Результаты прогона сохраняются в файл *blast_results.xml* - он далее обрабатывается до состояния итогового *blast_query_match.txt*, в котором дается соответствие *query-match* (разделитель - "//", т.к. запятых в поле *match* и так много).
 
+Пример запуска: 
+
+**python .\sample_exp.py -i .\reference_aln.fasta -o .\4550_5293 -l 4550 -r 5293 -si 1**
+
 ------------------------------------------------------------------------
 
 ## **aln/**
@@ -426,3 +430,7 @@ Arguments:
 * *-si - save intermediate files (query.fa, blast_results.xml), defaults to False.*
 
 The input can be either an alignment or a single/multiple sequence(s). Based on this file, a *query.fa* file is generated, containing the sequences ready to be run through the BLAST web server. The results of the run are saved in *blast_results.xml*, which is further processed into the final *blast_query_match.txt* file. This file contains the *query-match* correspondence, with "//" as the delimiter (since the *match* field already contains many commas).
+
+Launch example: 
+
+**python .\sample_exp.py -i .\reference_aln.fasta -o .\4550_5293 -l 4550 -r 5293 -si 1**
