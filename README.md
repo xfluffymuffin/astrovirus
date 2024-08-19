@@ -198,6 +198,19 @@ sewage: 20
 Удаляет последовательность из выравнивания, если в ней длина цепочки гэпов превышает пороговое значение
 Помимо обязательного пути к исходному файлу (-i) программе можно подать на вход аргументы -oc (путь к выходному csv-файлу с длинами всех гэпов всех  последовательностей в выравнивании), -of (путь к выходному fasta-файлу, очищенному от замусоренных гэпами последовательностей), -t (пороговое значение для числа подряд идущих гэпов, 50 по умолчанию), -e (позволяет исключить из рассмотрения фиксированную длину гэпов, когда мы знаем, что именно этот участок определенной длины учитывать не хотим)
 
+### _sample_exp.py_
+
+С помощью алгоритма BLAST выравнивает пользовательские последовательности на последовательности из GenBank. Запускается из командной строки.
+
+Аргументы: 
+*-i - путь к подаваемому на вход файлу .fasta;*
+*-o - путь к папке с выходными файлами (будет создана), необязательный аргумент: по умолчанию присваивается название с текущими датой и временем;*
+*-l - левая граница выбранного для анализа участка (опционально), по умолчанию - начало последовательности*
+*-r - правая граница участка (опционально), по умолчанию - конец последовательности*
+*-si - сохранение промежуточных файлов (query.fa, blast_results.xml), по умолчанию - False*
+
+На вход подается выравнивание либо обычная последовательность/несколько последовательностей. На основе этого файла создается *query.fa*, где содержатся последовательности, готовые к прогону через веб-сервер BLAST. Результаты прогона сохраняются в файл *blast_results.xml* - он далее обрабатывается до состояния итогового *blast_query_match.txt*, в котором дается соответствие *query-match* (разделитель - "//", т.к. запятых в поле *match* и так много).
+
 ------------------------------------------------------------------------
 
 ## **aln/**
@@ -400,3 +413,16 @@ The script folder also contains output files.
 
 Removes a sequence from alignment if the length of its gap chain exceeds the threshold value.
 Besides the mandatory input file path (-i), the program can accept arguments -oc (path to the output csv file with gap lengths of all sequences in the alignment), -of (path to the output fasta file cleaned of gap-heavy sequences), -t (threshold value for the number of consecutive gaps, 50 by default), -e (excludes a fixed gap length from consideration, when we know that this specific length should not be counted).
+
+### _sample_exp.py_
+
+Uses the BLAST algorithm to align user-provided sequences with sequences from GenBank. Designed to be executed from the command line.
+
+Arguments:
+*-i - path to the input .fasta file;*
+*-o - path to the output directory (will be created), optional argument: defaults to a name with the current date and time;*
+*-l - left boundary of the region selected for analysis (optional), defaults to the start of the sequence;*
+*-r - right boundary of the region (optional), defaults to the end of the sequence;*
+*-si - save intermediate files (query.fa, blast_results.xml), defaults to False.*
+
+The input can be either an alignment or a single/multiple sequence(s). Based on this file, a *query.fa* file is generated, containing the sequences ready to be run through the BLAST web server. The results of the run are saved in *blast_results.xml*, which is further processed into the final *blast_query_match.txt* file. This file contains the *query-match* correspondence, with "//" as the delimiter (since the *match* field already contains many commas).
