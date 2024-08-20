@@ -26,8 +26,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.1360799"
-     inkscape:cx="685.69123"
-     inkscape:cy="315.5588"
+     inkscape:cx="588.42692"
+     inkscape:cy="174.72363"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -245,7 +245,7 @@
        x="239.09822"
        y="49.13121"
        id="text429-9"
-       inkscape:label="text_orf1b"><tspan
+       inkscape:label="text_orf1a"><tspan
          sodipodi:role="line"
          id="tspan429-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Tahoma;-inkscape-font-specification:Tahoma;fill:#666666;fill-opacity:1;stroke:#7fbfaa;stroke-width:1.4"
@@ -411,9 +411,9 @@
        transform="rotate(-89.846089,76.64736,272.00246)"><tspan
          x="80.918091"
          y="209.38828"
-         id="tspan2"><tspan
+         id="tspan14"><tspan
            style="font-family:Tahoma;-inkscape-font-specification:Tahoma"
-           id="tspan1">Breakpoints per 200 nt window</tspan></tspan></text>
+           id="tspan13">Breakpoints per 200 nt window</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:9.33333px;display:inline;fill:#000000"
@@ -508,9 +508,9 @@
        inkscape:label="85_orf_1a_end"><tspan
          x="279.11932"
          y="577.94745"
-         id="tspan4"><tspan
+         id="tspan16"><tspan
            style="font-weight:bold;font-family:Tahoma;-inkscape-font-specification:Tahoma"
-           id="tspan3">4324</tspan></tspan></text>
+           id="tspan15">4324</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.1507px;white-space:pre;inline-size:35.1323;display:inline;fill:#547594;fill-opacity:1;stroke:#547594;stroke-width:0.194;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
@@ -521,9 +521,9 @@
        inkscape:label="85_orf_1a_end"><tspan
          x="279.11932"
          y="577.94745"
-         id="tspan6"><tspan
+         id="tspan18"><tspan
            style="font-weight:bold;font-family:Tahoma;-inkscape-font-specification:Tahoma"
-           id="tspan5">4332</tspan></tspan></text>
+           id="tspan17">4332</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.1507px;white-space:pre;inline-size:35.1323;display:inline;opacity:0.65;fill:#547594;fill-opacity:1;stroke:#547594;stroke-width:0.194;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
@@ -534,9 +534,9 @@
        inkscape:label="85_orf_1a_end"><tspan
          x="279.11932"
          y="577.94745"
-         id="tspan8"><tspan
+         id="tspan20"><tspan
            style="font-weight:bold;font-family:Tahoma;-inkscape-font-specification:Tahoma;fill:#613141;stroke:#613141"
-           id="tspan7">5263</tspan></tspan></text>
+           id="tspan19">5263</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.1507px;white-space:pre;inline-size:35.1323;display:inline;fill:#547594;fill-opacity:1;stroke:#547594;stroke-width:0.194;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
@@ -547,9 +547,9 @@
        inkscape:label="85_orf_1a_end"><tspan
          x="279.11932"
          y="577.94745"
-         id="tspan10"><tspan
+         id="tspan22"><tspan
            style="font-weight:bold;font-family:Tahoma;-inkscape-font-specification:Tahoma"
-           id="tspan9">2784</tspan></tspan></text>
+           id="tspan21">2784</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.1507px;white-space:pre;inline-size:35.1323;display:inline;fill:#54947f;fill-opacity:1;stroke:#54947f;stroke-width:0.194;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
@@ -560,9 +560,9 @@
        inkscape:label="85_orf_1a_end"><tspan
          x="279.11932"
          y="577.94745"
-         id="tspan12"><tspan
+         id="tspan24"><tspan
            style="font-weight:bold;font-family:Tahoma;-inkscape-font-specification:Tahoma"
-           id="tspan11">2845</tspan></tspan></text>
+           id="tspan23">2845</tspan></tspan></text>
     <path
        style="fill:#dbdbdb;stroke:#000000"
        d="m 797.78854,296.66022 2.56872,7.43575"
