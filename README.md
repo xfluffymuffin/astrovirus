@@ -217,6 +217,18 @@ sewage: 20
 
 **python .\sample_exp.py -i .\reference_aln.fasta -o .\4550_5293 -l 4550 -r 5293 -si 1**
 
+### _seq_cut.py_
+
+Принимает на вход выравнивание в формате fasta. На выходе - измененное выравнивание, содержащее вырезанные по координатам участки последовательностей
+
+Аргументы:
+* *-i - путь к подаваемому на вход файлу .fasta;*
+* *-o - путь к выходному файлу*
+* *-l - левая граница выбранного для анализа участка, по умолчанию - начало последовательности*
+* *-r - правая граница участка (опционально), по умолчанию - конец последовательности*
+
+Пример команды для запуска: 
+**python .\seq_cut.py -i old_alignment.fas -o new_alignmen.fas -l 100 -r 500**
 ------------------------------------------------------------------------
 
 ## **aln/**
@@ -438,3 +450,16 @@ The input can be either an alignment or a single/multiple sequence(s). Based on 
 Launch command example: 
 
 **python .\sample_exp.py -i .\reference_aln.fasta -o .\4550_5293 -l 4550 -r 5293 -si 1**
+
+### _seq_cut.py_
+
+This script takes an alignment in FASTA format as input and outputs a modified alignment containing sequence fragments cut according to specified coordinates.
+
+Arguments:
+* *-i - path to the input .fasta file;*
+* *-o - path to the output file;*
+* *-l - left boundary of the region selected for analysis, defaults to the start of the sequence;*
+* *-r - right boundary of the region (optional), defaults to the end of the sequence.*
+
+Example command to run:  
+**python .\seq_cut.py -i old_alignment.fas -o new_alignment.fas -l 100 -r 500**
