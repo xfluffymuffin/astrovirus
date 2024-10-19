@@ -19,7 +19,7 @@ if __name__ == "__main__":
     parser.add_argument("-l", "--left", type=int, default=1,
                         help="Left cutting point. Beginning of sequence(s) by default")
     parser.add_argument("-r", "--right", type=int,
-                        help="Right cutting point")
+                        help="Right cutting point. End of sequence(s) by default")
 
     args = parser.parse_args()
 
