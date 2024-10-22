@@ -91,6 +91,10 @@ file.fasta - скачанные скриптом выравненные на р�
 * Подпапка rdp_old/: старые RDP-проекты и выходную информацию о них в формате *.csv
 * Подпапка trees_old/: старые файлы, связанные с построением деревьев. Папка old_annot/ -  с устаревшей аннотацией
 
+## **temp/**
+
+Содержит временные файлы
+
 ## **scripts/**
 
 Содержит написанные для проекта скрипты вместе с входными и выходными файлами, даже если это дубликаты уже имеющихся файлов в других папках (так папку scripts можно использовать независимо от ее расположения)
@@ -324,6 +328,10 @@ Contains obsolete project files, replaced by updated ones (may be more useful th
 * Subfolder aln_old/: intermediate, no longer relevant alignments; moved here from subfolder aln/main/
 * Subfolder rdp_old/: old RDP projects and output information in *.csv format
 * Subfolder trees_old/: old tree-related files. Folder old_annot/: with outdated annotations
+
+## **temp/**
+
+Contains temporary files
 
 ## **scripts/**
 
