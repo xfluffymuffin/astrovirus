@@ -24,4 +24,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
 cut_seq(args.input, args.output, args.left, args.right)
-# cut_seq(r"C:\Users\gdvov\OneDrive\Desktop\useless.fas", "test.fas", 2, 5)
