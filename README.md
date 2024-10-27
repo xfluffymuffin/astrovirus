@@ -235,6 +235,21 @@ sewage: 20
 
 **python .\seq_cut.py -i old_alignment.fas -o new_alignmen.fas -l 100 -r 500**
 
+### _convert_coords.py_
+
+Принимает на вход выравнивание в формате FASTA и csv-таблицу с координатами участков референсной для выравнивания последовательности. Переводит данные координаты в координаты по выравниванию, т.е. пересчитывает их с учетом гэпов.
+
+Аргументы:
+* *-ia - путь к входному выравниванию в формате .fasta;*
+* *-iс - путь к входному файлу .csv с координатами по референсу - в таблице должно быть 2 столбца (левые и правые границы участков);*
+* *-ref - полное название референсной последовательности из выравнивания;*
+* *-o - путь к выходноой папке, если она не существует, то создается автоматически; по умолчанию - папка со скриптом*
+
+* Пример команды для запуска: 
+
+**python .\convert_coords.py -ia path_to_aln -ic path_to_csv -ref ref_name_str -o save_dir**
+
+
 ------------------------------------------------------------------------
 
 ## **aln/**
@@ -472,4 +487,19 @@ Arguments:
 * *-r - right boundary of the region (optional), defaults to the end of the sequence.*
 
 Example command to run:  
+
 **python .\seq_cut.py -i old_alignment.fas -o new_alignment.fas -l 100 -r 500**
+
+### _convert_coords.py_
+
+This script takes an alignment in FASTA format and a CSV table containing coordinates of regions in a reference sequence for the alignment. It converts these coordinates into alignment coordinates, adjusting for gaps.
+
+Arguments:
+* *-ia - path to the input alignment in .fasta format;*
+* *-ic - path to the input .csv file with reference coordinates – the table should contain 2 columns (left and right boundaries of regions);*
+* *-ref - full name of the reference sequence in the alignment;*
+* *-o - path to the output directory, created automatically if it does not exist; defaults to the script's directory.*
+
+Example command to run:
+
+**python .\convert_coords.py -ia path_to_aln -ic path_to_csv -ref ref_name_str -o save_dir**
