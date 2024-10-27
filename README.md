@@ -4,8 +4,9 @@
 
 * Подпапка main/: основные выравнивания, актуальные на данный момент
 	* Подпапка tree_aln/: выравнивания, использовавшиеся для построения деревьев в iqtree, заканчиваются на 'no_amb'. Файлы iqtree (см. папку trees/iqtree_output/) впоследствии пропущены через iTOL для окрашивания по серотипам (см. папку trees/iTOL_output/)
-		- Подпапка recomb_analysis_aln/: выравнивания, использовавшиеся для анализа событий рекомбинации - на них использован скрипт gap_check.py (папка scripts/). Включает папку serotypes_aln/: содержит выравнивания по отдельным серотипам, полученные в RDP4 (из выравниваний ORF_1A_1B_2_conc_RNA_no_amb.fas, ORF_1B_2_conc_RNA_no_amb.fas в папке aln/main/recomb_analysis_aln/)
-		- Подпапка pair_dist_aln/: выравнивания для нахождения расстояния между последовательностями - результаты в папаке pairwise_distance/
+	* Подпапка recomb_analysis_aln/: выравнивания, использовавшиеся для анализа событий рекомбинации - на них использован скрипт gap_check.py (папка scripts/). Включает папку serotypes_aln/: содержит выравнивания по отдельным серотипам, полученные в RDP4 (из выравниваний ORF_1A_1B_2_conc_RNA_no_amb.fas, ORF_1B_2_conc_RNA_no_amb.fas в папке aln/main/recomb_analysis_aln/)
+	* Подпапка pair_dist_aln/: выравнивания для нахождения расстояния между последовательностями - результаты в папаке pairwise_distance/
+	* Подпапка regions_no_recomb_aln/: выравнивания для участков генома без рекомбинации - файлы, полученные последовательным применением скриптов convert_coords.py и seq_cut.py
 
 	
 *выравнивания в подпапках main/recomb_analysis_aln/ и main/pair_dist_aln/ частично совпадают - одинаковые файлы были использованы для решения разных задач
@@ -258,8 +259,9 @@ Contains alignments of various origins:
 
 * Subfolder main/: main alignments currently in use
   * Subfolder tree_aln/: alignments used for tree building in IQ-TREE, ending with 'no_amb'. IQ-TREE files (see folder trees/iqtree_output/) were later processed through iTOL for serotype coloring (see folder trees/iTOL_output/)
-    - Subfolder recomb_analysis_aln/: alignments used for recombination event analysis, processed with the gap_check.py script (folder scripts/). Includes the folder serotypes_aln/: contains serotype-specific alignments obtained in RDP4 (from alignments ORF_1A_1B_2_conc_RNA_no_amb.fas, ORF_1B_2_conc_RNA_no_amb.fas in folder aln/main/recomb_analysis_aln/)
-    - Subfolder pair_dist_aln/: alignments for calculating sequence distances - results are in folder pairwise_distance/
+  * Subfolder recomb_analysis_aln/: alignments used for recombination event analysis, processed with the gap_check.py script (folder scripts/). Includes the folder serotypes_aln/: contains serotype-specific alignments obtained in RDP4 (from alignments ORF_1A_1B_2_conc_RNA_no_amb.fas, ORF_1B_2_conc_RNA_no_amb.fas in folder aln/main/recomb_analysis_aln/)
+  * Subfolder pair_dist_aln/: alignments for calculating sequence distances - results are in folder pairwise_distance/
+  * Subfolder regions_no_recomb_aln/: alignments for genome regions without recombination - files obtained by sequentially applying the scripts *convert_coords.py* and *seq_cut.py*.
 	
 *Alignments in subfolders main/recomb_analysis_aln/ and main/pair_dist_aln/ partially overlap - the same files were used for different tasks
 
