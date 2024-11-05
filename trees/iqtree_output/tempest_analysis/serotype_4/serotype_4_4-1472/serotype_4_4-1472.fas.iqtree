@@ -1,0 +1,303 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: serotype_4_4-1472.fas
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 238908
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 19 sequences with 1469 nucleotide sites
+Number of constant sites: 1140 (= 77.6038% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1140 (= 77.6038% of all sites)
+Number of parsimony informative sites: 242
+Number of distinct site patterns: 190
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+G4
+
+List of models sorted by BIC scores: 
+
+Model             LogL          AIC      w-AIC      AICc     w-AICc       BIC      w-BIC
+TIM2+F+G4        -4449.2085   8982.4169 - 0.0449   8984.9499 + 0.0512   9204.6951 + 0.6732
+TIM2+F+I         -4450.9278   8985.8556 - 0.0080   8988.3885 - 0.0092   9208.1337 + 0.1206
+TN+F+G4          -4454.8439   8991.6877 - 0.0004   8994.1012 - 0.0005   9208.6736 + 0.0921
+GTR+F+G4         -4444.6927   8977.3855 + 0.5556   8980.1664 + 0.5601   9210.2483 - 0.0419
+TIM2+F+I+G4      -4448.8947   8983.7893 - 0.0226   8986.4448 - 0.0243   9211.3598 - 0.0240
+TN+F+I           -4456.5086   8995.0173 - 0.0001   8997.4307 - 0.0001   9212.0031 - 0.0174
+GTR+F+I          -4446.4235   8980.8469 + 0.0984   8983.6278 + 0.0992   9213.7098 - 0.0074
+TIM+F+G4         -4454.0093   8992.0187 - 0.0004   8994.5516 - 0.0004   9214.2968 - 0.0055
+TIM3+F+G4        -4454.4380   8992.8759 - 0.0002   8995.4089 - 0.0003   9215.1541 - 0.0036
+TN+F+I+G4        -4454.5938   8993.1876 - 0.0002   8995.7206 - 0.0002   9215.4658 - 0.0031
+TPM2+F+G4        -4458.4695   8998.9390 - 0.0000   9001.3525 - 0.0000   9215.9248 - 0.0025
+TPM2u+F+G4       -4458.4707   8998.9415 - 0.0000   9001.3549 - 0.0000   9215.9273 - 0.0024
+GTR+F+I+G4       -4444.4201   8978.8402 + 0.2685   8981.7495 + 0.2538   9216.9954 - 0.0014
+TIM+F+I          -4455.7102   8995.4205 - 0.0001   8997.9534 - 0.0001   9217.6986 - 0.0010
+TPM2u+F+I        -4459.4263   9000.8526 - 0.0000   9003.2660 - 0.0000   9217.8384 - 0.0009
+TPM2+F+I         -4459.4373   9000.8747 - 0.0000   9003.2881 - 0.0000   9217.8605 - 0.0009
+TIM3+F+I         -4456.0532   8996.1064 - 0.0000   8998.6393 - 0.0001   9218.3845 - 0.0007
+HKY+F+G4         -4464.1441   9008.2881 - 0.0000   9010.5850 - 0.0000   9219.9816 - 0.0003
+TIM+F+I+G4       -4453.7451   8993.4903 - 0.0002   8996.1457 - 0.0002   9221.0608 - 0.0002
+TVM+F+G4         -4454.1077   8994.2153 - 0.0001   8996.8708 - 0.0001   9221.7858 - 0.0001
+HKY+F+I          -4465.1251   9010.2502 - 0.0000   9012.5471 - 0.0000   9221.9437 - 0.0001
+TIM3+F+I+G4      -4454.2008   8994.4017 - 0.0001   8997.0571 - 0.0001   9221.9722 - 0.0001
+TPM2+F+I+G4      -4458.4663   9000.9327 - 0.0000   9003.4656 - 0.0000   9223.2108 - 0.0001
+TPM2u+F+I+G4     -4458.4786   9000.9571 - 0.0000   9003.4901 - 0.0000   9223.2353 - 0.0001
+TVM+F+I          -4455.1345   8996.2691 - 0.0000   8998.9245 - 0.0000   9223.8396 - 0.0000
+K3Pu+F+G4        -4463.3394   9008.6787 - 0.0000   9011.0922 - 0.0000   9225.6646 - 0.0000
+TPM3+F+G4        -4463.6964   9009.3928 - 0.0000   9011.8062 - 0.0000   9226.3786 - 0.0000
+TPM3u+F+G4       -4463.6964   9009.3928 - 0.0000   9011.8063 - 0.0000   9226.3786 - 0.0000
+HKY+F+I+G4       -4464.1447   9010.2894 - 0.0000   9012.7028 - 0.0000   9227.2752 - 0.0000
+K3Pu+F+I         -4464.3700   9010.7400 - 0.0000   9013.1535 - 0.0000   9227.7258 - 0.0000
+TPM3+F+I         -4464.6629   9011.3258 - 0.0000   9013.7393 - 0.0000   9228.3117 - 0.0000
+TPM3u+F+I        -4464.6631   9011.3262 - 0.0000   9013.7397 - 0.0000   9228.3121 - 0.0000
+TVM+F+I+G4       -4454.1241   8996.2483 - 0.0000   8999.0291 - 0.0000   9229.1111 - 0.0000
+TIM2e+G4         -4472.6605   9023.3210 - 0.0000   9025.5043 - 0.0000   9229.7221 - 0.0000
+K3Pu+F+I+G4      -4463.3084   9010.6168 - 0.0000   9013.1497 - 0.0000   9232.8949 - 0.0000
+TIM2e+I          -4474.2979   9026.5959 - 0.0000   9028.7792 - 0.0000   9232.9970 - 0.0000
+SYM+G4           -4467.2137   9016.4274 - 0.0000   9018.8408 - 0.0000   9233.4132 - 0.0000
+TPM3u+F+I+G4     -4463.6984   9011.3967 - 0.0000   9013.9297 - 0.0000   9233.6749 - 0.0000
+TPM3+F+I+G4      -4463.6984   9011.3967 - 0.0000   9013.9297 - 0.0000   9233.6749 - 0.0000
+TIM2e+I+G4       -4472.2138   9024.4277 - 0.0000   9026.7246 - 0.0000   9236.1212 - 0.0000
+SYM+I            -4468.8471   9019.6942 - 0.0000   9022.1076 - 0.0000   9236.6800 - 0.0000
+TNe+G4           -4481.4107   9038.8215 - 0.0000   9040.8942 - 0.0000   9239.9303 - 0.0000
+SYM+I+G4         -4466.8379   9017.6758 - 0.0000   9020.2088 - 0.0000   9239.9540 - 0.0000
+TNe+I            -4482.9893   9041.9787 - 0.0000   9044.0514 - 0.0000   9243.0875 - 0.0000
+TIM3e+G4         -4479.5429   9037.0858 - 0.0000   9039.2692 - 0.0000   9243.4870 - 0.0000
+TVMe+G4          -4476.2791   9032.5583 - 0.0000   9034.8552 - 0.0000   9244.2517 - 0.0000
+TIMe+G4          -4480.7979   9039.5958 - 0.0000   9041.7792 - 0.0000   9245.9970 - 0.0000
+TNe+I+G4         -4481.0613   9040.1226 - 0.0000   9042.3060 - 0.0000   9246.5238 - 0.0000
+TVMe+I           -4477.4200   9034.8400 - 0.0000   9037.1369 - 0.0000   9246.5335 - 0.0000
+TIM3e+I          -4481.1634   9040.3268 - 0.0000   9042.5101 - 0.0000   9246.7279 - 0.0000
+TIMe+I           -4482.3898   9042.7797 - 0.0000   9044.9630 - 0.0000   9249.1808 - 0.0000
+TIM3e+I+G4       -4479.1516   9038.3032 - 0.0000   9040.6001 - 0.0000   9249.9967 - 0.0000
+K2P+G4           -4490.6224   9055.2447 - 0.0000   9057.2098 - 0.0000   9251.0612 - 0.0000
+TVMe+I+G4        -4476.0540   9034.1081 - 0.0000   9036.5215 - 0.0000   9251.0939 - 0.0000
+TIMe+I+G4        -4480.4336   9040.8672 - 0.0000   9043.1641 - 0.0000   9252.5607 - 0.0000
+K2P+I            -4491.6165   9057.2330 - 0.0000   9059.1980 - 0.0000   9253.0495 - 0.0000
+K3P+G4           -4490.0376   9056.0752 - 0.0000   9058.1479 - 0.0000   9257.1840 - 0.0000
+K2P+I+G4         -4490.4713   9056.9425 - 0.0000   9059.0153 - 0.0000   9258.0514 - 0.0000
+K3P+I            -4491.0628   9058.1257 - 0.0000   9060.1984 - 0.0000   9259.2345 - 0.0000
+K3P+I+G4         -4489.8638   9057.7276 - 0.0000   9059.9109 - 0.0000   9264.1288 - 0.0000
+TIM2+F           -4554.3757   9190.7515 - 0.0000   9193.1649 - 0.0000   9407.7373 - 0.0000
+TN+F             -4559.7670   9199.5340 - 0.0000   9201.8310 - 0.0000   9411.2275 - 0.0000
+GTR+F            -4549.8877   9185.7754 - 0.0000   9188.4309 - 0.0000   9413.3459 - 0.0000
+TIM+F            -4558.6604   9199.3209 - 0.0000   9201.7344 - 0.0000   9416.3067 - 0.0000
+TIM3+F           -4559.6446   9201.2892 - 0.0000   9203.7027 - 0.0000   9418.2751 - 0.0000
+TPM2+F           -4569.3593   9218.7187 - 0.0000   9221.0156 - 0.0000   9430.4122 - 0.0000
+TPM2u+F          -4569.3621   9218.7243 - 0.0000   9221.0212 - 0.0000   9430.4178 - 0.0000
+HKY+F            -4574.8273   9227.6547 - 0.0000   9229.8380 - 0.0000   9434.0558 - 0.0000
+TVM+F            -4564.8786   9213.7572 - 0.0000   9216.2901 - 0.0000   9436.0353 - 0.0000
+K3Pu+F           -4573.7356   9227.4711 - 0.0000   9229.7680 - 0.0000   9439.1646 - 0.0000
+TPM3u+F          -4574.7101   9229.4202 - 0.0000   9231.7171 - 0.0000   9441.1137 - 0.0000
+TPM3+F           -4574.7115   9229.4229 - 0.0000   9231.7199 - 0.0000   9441.1164 - 0.0000
+TIM2e            -4582.4647   9240.9294 - 0.0000   9243.0021 - 0.0000   9442.0382 - 0.0000
+SYM              -4577.5697   9235.1395 - 0.0000   9237.4364 - 0.0000   9446.8330 - 0.0000
+TNe              -4590.2474   9254.4949 - 0.0000   9256.4599 - 0.0000   9450.3114 - 0.0000
+TIM3e            -4589.4106   9254.8212 - 0.0000   9256.8940 - 0.0000   9455.9301 - 0.0000
+TIMe             -4589.4965   9254.9931 - 0.0000   9257.0658 - 0.0000   9456.1019 - 0.0000
+TVMe             -4590.9449   9259.8898 - 0.0000   9262.0732 - 0.0000   9466.2910 - 0.0000
+K2P              -4603.6923   9279.3846 - 0.0000   9281.2449 - 0.0000   9469.9087 - 0.0000
+K3P              -4602.9530   9279.9060 - 0.0000   9281.8711 - 0.0000   9475.7225 - 0.0000
+F81+F+I          -4781.7058   9641.4116 - 0.0000   9643.5950 - 0.0000   9847.8128 - 0.0000
+F81+F+G4         -4781.8962   9641.7924 - 0.0000   9643.9757 - 0.0000   9848.1935 - 0.0000
+F81+F+I+G4       -4782.7545   9645.5090 - 0.0000   9647.8059 - 0.0000   9857.2024 - 0.0000
+JC+I             -4801.8708   9675.7416 - 0.0000   9677.6020 - 0.0000   9866.2658 - 0.0000
+JC+G4            -4801.9355   9675.8710 - 0.0000   9677.7313 - 0.0000   9866.3951 - 0.0000
+JC+I+G4          -4802.7295   9679.4590 - 0.0000   9681.4241 - 0.0000   9875.2755 - 0.0000
+F81+F            -4874.1110   9824.2221 - 0.0000   9826.2948 - 0.0000  10025.3309 - 0.0000
+JC               -4895.7033   9861.4066 - 0.0000   9863.1651 - 0.0000  10046.6384 - 0.0000
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+G4
+
+Rate parameter R:
+
+  A-C: 3.0011
+  A-G: 23.6877
+  A-T: 3.0011
+  C-G: 1.0000
+  C-T: 42.1728
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2896
+  pi(C) = 0.2024
+  pi(G) = 0.2154
+  pi(T) = 0.2926
+
+Rate matrix Q:
+
+  A   -0.7299   0.06731    0.5653   0.09732
+  C   0.09631    -1.488   0.02387     1.368
+  G    0.7602   0.02243    -0.815   0.03243
+  T   0.09631    0.9458   0.02387    -1.066
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2116
+
+ Category  Relative_rate  Proportion
+  1         0.0007759      0.25
+  2         0.04073        0.25
+  3         0.4133         0.25
+  4         3.545          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4449.1950 (s.e. 111.1121)
+Unconstrained log-likelihood (without tree): -3975.2661
+Number of free parameters (#branches + #model parameters): 42
+Akaike information criterion (AIC) score: 8982.3900
+Corrected Akaike information criterion (AICc) score: 8984.9230
+Bayesian information criterion (BIC) score: 9204.6682
+
+Total tree length (sum of branch lengths): 0.4132
+Sum of internal branch lengths: 0.2297 (55.5882% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4
+|
+|  +**ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4
++--| (89.3/94)
+|  +--OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4
+|
+|           +**OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4
+|        +--| (88.8/95)
+|        |  +**OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4
+|     +--| (84/83)
+|     |  +**OP432298_human_CHN_2022_NA_HAstV-4-QD-S-22015_NA_serotype_4
+|  +--| (97.2/98)
+|  |  |  +--OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4
+|  |  +--| (76.5/80)
+|  |     +**OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4
++--| (98.4/97)
+   |     +**OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4
+   |  +--| (96.7/100)
+   |  |  +**OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4
+   +**| (0/71)
+      |                                        +----------------OP432296_human_CHN_2021_NA_HAstV-4-RC-21047_NA_serotype_4
+      |                    +-------------------| (100/100)
+      |                    |                   +-----DQ070852_NA_BRA_1995_NA_Goiania-GO-12-95-Brazil_NA_serotype_4
+      |                 +--| (29.8/64)
+      |                 |  +--------------AY720891_NA_NA_2004_Dresden_NA_NA_serotype_4
+      +-----------------| (100/100)
+                        |                          +**MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4
+                        |                       +**| (0/56)
+                        |                       |  +**MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4
+                        |               +-------| (100/100)
+                        |               |       +**MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4
+                        |     +---------| (100/100)
+                        |     |         +--KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4
+                        +-----| (93.6/95)
+                              |           +--KF039913_NA_RUS_2010_NA_Rus-Nsc10-N358_NA_serotype_4
+                              +-----------| (100/100)
+                                          +---DQ344027_NA_CHN_2005_NA_Guangzhou_NA_serotype_4
+
+Tree in newick format:
+
+(OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4:0.0035270569,(ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4:0.0000023282,OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4:0.0013635072)89.3/94:0.0020256998,((((OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4:0.0000010000,OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4:0.0000010000)88.8/95:0.0014235782,OP432298_human_CHN_2022_NA_HAstV-4-QD-S-22015_NA_serotype_4:0.0006342072)84/83:0.0013774916,(OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4:0.0013638463,OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4:0.0000021205)76.5/80:0.0007267787)97.2/98:0.0042851813,((OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4:0.0006804544,OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4:0.0000020781)96.7/100:0.0069021954,(((OP432296_human_CHN_2021_NA_HAstV-4-RC-21047_NA_serotype_4:0.0523180871,DQ070852_NA_BRA_1995_NA_Goiania-GO-12-95-Brazil_NA_serotype_4:0.0186788385)100/100:0.0594984044,AY720891_NA_NA_2004_Dresden_NA_NA_serotype_4:0.0466244369)29.8/64:0.0075459449,((((MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4:0.0000010000,MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4:0.0000010000)0/56:0.0000021870,MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4:0.0006747652)100/100:0.0261143489,KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4:0.0084108166)100/100:0.0324769334,(KF039913_NA_RUS_2010_NA_Rus-Nsc10-N358_NA_serotype_4:0.0091424143,DQ344027_NA_CHN_2005_NA_Guangzhou_NA_serotype_4:0.0125278223)100/100:0.0374372690)93.6/95:0.0188147974)100/100:0.0535788057)0/71:0.0001946932)98.4/97:0.0048107085);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -4449.203627
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4
+|
+|  +--ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4
++--| (94)
+|  +--OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4
+|
+|           +--OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4
+|        +--| (95)
+|        |  +--OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4
+|     +--| (83)
+|     |  +--OP432298_human_CHN_2022_NA_HAstV-4-QD-S-22015_NA_serotype_4
+|  +--| (98)
+|  |  |  +--OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4
+|  |  +--| (80)
+|  |     +--OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4
++--| (97)
+   |     +--OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4
+   |  +--| (100)
+   |  |  +--OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4
+   +--| (71)
+      |                                        +----------------OP432296_human_CHN_2021_NA_HAstV-4-RC-21047_NA_serotype_4
+      |                    +-------------------| (100)
+      |                    |                   +-----DQ070852_NA_BRA_1995_NA_Goiania-GO-12-95-Brazil_NA_serotype_4
+      |                 +--| (64)
+      |                 |  +--------------AY720891_NA_NA_2004_Dresden_NA_NA_serotype_4
+      +-----------------| (100)
+                        |                          +--MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4
+                        |                       +--| (56)
+                        |                       |  +--MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4
+                        |               +-------| (100)
+                        |               |       +--MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4
+                        |     +---------| (100)
+                        |     |         +--KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4
+                        +-----| (95)
+                              |           +--KF039913_NA_RUS_2010_NA_Rus-Nsc10-N358_NA_serotype_4
+                              +-----------| (100)
+                                          +---DQ344027_NA_CHN_2005_NA_Guangzhou_NA_serotype_4
+
+
+Consensus tree in newick format: 
+
+(OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4:0.0035269304,(ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4:0.0000023282,OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4:0.0013637651)94:0.0020257385,((((OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4:0.0000023282,OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4:0.0000023282)95:0.0014236374,OP432298_human_CHN_2022_NA_HAstV-4-QD-S-22015_NA_serotype_4:0.0006340092)83:0.0013770824,(OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4:0.0013636701,OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4:0.0000023282)80:0.0007271414)98:0.0042850020,((OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4:0.0006798386,OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4:0.0000023282)100:0.0069012419,(((OP432296_human_CHN_2021_NA_HAstV-4-RC-21047_NA_serotype_4:0.0523144123,DQ070852_NA_BRA_1995_NA_Goiania-GO-12-95-Brazil_NA_serotype_4:0.0186777407)100:0.0594863008,AY720891_NA_NA_2004_Dresden_NA_NA_serotype_4:0.0466145240)64:0.0075592816,((((MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4:0.0000023282,MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4:0.0000023282)56:0.0000023282,MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4:0.0006746461)100:0.0261115866,KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4:0.0084076366)100:0.0324774856,(KF039913_NA_RUS_2010_NA_Rus-Nsc10-N358_NA_serotype_4:0.0091388833,DQ344027_NA_CHN_2005_NA_Guangzhou_NA_serotype_4:0.0125308249)100:0.0374269440)95:0.0188025232)100:0.0535746187)71:0.0001943504)97:0.0048110846);
+
+TIME STAMP
+----------
+
+Date and time: Tue Nov  5 10:28:36 2024
+Total CPU time used: 3.924811 seconds (0h:0m:3s)
+Total wall-clock time used: 4.883477926 seconds (0h:0m:4s)
+

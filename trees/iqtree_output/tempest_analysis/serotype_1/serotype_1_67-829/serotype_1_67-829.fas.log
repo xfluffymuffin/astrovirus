@@ -1,0 +1,280 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    minsky (AVX2, FMA3, 503 GB RAM)
+Command: ../../iqtree -s serotype_1_67-829.fas -st DNA -m TEST -bb 1000 -alrt 1000
+Seed:    294088 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Nov  5 10:24:40 2024
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file serotype_1_67-829.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 35 sequences with 763 columns, 165 distinct patterns
+157 parsimony-informative, 47 singleton sites, 559 constant sites
+                                                                                      Gap/Ambiguity  Composition  p-value
+   1  OQ630461_human_GIN_2021_NA_SEN-21-286-S1_Stool-Sample-of-non-polio-AFP_serotype_1       0.00%    passed     99.11%
+   2  ON571597_human_CHN_2019_NA_2019-Pingtan-42_feces_serotype_1                             0.00%    passed     99.66%
+   3  ON571596_human_CHN_2019_NA_2019-Fuzhou-306_feces_serotype_1                             0.00%    passed     99.93%
+   4  ON571594_human_CHN_2019_NA_2019-Fuzhou-26_feces_serotype_1                              0.00%    passed     98.75%
+   5  LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1                       0.00%    passed     99.93%
+   6  LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1                       0.00%    passed     99.93%
+   7  LC694995_human_JPN_2020_NA_HAstV1-192642-Tokyo-2020_NA_serotype_1                       0.00%    passed     99.99%
+   8  LC694994_human_JPN_2020_NA_HAstV1-193055-Tokyo-2020_NA_serotype_1                       0.00%    passed     99.29%
+   9  LC694993_human_JPN_2020_NA_HAstV1-193061-Tokyo-2020_NA_serotype_1                       0.00%    passed     99.29%
+  10  LC694992_human_JPN_2021_NA_HAstV1-210628-Tokyo-2021_NA_serotype_1                       0.00%    passed     99.23%
+  11  LC694991_human_JPN_2021_NA_HAstV1-210764-Tokyo-2021_NA_serotype_1                       0.00%    passed     99.99%
+  12  LC694990_human_JPN_2018_NA_HAstV1-181937-Tokyo-2018_NA_serotype_1                       0.00%    passed     99.50%
+  13  LC694989_human_JPN_2021_NA_HAstV1-210956-Tokyo-2021_NA_serotype_1                       0.00%    passed     99.93%
+  14  LC694988_human_JPN_2021_NA_HAstV1-210963-Tokyo-2021_NA_serotype_1                       0.00%    passed     99.99%
+  15  LC694987_human_JPN_2021_NA_HAstV1-210984-Tokyo-2021_NA_serotype_1                       0.00%    passed     98.25%
+  16  LC694986_human_JPN_2022_NA_HAstV1-211185-Tokyo-2022_NA_serotype_1                       0.00%    passed     99.83%
+  17  MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1              0.00%    passed     99.94%
+  18  MT832896_human_BRA_2015_MAstV-1-Hu-BRA-TO-208-2015_TO-208_feces_serotype_1              0.00%    passed     99.94%
+  19  MT832895_human_BRA_2015_MAstV-1-Hu-BRA-TO-171-2015_TO-171_feces_serotype_1              0.00%    passed     99.94%
+  20  MT832894_human_BRA_2011_MAstV-1-Hu-BRA-TO-162-2011_TO-162_feces_serotype_1              0.00%    passed     99.94%
+  21  MT832893_human_BRA_2015_MAstV-1-Hu-BRA-TO-160-2015_TO-160_feces_serotype_1              0.00%    passed     99.94%
+  22  MT832892_human_BRA_2015_MAstV-1-Hu-BRA-TO-98-2015_TO-98_feces_serotype_1                0.00%    passed     99.94%
+  23  MW485040_human_KEN_2019_KLF-HAstV1-008-2019_NA_NA_serotype_1                            0.00%    passed     99.13%
+  24  MN433704_human_USA_2013_Hu-US-2013-CA-RGDS-1071_NA_stool_serotype_1                     0.00%    passed    100.00%
+  25  MN433703_human_USA_2013_Hu-US-2013-CA-RGDS-1070_NA_stool_serotype_1                     0.00%    passed     99.91%
+  26  HQ398856_human_HUN_2010_Hu-Nyergesujfalu-HUN4520-2010-HUN_NA_fecal-sample_serotype_1    0.00%    passed     98.44%
+  27  FJ755405_human_CHN_2007_Beijing-293-2007-CHN_NA_stool_serotype_1                        0.00%    passed     90.99%
+  28  FJ755404_human_CHN_2007_Beijing-291-2007-CHN_NA_stool_serotype_1                        0.00%    passed     98.28%
+  29  FJ755403_human_CHN_2006_Beijing-176-2006-CHN_NA_stool_serotype_1                        0.00%    passed     97.59%
+  30  FJ755402_human_CHN_2005_Beijing-128-2005-CHN_NA_stool_serotype_1                        0.00%    passed     97.12%
+  31  KF211475_human_CHN_2010_NA_JZ_NA_serotype_1                                             0.00%    passed     96.97%
+  32  KC342249_human_CHN_2012_NA_km1_stool-sample_serotype_1                                  0.00%    passed     90.46%
+  33  JN887820_human_KOR_2006_lhar-2011-kor_NA_stool_serotype_1                               0.00%    passed     96.07%
+  34  NC030922_NA_IND_2004_NA_V1347_NA_serotype_1                                             0.00%    passed     95.46%
+  35  AY720892_NA_NA_2004_Dresden_NA_NA_serotype_1                                            0.00%    passed     99.40%
+****  TOTAL                                                                                   0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1 is identical to LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1 but kept for subsequent analysis
+NOTE: LC694988_human_JPN_2021_NA_HAstV1-210963-Tokyo-2021_NA_serotype_1 is identical to LC694991_human_JPN_2021_NA_HAstV1-210764-Tokyo-2021_NA_serotype_1 but kept for subsequent analysis
+NOTE: MT832896_human_BRA_2015_MAstV-1-Hu-BRA-TO-208-2015_TO-208_feces_serotype_1 is identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1 but kept for subsequent analysis
+NOTE: 4 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MT832895_human_BRA_2015_MAstV-1-Hu-BRA-TO-171-2015_TO-171_feces_serotype_1 (identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1) is ignored but added at the end
+NOTE: MT832894_human_BRA_2011_MAstV-1-Hu-BRA-TO-162-2011_TO-162_feces_serotype_1 (identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1) is ignored but added at the end
+NOTE: MT832893_human_BRA_2015_MAstV-1-Hu-BRA-TO-160-2015_TO-160_feces_serotype_1 (identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1) is ignored but added at the end
+NOTE: MT832892_human_BRA_2015_MAstV-1-Hu-BRA-TO-98-2015_TO-98_feces_serotype_1 (identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to serotype_1_67-829.fas.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+NOTE: ModelFinder requires 1 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 763) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            3052.006     59  6222.012     6232.083     6495.610
+  2  JC+I          2998.668     60  6117.335     6127.762     6395.571
+  3  JC+G4         2997.641     60  6115.282     6125.709     6393.517
+  4  JC+I+G4       2998.034     61  6118.068     6128.859     6400.941
+  5  F81+F         3043.449     62  6210.897     6222.057     6498.407
+  6  F81+F+I       2989.206     63  6104.413     6115.949     6396.560
+  7  F81+F+G4      2988.497     63  6102.995     6114.531     6395.142
+  8  F81+F+I+G4    2988.938     64  6105.876     6117.795     6402.660
+  9  K2P           2872.090     60  5864.180     5874.608     6142.416
+ 10  K2P+I         2812.673     61  5747.347     5758.137     6030.220
+ 11  K2P+G4        2810.605     61  5743.211     5754.001     6026.084
+ 12  K2P+I+G4      2810.779     62  5745.558     5756.718     6033.068
+ 13  HKY+F         2858.835     63  5843.670     5855.207     6135.817
+ 14  HKY+F+I       2795.106     64  5718.212     5730.132     6014.997
+ 15  HKY+F+G4      2793.685     64  5715.370     5727.289     6012.154
+ 16  HKY+F+I+G4    2794.096     65  5718.193     5730.503     6019.614
+ 17  TNe           2868.146     61  5858.292     5869.082     6141.165
+ 18  TNe+I         2809.677     62  5743.353     5754.513     6030.863
+ 19  TNe+G4        2807.429     62  5738.858     5750.018     6026.368
+ 20  TNe+I+G4      2807.544     63  5741.088     5752.625     6033.236
+ 21  TN+F          2854.426     64  5836.852     5848.771     6133.636
+ 22  TN+F+I        2792.037     65  5714.074     5726.384     6015.496
+ 23  TN+F+G4       2790.627     65  5711.253     5723.563     6012.675
+ 24  TN+F+I+G4     2790.914     66  5713.828     5726.535     6019.887
+ 25  K3P           2872.042     61  5866.085     5876.875     6148.958
+ 26  K3P+I         2812.618     62  5749.236     5760.396     6036.746
+ 27  K3P+G4        2810.539     62  5745.078     5756.238     6032.588
+ 28  K3P+I+G4      2810.697     63  5747.393     5758.930     6039.541
+ 29  K3Pu+F        2858.702     64  5845.405     5857.325     6142.189
+ 30  K3Pu+F+I      2794.894     65  5719.787     5732.097     6021.209
+ 31  K3Pu+F+G4     2793.454     65  5716.908     5729.218     6018.330
+ 32  K3Pu+F+I+G4   2793.845     66  5719.689     5732.396     6025.748
+ 33  TPM2+F        2855.988     64  5839.976     5851.896     6136.761
+ 34  TPM2+F+I      2793.078     65  5716.156     5728.466     6017.578
+ 35  TPM2+F+G4     2791.707     65  5713.414     5725.724     6014.836
+ 36  TPM2+F+I+G4   2792.118     66  5716.236     5728.943     6022.295
+ 37  TPM2u+F       2855.988     64  5839.976     5851.896     6136.761
+ 38  TPM2u+F+I     2793.078     65  5716.156     5728.466     6017.578
+ 39  TPM2u+F+G4    2791.707     65  5713.414     5725.724     6014.836
+ 40  TPM2u+F+I+G4  2792.117     66  5716.235     5728.942     6022.294
+ 41  TPM3+F        2856.188     64  5840.377     5852.297     6137.161
+ 42  TPM3+F+I      2793.259     65  5716.518     5728.828     6017.940
+ 43  TPM3+F+G4     2791.644     65  5713.288     5725.598     6014.710
+ 44  TPM3+F+I+G4   2792.005     66  5716.011     5728.717     6022.070
+ 45  TPM3u+F       2856.189     64  5840.377     5852.297     6137.162
+ 46  TPM3u+F+I     2793.259     65  5716.518     5728.828     6017.940
+ 47  TPM3u+F+G4    2791.644     65  5713.288     5725.598     6014.710
+ 48  TPM3u+F+I+G4  2792.004     66  5716.009     5728.715     6022.068
+ 49  TIMe          2868.098     62  5860.196     5871.356     6147.706
+ 50  TIMe+I        2809.619     63  5745.238     5756.775     6037.386
+ 51  TIMe+G4       2807.360     63  5740.720     5752.256     6032.867
+ 52  TIMe+I+G4     2807.458     64  5742.917     5754.836     6039.701
+ 53  TIM+F         2854.293     65  5838.586     5850.896     6140.008
+ 54  TIM+F+I       2791.819     66  5715.638     5728.345     6021.697
+ 55  TIM+F+G4      2790.394     66  5712.788     5725.495     6018.847
+ 56  TIM+F+I+G4    2790.657     67  5715.314     5728.425     6026.011
+ 57  TIM2e         2863.558     62  5851.115     5862.275     6138.625
+ 58  TIM2e+I       2805.571     63  5737.143     5748.679     6029.290
+ 59  TIM2e+G4      2803.346     63  5732.693     5744.229     6024.840
+ 60  TIM2e+I+G4    2803.463     64  5734.925     5746.845     6031.710
+ 61  TIM2+F        2851.586     65  5833.171     5845.481     6134.593
+ 62  TIM2+F+I      2789.964     66  5711.929     5724.636     6017.988
+ 63  TIM2+F+G4     2788.609     66  5709.219     5721.926     6015.278
+ 64  TIM2+F+I+G4   2788.901     67  5711.802     5724.913     6022.498
+ 65  TIM3e         2864.228     62  5852.456     5863.616     6139.966
+ 66  TIM3e+I       2806.447     63  5738.894     5750.430     6031.041
+ 67  TIM3e+G4      2803.814     63  5733.628     5745.164     6025.775
+ 68  TIM3e+I+G4    2803.878     64  5735.756     5747.676     6032.540
+ 69  TIM3+F        2851.782     65  5833.564     5845.874     6134.985
+ 70  TIM3+F+I      2790.227     66  5712.454     5725.160     6018.513
+ 71  TIM3+F+G4     2788.587     66  5709.175     5721.882     6015.234
+ 72  TIM3+F+I+G4   2788.843     67  5711.686     5724.797     6022.383
+ 73  TVMe          2859.490     63  5844.981     5856.517     6137.128
+ 74  TVMe+I        2801.701     64  5731.402     5743.322     6028.186
+ 75  TVMe+G4       2799.340     64  5726.680     5738.600     6023.465
+ 76  TVMe+I+G4     2799.446     65  5728.892     5741.202     6030.314
+ 77  TVM+F         2849.194     66  5830.387     5843.094     6136.446
+ 78  TVM+F+I       2787.458     67  5708.916     5722.027     6019.612
+ 79  TVM+F+G4      2785.901     67  5705.803     5718.914     6016.499
+ 80  TVM+F+I+G4    2786.240     68  5708.480     5722.002     6023.814
+ 81  SYM           2855.560     64  5839.121     5851.040     6135.905
+ 82  SYM+I         2798.726     65  5727.453     5739.763     6028.875
+ 83  SYM+G4        2796.182     65  5722.364     5734.674     6023.786
+ 84  SYM+I+G4      2796.245     66  5724.491     5737.198     6030.550
+ 85  GTR+F         2844.776     67  5823.551     5836.662     6134.247
+ 86  GTR+F+I       2784.386     68  5704.772     5718.294     6020.105
+ 87  GTR+F+G4      2782.817     68  5701.635     5715.157     6016.968
+ 88  GTR+F+I+G4    2783.065     69  5704.130     5718.070     6024.101
+Akaike Information Criterion:           GTR+F+G4
+Corrected Akaike Information Criterion: GTR+F+G4
+Bayesian Information Criterion:         HKY+F+G4
+Best-fit model: HKY+F+G4 chosen according to BIC
+
+All model information printed to serotype_1_67-829.fas.model.gz
+CPU time for ModelFinder: 0.837 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 1.038 seconds (0h:0m:1s)
+Generating 1000 samples for ultrafast bootstrap (seed: 294088)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3006.004
+2. Current log-likelihood: -2795.653
+3. Current log-likelihood: -2793.690
+Optimal log-likelihood: -2793.685
+Rate parameters:  A-C: 1.00000  A-G: 13.01787  A-T: 1.00000  C-G: 1.00000  C-T: 13.01787  G-T: 1.00000
+Base frequencies:  A: 0.302  C: 0.211  G: 0.207  T: 0.281
+Gamma shape alpha: 0.275
+Parameters optimization took 3 rounds (0.028 sec)
+Computing ML distances based on estimated model parameters... 0.012 sec
+Computing BIONJ tree...
+0.040 seconds
+Log-likelihood of BIONJ tree: -2795.118
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.157 second
+Computing log-likelihood of 98 initial trees ... 0.299 seconds
+Current best score: -2793.119
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2791.927
+Iteration 10 / LogL: -2791.927 / Time: 0h:0m:1s
+Iteration 20 / LogL: -2791.928 / Time: 0h:0m:1s
+Finish initializing candidate tree set (9)
+Current best tree score: -2791.927 / CPU time: 1.110
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -2791.927
+UPDATE BEST LOG-LIKELIHOOD: -2791.927
+Iteration 30 / LogL: -2791.927 / Time: 0h:0m:2s (0h:0m:5s left)
+UPDATE BEST LOG-LIKELIHOOD: -2791.927
+Iteration 40 / LogL: -2791.927 / Time: 0h:0m:2s (0h:0m:4s left)
+Iteration 50 / LogL: -2791.927 / Time: 0h:0m:3s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -2820.427
+Iteration 60 / LogL: -2791.927 / Time: 0h:0m:3s (0h:0m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -2791.927
+Iteration 70 / LogL: -2791.927 / Time: 0h:0m:4s (0h:0m:1s left)
+Iteration 80 / LogL: -2791.927 / Time: 0h:0m:4s (0h:0m:1s left)
+Iteration 90 / LogL: -2791.927 / Time: 0h:0m:5s (0h:0m:0s left)
+Iteration 100 / LogL: -2791.927 / Time: 0h:0m:5s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -2820.427
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UPDATE BEST LOG-LIKELIHOOD: -2791.927
+Iteration 110 / LogL: -2812.626 / Time: 0h:0m:6s (0h:0m:5s left)
+UPDATE BEST LOG-LIKELIHOOD: -2791.927
+Iteration 120 / LogL: -2791.930 / Time: 0h:0m:7s (0h:0m:4s left)
+UPDATE BEST LOG-LIKELIHOOD: -2791.927
+UPDATE BEST LOG-LIKELIHOOD: -2791.927
+Iteration 130 / LogL: -2828.327 / Time: 0h:0m:7s (0h:0m:4s left)
+Iteration 140 / LogL: -2791.927 / Time: 0h:0m:8s (0h:0m:3s left)
+Iteration 150 / LogL: -2791.927 / Time: 0h:0m:8s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -2820.427
+Iteration 160 / LogL: -2791.927 / Time: 0h:0m:9s (0h:0m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -2791.927
+Iteration 170 / LogL: -2801.119 / Time: 0h:0m:10s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -2791.926
+Iteration 180 / LogL: -2791.927 / Time: 0h:0m:10s (0h:0m:1s left)
+Iteration 190 / LogL: -2791.927 / Time: 0h:0m:11s (0h:0m:0s left)
+Iteration 200 / LogL: -2792.504 / Time: 0h:0m:11s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -2820.427
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:0m:11s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2791.926
+Optimal log-likelihood: -2791.926
+Rate parameters:  A-C: 1.00000  A-G: 13.39216  A-T: 1.00000  C-G: 1.00000  C-T: 13.39216  G-T: 1.00000
+Base frequencies:  A: 0.302  C: 0.211  G: 0.207  T: 0.281
+Gamma shape alpha: 0.273
+Parameters optimization took 1 rounds (0.004 sec)
+BEST SCORE FOUND : -2791.926
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.621 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file serotype_1_67-829.fas.splits.nex
+Total tree length: 0.493
+
+Total number of iterations: 200
+CPU time used for tree search: 10.803 sec (0h:0m:10s)
+Wall-clock time used for tree search: 11.545 sec (0h:0m:11s)
+Total CPU time used: 11.580 sec (0h:0m:11s)
+Total wall-clock time used: 12.626 sec (0h:0m:12s)
+
+Computing bootstrap consensus tree...
+Reading input file serotype_1_67-829.fas.splits.nex...
+31 taxa and 227 splits.
+Consensus tree written to serotype_1_67-829.fas.contree
+Reading input trees file serotype_1_67-829.fas.contree
+Log-likelihood of consensus tree: -2791.927
+
+Analysis results written to: 
+  IQ-TREE report:                serotype_1_67-829.fas.iqtree
+  Maximum-likelihood tree:       serotype_1_67-829.fas.treefile
+  Likelihood distances:          serotype_1_67-829.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          serotype_1_67-829.fas.splits.nex
+  Consensus tree:                serotype_1_67-829.fas.contree
+  Screen log file:               serotype_1_67-829.fas.log
+
+Date and Time: Tue Nov  5 10:24:54 2024

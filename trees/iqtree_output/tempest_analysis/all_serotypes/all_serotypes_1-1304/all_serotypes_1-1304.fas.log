@@ -1,0 +1,327 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fermat (AVX2, FMA3, 1009 GB RAM)
+Command: ../../iqtree -s all_serotypes_1-1304.fas -st DNA -m TEST -bb 1000 -alrt 1000
+Seed:    318429 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Nov  5 09:43:30 2024
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file all_serotypes_1-1304.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 79 sequences with 1301 columns, 495 distinct patterns
+478 parsimony-informative, 67 singleton sites, 756 constant sites
+                                                                                                  Gap/Ambiguity  Composition  p-value
+   1  OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4                                  0.00%    passed     97.36%
+   2  OR222910_human_CHN_2021_NA_SY2106_stool_serotype_5                                                  0.00%    passed     99.15%
+   3  LC732124_human_JPN_2016_Human-JPN-2016-JP14989_Child-with-acute-gastroenteritis_feces_serotype_3    0.00%    passed     79.67%
+   4  LC732123_human_JPN_2016_Human-JPN-2016-JP14665_Child-with-acute-gastroenteritis_feces_serotype_3    0.00%    passed     97.49%
+   5  LC732122_human_JPN_2016_Human-JPN-2016-JP14641_Child-with-acute-gastroenteritis_feces_serotype_3    0.00%    passed     98.52%
+   6  ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4                                          0.00%    passed     99.31%
+   7  ON571597_human_CHN_2019_NA_2019-Pingtan-42_feces_serotype_1                                         0.00%    passed     96.64%
+   8  ON571596_human_CHN_2019_NA_2019-Fuzhou-306_feces_serotype_1                                         0.00%    passed     98.76%
+   9  ON571595_human_CHN_2019_NA_2019-Fuzhou-289_feces_serotype_5                                         0.23%    passed     96.42%
+  10  ON571594_human_CHN_2019_NA_2019-Fuzhou-26_feces_serotype_1                                          0.00%    passed     97.61%
+  11  OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4                                         0.00%    passed     97.33%
+  12  OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4                                         0.00%    passed     98.29%
+  13  OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4                                           0.00%    passed     98.35%
+  14  OP432298_human_CHN_2022_NA_HAstV-4-QD-S-22015_NA_serotype_4                                         0.00%    passed     98.29%
+  15  OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4                                         0.00%    passed     98.29%
+  16  OP432296_human_CHN_2021_NA_HAstV-4-RC-21047_NA_serotype_4                                           0.00%    passed     99.37%
+  17  OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4                                         0.00%    passed     99.82%
+  18  OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4                                         0.00%    passed     97.33%
+  19  OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4                                           0.00%    passed     98.23%
+  20  LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1                                   0.00%    passed     99.02%
+  21  LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1                                   0.00%    passed     99.02%
+  22  LC694995_human_JPN_2020_NA_HAstV1-192642-Tokyo-2020_NA_serotype_1                                   0.00%    passed     99.19%
+  23  LC694994_human_JPN_2020_NA_HAstV1-193055-Tokyo-2020_NA_serotype_1                                   0.00%    passed     99.37%
+  24  LC694993_human_JPN_2020_NA_HAstV1-193061-Tokyo-2020_NA_serotype_1                                   0.00%    passed     99.37%
+  25  LC694992_human_JPN_2021_NA_HAstV1-210628-Tokyo-2021_NA_serotype_1                                   0.00%    passed     97.78%
+  26  LC694991_human_JPN_2021_NA_HAstV1-210764-Tokyo-2021_NA_serotype_1                                   0.00%    passed     98.83%
+  27  LC694990_human_JPN_2018_NA_HAstV1-181937-Tokyo-2018_NA_serotype_1                                   0.00%    passed     98.35%
+  28  LC694989_human_JPN_2021_NA_HAstV1-210956-Tokyo-2021_NA_serotype_1                                   0.00%    passed     98.60%
+  29  LC694988_human_JPN_2021_NA_HAstV1-210963-Tokyo-2021_NA_serotype_1                                   0.00%    passed     97.72%
+  30  LC694987_human_JPN_2021_NA_HAstV1-210984-Tokyo-2021_NA_serotype_1                                   0.00%    passed     96.77%
+  31  LC694986_human_JPN_2022_NA_HAstV1-211185-Tokyo-2022_NA_serotype_1                                   0.00%    passed     99.57%
+  32  LC694985_human_JPN_2019_NA_HAstV3-190610-Tokyo-2019_NA_serotype_3                                   0.00%    passed     98.51%
+  33  MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1                          0.00%    passed     99.85%
+  34  MT832896_human_BRA_2015_MAstV-1-Hu-BRA-TO-208-2015_TO-208_feces_serotype_1                          0.00%    passed     99.85%
+  35  MT832895_human_BRA_2015_MAstV-1-Hu-BRA-TO-171-2015_TO-171_feces_serotype_1                          0.00%    passed     99.85%
+  36  MT832894_human_BRA_2011_MAstV-1-Hu-BRA-TO-162-2011_TO-162_feces_serotype_1                          0.00%    passed     99.85%
+  37  MT832893_human_BRA_2015_MAstV-1-Hu-BRA-TO-160-2015_TO-160_feces_serotype_1                          0.00%    passed     99.85%
+  38  MT832892_human_BRA_2015_MAstV-1-Hu-BRA-TO-98-2015_TO-98_feces_serotype_1                            0.00%    passed     99.85%
+  39  MT906859_human_BRA_2014_Hu-BRA-TO-32-2014_BRA-TO-32_stool-sample_serotype_5                         0.00%    passed     91.51%
+  40  MT906858_human_BRA_2014_Hu-BRA-TO-57-2014_BRA-TO-57_stool_serotype_5                                0.00%    passed     91.51%
+  41  MT906857_human_BRA_2014_Hu-BRA-TO-40-2014_BRA-TO-40_stool_serotype_5                                0.00%    passed     91.51%
+  42  MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4                         0.00%    passed     99.09%
+  43  MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4                         0.00%    passed     99.09%
+  44  MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4                              0.00%    passed     98.36%
+  45  MW485042_human_KEN_2019_KLF-HAstV2-005-2019_NA_NA_serotype_2                                        0.00%    passed     97.58%
+  46  MW485040_human_KEN_2019_KLF-HAstV1-008-2019_NA_NA_serotype_1                                        0.00%    passed     91.77%
+  47  MN433706_human_USA_2014_Hu-US-2014-CA-RGDS-1073_NA_stool_serotype_5                                 0.00%    passed     91.80%
+  48  MN433705_human_USA_2014_Hu-US-2014-CA-RGDS-1072_NA_stool_serotype_2                                 0.00%    passed     99.81%
+  49  MN433704_human_USA_2013_Hu-US-2013-CA-RGDS-1071_NA_stool_serotype_1                                 0.00%    passed     99.76%
+  50  MN433703_human_USA_2013_Hu-US-2013-CA-RGDS-1070_NA_stool_serotype_1                                 0.00%    passed     99.35%
+  51  MN444721_human_USA_2017_Hu-US-2017-CA-RGDS-1074_NA_stool_serotype_3                                 0.00%    passed     93.50%
+  52  KC285152_human_RUS_2011_NA_HAstV-2-RUS-Novosibirsk-Nsc11-N2411-2011_feces_serotype_2                0.00%    passed     74.45%
+  53  MF684776_human_CHN_2013_NA_2013-Fuzhou-85_stool_serotype_5                                          0.00%    passed     94.90%
+  54  MG571777_human_VEN_2015_NA_NA_stool_serotype_3                                                      0.00%    passed     88.83%
+  55  JF491430_human_RUS_2004_NA_Rus-Nsc04-H355_NA_serotype_3                                             0.00%    passed     99.72%
+  56  GQ901902_human_RUS_2009_NA_Rus-Nsc09-B4_NA_serotype_6                                               0.00%    passed     87.74%
+  57  GU732187_human_RUS_2008_NA_Rus-Nsc08-3364_NA_serotype_3                                             0.00%    passed     99.80%
+  58  GU223905_human_RUS_2003_NA_Rus-Nsc03-H191_NA_serotype_3                                             0.00%    passed    100.00%
+  59  HQ398856_human_HUN_2010_Hu-Nyergesujfalu-HUN4520-2010-HUN_NA_fecal-sample_serotype_1                0.00%    passed     97.79%
+  60  GQ495608_human_CHN_2007_NA_192-BJ07-CHN_stool_serotype_6                                            0.00%    passed     77.48%
+  61  FJ755405_human_CHN_2007_Beijing-293-2007-CHN_NA_stool_serotype_1                                    0.00%    passed     96.21%
+  62  FJ755404_human_CHN_2007_Beijing-291-2007-CHN_NA_stool_serotype_1                                    0.00%    passed     99.11%
+  63  FJ755403_human_CHN_2006_Beijing-176-2006-CHN_NA_stool_serotype_1                                    0.00%    passed     98.11%
+  64  FJ755402_human_CHN_2005_Beijing-128-2005-CHN_NA_stool_serotype_1                                    0.00%    passed     98.97%
+  65  KF211475_human_CHN_2010_NA_JZ_NA_serotype_1                                                         0.00%    passed     98.45%
+  66  KP862744_human_KOR_2014_NA_kor85_human-stool_serotype_8                                             0.00%    passed     92.26%
+  67  KF039913_NA_RUS_2010_NA_Rus-Nsc10-N358_NA_serotype_4                                                0.00%    passed     97.54%
+  68  KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4                                                 0.00%    passed     99.25%
+  69  KF039911_NA_RUS_2006_NA_Rus-Nsc06-1029_NA_serotype_2                                                0.00%    passed     63.72%
+  70  KF039910_NA_RUS_2005_NA_Rus-Nsc05-430_NA_serotype_2                                                 0.00%    passed     88.19%
+  71  KC342249_human_CHN_2012_NA_km1_stool-sample_serotype_1                                              0.00%    passed     91.23%
+  72  JN887820_human_KOR_2006_lhar-2011-kor_NA_stool_serotype_1                                           0.00%    passed     99.81%
+  73  NC030922_NA_IND_2004_NA_V1347_NA_serotype_1                                                         0.00%    passed     99.65%
+  74  JQ403108_human_CHN_2010_NA_DL030_stool_serotype_5                                                   0.00%    passed     99.37%
+  75  DQ344027_NA_CHN_2005_NA_Guangzhou_NA_serotype_4                                                     0.00%    passed     97.15%
+  76  DQ070852_NA_BRA_1995_NA_Goiania-GO-12-95-Brazil_NA_serotype_4                                       0.00%    passed     90.85%
+  77  DQ028633_NA_BRA_1994_NA_Goiania-GO-12-94-Brazil_stool_serotype_5                                    0.00%    passed     98.94%
+  78  AY720892_NA_NA_2004_Dresden_NA_NA_serotype_1                                                        0.00%    passed     98.35%
+  79  AY720891_NA_NA_2004_Dresden_NA_NA_serotype_4                                                        0.00%    passed     96.18%
+****  TOTAL                                                                                               0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4 is identical to OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4 but kept for subsequent analysis
+NOTE: LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1 is identical to LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1 but kept for subsequent analysis
+NOTE: MT832896_human_BRA_2015_MAstV-1-Hu-BRA-TO-208-2015_TO-208_feces_serotype_1 is identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1 but kept for subsequent analysis
+NOTE: MT906858_human_BRA_2014_Hu-BRA-TO-57-2014_BRA-TO-57_stool_serotype_5 is identical to MT906859_human_BRA_2014_Hu-BRA-TO-32-2014_BRA-TO-32_stool-sample_serotype_5 but kept for subsequent analysis
+NOTE: MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4 is identical to MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4 but kept for subsequent analysis
+NOTE: 5 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MT832895_human_BRA_2015_MAstV-1-Hu-BRA-TO-171-2015_TO-171_feces_serotype_1 (identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1) is ignored but added at the end
+NOTE: MT832894_human_BRA_2011_MAstV-1-Hu-BRA-TO-162-2011_TO-162_feces_serotype_1 (identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1) is ignored but added at the end
+NOTE: MT832893_human_BRA_2015_MAstV-1-Hu-BRA-TO-160-2015_TO-160_feces_serotype_1 (identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1) is ignored but added at the end
+NOTE: MT832892_human_BRA_2015_MAstV-1-Hu-BRA-TO-98-2015_TO-98_feces_serotype_1 (identical to MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1) is ignored but added at the end
+NOTE: MT906857_human_BRA_2014_Hu-BRA-TO-40-2014_BRA-TO-40_stool_serotype_5 (identical to MT906859_human_BRA_2014_Hu-BRA-TO-32-2014_BRA-TO-32_stool-sample_serotype_5) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to all_serotypes_1-1304.fas.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+NOTE: ModelFinder requires 6 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 1301) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            11228.829    145 22747.658    22784.316    23497.437
+  2  JC+I          10644.722    146 21581.444    21618.640    22336.394
+  3  JC+G4         10591.710    146 21475.419    21512.615    22230.369
+  4  JC+I+G4       10587.620    147 21469.239    21506.977    22229.360
+  5  F81+F         11197.497    148 22690.994    22729.278    23456.285
+  6  F81+F+I       10610.445    149 21518.890    21557.726    22289.352
+  7  F81+F+G4      10559.548    149 21417.096    21455.932    22187.558
+  8  F81+F+I+G4    10555.463    150 21410.925    21450.317    22186.559
+  9  K2P           10438.224    146 21168.447    21205.643    21923.397
+ 10  K2P+I         9813.555     147 19921.109    19958.847    20681.230
+ 11  K2P+G4        9747.063     147 19788.126    19825.864    20548.247
+ 12  K2P+I+G4      9741.486     148 19778.971    19817.256    20544.263
+ 13  HKY+F         10382.724    149 21063.448    21102.284    21833.911
+ 14  HKY+F+I       9749.487     150 19798.974    19838.365    20574.607
+ 15  HKY+F+G4      9686.269     150 19672.537    19711.929    20448.171
+ 16  HKY+F+I+G4    9681.097     151 19664.193    19704.145    20444.998
+ 17  TNe           10407.054    147 21108.109    21145.847    21868.229
+ 18  TNe+I         9784.300     148 19864.601    19902.885    20629.892
+ 19  TNe+G4        9726.532     148 19749.063    19787.348    20514.355
+ 20  TNe+I+G4      9722.843     149 19743.685    19782.521    20514.148
+ 21  TN+F          10351.859    150 21003.718    21043.109    21779.351
+ 22  TN+F+I        9723.373     151 19748.747    19788.698    20529.551
+ 23  TN+F+G4       9668.514     151 19639.027    19678.979    20419.831
+ 24  TN+F+I+G4     9665.504     152 19635.008    19675.524    20420.983
+ 25  K3P           10438.217    147 21170.433    21208.171    21930.554
+ 26  K3P+I         9813.552     148 19923.104    19961.389    20688.396
+ 27  K3P+G4        9747.052     148 19790.103    19828.388    20555.395
+ 28  K3P+I+G4      9741.176     149 19780.351    19819.187    20550.814
+ 29  K3Pu+F        10382.506    150 21065.011    21104.403    21840.644
+ 30  K3Pu+F+I      9749.363     151 19800.726    19840.677    20581.530
+ 31  K3Pu+F+G4     9686.176     151 19674.352    19714.303    20455.156
+ 32  K3Pu+F+I+G4   9680.677     152 19665.354    19705.869    20451.329
+ 33  TPM2+F        10366.900    150 21033.801    21073.192    21809.434
+ 34  TPM2+F+I      9736.864     151 19775.728    19815.680    20556.533
+ 35  TPM2+F+G4     9672.732     151 19647.463    19687.414    20428.267
+ 36  TPM2+F+I+G4   9667.540     152 19639.079    19679.595    20425.054
+ 37  TPM2u+F       10366.902    150 21033.805    21073.196    21809.438
+ 38  TPM2u+F+I     9736.864     151 19775.728    19815.679    20556.532
+ 39  TPM2u+F+G4    9672.731     151 19647.462    19687.413    20428.266
+ 40  TPM2u+F+I+G4  9667.465     152 19638.931    19679.447    20424.906
+ 41  TPM3+F        10377.613    150 21055.225    21094.617    21830.859
+ 42  TPM3+F+I      9742.999     151 19787.998    19827.949    20568.802
+ 43  TPM3+F+G4     9679.056     151 19660.112    19700.063    20440.916
+ 44  TPM3+F+I+G4   9672.904     152 19649.807    19690.323    20435.782
+ 45  TPM3u+F       10377.614    150 21055.227    21094.618    21830.860
+ 46  TPM3u+F+I     9742.998     151 19787.997    19827.948    20568.801
+ 47  TPM3u+F+G4    9679.055     151 19660.111    19700.062    20440.915
+ 48  TPM3u+F+I+G4  9672.811     152 19649.622    19690.137    20435.597
+ 49  TIMe          10407.044    148 21110.088    21148.373    21875.380
+ 50  TIMe+I        9784.305     149 19866.610    19905.446    20637.072
+ 51  TIMe+G4       9726.515     149 19751.030    19789.866    20521.492
+ 52  TIMe+I+G4     9722.167     150 19744.334    19783.725    20519.967
+ 53  TIM+F         10351.645    151 21005.290    21045.241    21786.094
+ 54  TIM+F+I       9723.254     152 19750.508    19791.024    20536.483
+ 55  TIM+F+G4      9668.415     152 19640.830    19681.345    20426.805
+ 56  TIM+F+I+G4    9664.570     153 19635.139    19676.224    20426.285
+ 57  TIM2e         10382.475    148 21060.951    21099.235    21826.242
+ 58  TIM2e+I       9762.766     149 19823.533    19862.369    20593.995
+ 59  TIM2e+G4      9701.562     149 19701.124    19739.960    20471.587
+ 60  TIM2e+I+G4    9697.217     150 19694.434    19733.825    20470.067
+ 61  TIM2+F        10336.261    151 20974.522    21014.473    21755.326
+ 62  TIM2+F+I      9711.000     152 19726.000    19766.515    20511.975
+ 63  TIM2+F+G4     9654.808     152 19613.616    19654.132    20399.591
+ 64  TIM2+F+I+G4   9651.101     153 19608.202    19649.287    20399.348
+ 65  TIM3e         10395.890    148 21087.780    21126.065    21853.071
+ 66  TIM3e+I       9771.607     149 19841.215    19880.051    20611.677
+ 67  TIM3e+G4      9710.227     149 19718.455    19757.290    20488.917
+ 68  TIM3e+I+G4    9704.882     150 19709.764    19749.155    20485.397
+ 69  TIM3+F        10346.642    151 20995.284    21035.236    21776.088
+ 70  TIM3+F+I      9716.569     152 19737.137    19777.653    20523.112
+ 71  TIM3+F+G4     9661.439     152 19626.877    19667.393    20412.852
+ 72  TIM3+F+I+G4   9656.806     153 19619.613    19660.697    20410.759
+ 73  TVMe          10394.530    149 21087.059    21125.895    21857.522
+ 74  TVMe+I        9771.373     150 19842.745    19882.136    20618.378
+ 75  TVMe+G4       9696.773     150 19693.545    19732.936    20469.178
+ 76  TVMe+I+G4     9689.580     151 19681.160    19721.111    20461.964
+ 77  TVM+F         10353.426    152 21010.852    21051.368    21796.827
+ 78  TVM+F+I       9721.693     153 19749.387    19790.471    20540.533
+ 79  TVM+F+G4      9656.183     153 19618.366    19659.451    20409.512
+ 80  TVM+F+I+G4    9649.856     154 19607.713    19649.371    20404.030
+ 81  SYM           10363.405    150 21026.809    21066.201    21802.443
+ 82  SYM+I         9741.709     151 19785.417    19825.369    20566.222
+ 83  SYM+G4        9676.346     151 19654.691    19694.643    20435.495
+ 84  SYM+I+G4      9670.946     152 19645.893    19686.408    20431.868
+ 85  GTR+F         10322.621    153 20951.241    20992.326    21742.387
+ 86  GTR+F+I       9695.403     154 19698.806    19740.464    20495.123
+ 87  GTR+F+G4      9638.288     154 19584.575    19626.233    20380.892
+ 88  GTR+F+I+G4    9633.892     155 19577.784    19620.019    20379.271
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         GTR+F+I+G4
+Best-fit model: GTR+F+I+G4 chosen according to BIC
+
+All model information printed to all_serotypes_1-1304.fas.model.gz
+CPU time for ModelFinder: 26.788 seconds (0h:0m:26s)
+Wall-clock time for ModelFinder: 27.122 seconds (0h:0m:27s)
+Generating 1000 samples for ultrafast bootstrap (seed: 318429)...
+
+NOTE: 6 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.278 / LogL: -9638.286
+Init pinv, alpha: 0.065, 1.000 / Estimate: 0.069, 0.316 / LogL: -9637.535
+Init pinv, alpha: 0.129, 1.000 / Estimate: 0.138, 0.366 / LogL: -9637.024
+Init pinv, alpha: 0.194, 1.000 / Estimate: 0.207, 0.436 / LogL: -9636.582
+Init pinv, alpha: 0.258, 1.000 / Estimate: 0.274, 0.531 / LogL: -9636.049
+Init pinv, alpha: 0.323, 1.000 / Estimate: 0.340, 0.671 / LogL: -9635.253
+Init pinv, alpha: 0.387, 1.000 / Estimate: 0.402, 0.883 / LogL: -9634.176
+Init pinv, alpha: 0.452, 1.000 / Estimate: 0.453, 1.182 / LogL: -9633.260
+Init pinv, alpha: 0.517, 1.000 / Estimate: 0.486, 1.500 / LogL: -9633.290
+Init pinv, alpha: 0.581, 1.000 / Estimate: 0.485, 1.490 / LogL: -9633.290
+Optimal pinv,alpha: 0.453, 1.182 / LogL: -9633.260
+
+Parameters optimization took 25.881 sec
+Computing ML distances based on estimated model parameters... 0.060 sec
+Computing BIONJ tree...
+0.069 seconds
+Log-likelihood of BIONJ tree: -9649.654
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.729 second
+Computing log-likelihood of 98 initial trees ... 12.698 seconds
+Current best score: -9630.112
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -9625.832
+Iteration 10 / LogL: -9628.620 / Time: 0h:0m:54s
+Iteration 20 / LogL: -9628.620 / Time: 0h:1m:8s
+Finish initializing candidate tree set (12)
+Current best tree score: -9625.832 / CPU time: 41.829
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -9625.761
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -9625.696
+Iteration 30 / LogL: -9627.634 / Time: 0h:1m:36s (0h:5m:22s left)
+BETTER TREE FOUND at iteration 32: -9625.695
+Iteration 40 / LogL: -9625.754 / Time: 0h:2m:1s (0h:4m:45s left)
+Iteration 50 / LogL: -9625.753 / Time: 0h:2m:28s (0h:4m:8s left)
+Log-likelihood cutoff on original alignment: -9656.213
+UPDATE BEST LOG-LIKELIHOOD: -9625.695
+Iteration 60 / LogL: -9625.696 / Time: 0h:2m:53s (0h:3m:31s left)
+BETTER TREE FOUND at iteration 64: -9625.695
+Iteration 70 / LogL: -9625.754 / Time: 0h:3m:15s (0h:4m:26s left)
+Iteration 80 / LogL: -9625.697 / Time: 0h:3m:59s (0h:4m:14s left)
+Iteration 90 / LogL: -9625.699 / Time: 0h:4m:26s (0h:3m:41s left)
+Iteration 100 / LogL: -9625.759 / Time: 0h:4m:54s (0h:3m:10s left)
+Log-likelihood cutoff on original alignment: -9655.960
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+UPDATE BEST LOG-LIKELIHOOD: -9625.694
+Iteration 110 / LogL: -9625.694 / Time: 0h:5m:27s (0h:4m:30s left)
+UPDATE BEST LOG-LIKELIHOOD: -9625.694
+Iteration 120 / LogL: -9646.862 / Time: 0h:5m:59s (0h:4m:1s left)
+Iteration 130 / LogL: -9628.467 / Time: 0h:6m:33s (0h:3m:33s left)
+Iteration 140 / LogL: -9625.699 / Time: 0h:7m:5s (0h:3m:3s left)
+UPDATE BEST LOG-LIKELIHOOD: -9625.694
+Iteration 150 / LogL: -9625.745 / Time: 0h:7m:44s (0h:2m:35s left)
+Log-likelihood cutoff on original alignment: -9655.997
+Iteration 160 / LogL: -9625.697 / Time: 0h:8m:30s (0h:2m:8s left)
+TREE SEARCH COMPLETED AFTER 165 ITERATIONS / Time: 0h:8m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -9625.694
+Optimal log-likelihood: -9625.683
+Rate parameters:  A-C: 1.18748  A-G: 9.69977  A-T: 1.52135  C-G: 0.00670  C-T: 15.96229  G-T: 1.00000
+Base frequencies:  A: 0.290  C: 0.207  G: 0.208  T: 0.295
+Proportion of invariable sites: 0.460
+Gamma shape alpha: 1.232
+Parameters optimization took 1 rounds (1.136 sec)
+BEST SCORE FOUND : -9625.683
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+3.627 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file all_serotypes_1-1304.fas.splits.nex
+Total tree length: 1.610
+
+Total number of iterations: 165
+CPU time used for tree search: 500.124 sec (0h:8m:20s)
+Wall-clock time used for tree search: 503.495 sec (0h:8m:23s)
+Total CPU time used: 531.540 sec (0h:8m:51s)
+Total wall-clock time used: 535.374 sec (0h:8m:55s)
+
+Computing bootstrap consensus tree...
+Reading input file all_serotypes_1-1304.fas.splits.nex...
+74 taxa and 381 splits.
+Consensus tree written to all_serotypes_1-1304.fas.contree
+Reading input trees file all_serotypes_1-1304.fas.contree
+Log-likelihood of consensus tree: -9625.736
+
+Analysis results written to: 
+  IQ-TREE report:                all_serotypes_1-1304.fas.iqtree
+  Maximum-likelihood tree:       all_serotypes_1-1304.fas.treefile
+  Likelihood distances:          all_serotypes_1-1304.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          all_serotypes_1-1304.fas.splits.nex
+  Consensus tree:                all_serotypes_1-1304.fas.contree
+  Screen log file:               all_serotypes_1-1304.fas.log
+
+Date and Time: Tue Nov  5 09:52:54 2024
