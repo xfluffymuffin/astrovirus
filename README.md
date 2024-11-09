@@ -250,6 +250,10 @@ sewage: 20
 
 **python .\convert_coords.py -ia path_to_aln -ic path_to_csv -ref ref_name_str -o save_dir**
 
+### _plot_tempest_data.py_
+
+Принимает на вход tsv-таблицу, полученную экспортом данных из TempEst, и строит диаграмму рассеяния с помощью matplotlib. Линейная регрессия - с помощью библиотеки scikit-learn. Взаимодействие через командную строку отсутствует, т.к. скрипт потенциально не для широкого применения.
+
 
 ------------------------------------------------------------------------
 
@@ -505,3 +509,7 @@ Arguments:
 Example command to run:
 
 **python .\convert_coords.py -ia path_to_aln -ic path_to_csv -ref ref_name_str -o save_dir**
+
+### _plot_tempest_data.py_
+
+This script takes a TSV table exported from TempEst and generates a scatter plot using matplotlib. Linear regression is performed using the scikit-learn library. There is no command-line interaction, as the script is intended for limited use.
