@@ -1,0 +1,3 @@
+metric,values
+linear_regression,slope=0.0015863078468442082;intercept=-2.901089765295446;r-squared=0.004982723473853133;p-value=0.5418345363205231
+spearman_correlation,coefficient=-0.010286335018784721;p-value=0.9292502452835055
