@@ -1,0 +1,192 @@
+IMPORTANT WARNING: Alignment column 76 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 77 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 78 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 79 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 80 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 81 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 82 contains only undetermined values which will be treated as missing data
+
+
+IMPORTANT WARNING: Sequences OR371570_h and ON571598_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences LC732123_h and LC732122_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences OP432301_h and OP432299_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences OP432301_h and OP432294_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences OP432301_h and OP432293_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences OP432300_h and OP432297_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences LC694997_h and LC694996_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences LC694994_h and LC694993_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832896_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832895_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832894_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832893_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832892_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT906859_h and MT906858_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT906859_h and MT906857_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT906855_h and MT906854_h are exactly identical
+
+IMPORTANT WARNING
+Found 16 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+
+IMPORTANT WARNING
+Found 7 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+
+Just in case you might need it, a mixed model file with 
+model assignments for undetermined columns removed is printed to file ./analysis/start_tree/partitions.txt.reduced
+Just in case you might need it, an alignment file with 
+sequence duplicates and undetermined columns removed is printed to file ./analysis/start_tree/filtered_source.phy.reduced
+
+Alignment has 7 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 161 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 3.45%
+
+RAxML Model Optimization up to an accuracy of 1.000000 log likelihood units
+
+Using 3 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 1.0000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 36
+Name: Subset1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 23
+Name: Subset2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 102
+Name: Subset3
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/xfluffy_muffin/partitionfinder-2.1.1/programs/raxml_pthreads.linux -f e -s ./analysis/start_tree/filtered_source.phy -t ./analysis/start_tree/RAxML_fastTree.fastTREE -m GTRGAMMA -O -n BLTREE -p 123456789 -q ./analysis/start_tree/partitions.txt -w /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/all_serotypes_2908-3356/analysis/start_tree -e 1 -T 8 
+
+
+
+Model parameters (binary file format) written to: /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/all_serotypes_2908-3356/analysis/start_tree/RAxML_binaryModelParameters.BLTREE
+
+
+Overall Time for Tree Evaluation 0.208217
+Final GAMMA  likelihood: -2637.950102
+
+Number of free parameters for AIC-TEST(BR-LEN): 178
+Number of free parameters for AIC-TEST(NO-BR-LEN): 27
+
+
+Model Parameters of Partition 0, Name: Subset1, Type of Data: DNA
+alpha: 0.174087
+Tree-Length: 2.231089
+rate A <-> C: 0.508866
+rate A <-> G: 1.080088
+rate A <-> T: 0.351674
+rate C <-> G: 0.105301
+rate C <-> T: 12.553897
+rate G <-> T: 1.000000
+
+freq pi(A): 0.248205
+freq pi(C): 0.256463
+freq pi(G): 0.260682
+freq pi(T): 0.234650
+
+Model Parameters of Partition 1, Name: Subset2, Type of Data: DNA
+alpha: 0.093840
+Tree-Length: 2.231089
+rate A <-> C: 0.090129
+rate A <-> G: 11.710466
+rate A <-> T: 0.125601
+rate C <-> G: 0.000100
+rate C <-> T: 1.302472
+rate G <-> T: 1.000000
+
+freq pi(A): 0.380803
+freq pi(C): 0.284101
+freq pi(G): 0.144470
+freq pi(T): 0.190626
+
+Model Parameters of Partition 2, Name: Subset3, Type of Data: DNA
+alpha: 0.643630
+Tree-Length: 2.231089
+rate A <-> C: 0.405516
+rate A <-> G: 6.010675
+rate A <-> T: 0.495707
+rate C <-> G: 0.090706
+rate C <-> T: 10.479497
+rate G <-> T: 1.000000
+
+freq pi(A): 0.336793
+freq pi(C): 0.203141
+freq pi(G): 0.180850
+freq pi(T): 0.279217
+
+Final tree written to:                 /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/all_serotypes_2908-3356/analysis/start_tree/RAxML_result.BLTREE
+Execution Log File written to:         /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/all_serotypes_2908-3356/analysis/start_tree/RAxML_log.BLTREE
