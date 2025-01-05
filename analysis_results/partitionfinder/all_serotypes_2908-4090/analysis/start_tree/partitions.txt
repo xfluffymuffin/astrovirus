@@ -1,0 +1,3 @@
+DNA, Subset1 = 1-1183\3
+DNA, Subset2 = 2-1183\3
+DNA, Subset3 = 3-1183\3
