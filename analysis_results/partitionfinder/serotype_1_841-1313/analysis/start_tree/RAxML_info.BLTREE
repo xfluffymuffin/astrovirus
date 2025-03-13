@@ -1,0 +1,153 @@
+
+
+IMPORTANT WARNING: Sequences LC694997_h and LC694996_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences LC694994_h and LC694993_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832896_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832895_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832894_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832893_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832892_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and HQ398856_h are exactly identical
+
+IMPORTANT WARNING
+Found 8 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+
+A mixed model file with model assignments for undetermined
+columns removed has already been printed to  file ./analysis/start_tree/partitions.txt.reduced
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file ./analysis/start_tree/filtered_source.phy.reduced
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 105 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML Model Optimization up to an accuracy of 1.000000 log likelihood units
+
+Using 3 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 1.0000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 20
+Name: Subset1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 11
+Name: Subset2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 74
+Name: Subset3
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/xfluffy_muffin/partitionfinder-2.1.1/programs/raxml_pthreads.linux -f e -s ./analysis/start_tree/filtered_source.phy -t ./analysis/start_tree/RAxML_fastTree.fastTREE -m GTRGAMMA -O -n BLTREE -p 123456789 -q ./analysis/start_tree/partitions.txt -w /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/serotype_1_841-1313/analysis/start_tree -e 1 -T 8 
+
+
+
+Model parameters (binary file format) written to: /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/serotype_1_841-1313/analysis/start_tree/RAxML_binaryModelParameters.BLTREE
+
+
+Overall Time for Tree Evaluation 0.047695
+Final GAMMA  likelihood: -1434.042551
+
+Number of free parameters for AIC-TEST(BR-LEN): 90
+Number of free parameters for AIC-TEST(NO-BR-LEN): 27
+
+
+Model Parameters of Partition 0, Name: Subset1, Type of Data: DNA
+alpha: 0.122718
+Tree-Length: 0.816104
+rate A <-> C: 0.000100
+rate A <-> G: 1.075211
+rate A <-> T: 1.310340
+rate C <-> G: 0.000100
+rate C <-> T: 90.996779
+rate G <-> T: 1.000000
+
+freq pi(A): 0.351362
+freq pi(C): 0.137323
+freq pi(G): 0.302647
+freq pi(T): 0.208669
+
+Model Parameters of Partition 1, Name: Subset2, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 0.816104
+rate A <-> C: 0.000100
+rate A <-> G: 5.721540
+rate A <-> T: 1.666655
+rate C <-> G: 0.000100
+rate C <-> T: 96.965868
+rate G <-> T: 1.000000
+
+freq pi(A): 0.165132
+freq pi(C): 0.246068
+freq pi(G): 0.157461
+freq pi(T): 0.431339
+
+Model Parameters of Partition 2, Name: Subset3, Type of Data: DNA
+alpha: 1.140350
+Tree-Length: 0.816104
+rate A <-> C: 1.154460
+rate A <-> G: 7.134792
+rate A <-> T: 0.811928
+rate C <-> G: 0.000100
+rate C <-> T: 12.880774
+rate G <-> T: 1.000000
+
+freq pi(A): 0.262498
+freq pi(C): 0.219456
+freq pi(G): 0.194557
+freq pi(T): 0.323490
+
+Final tree written to:                 /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/serotype_1_841-1313/analysis/start_tree/RAxML_result.BLTREE
+Execution Log File written to:         /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/serotype_1_841-1313/analysis/start_tree/RAxML_log.BLTREE
