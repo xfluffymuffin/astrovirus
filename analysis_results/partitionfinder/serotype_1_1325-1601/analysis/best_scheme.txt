@@ -1,0 +1,92 @@
+Settings used
+
+alignment         : ./serotype_1_1325-1601.phy
+branchlengths     : linked
+models            : JC, K80, TRNEF, K81, TVMEF, TIMEF, SYM, F81, HKY, TRN, K81UF, TVM, TIM, GTR, JC+G, K80+G, TRNEF+G, K81+G, TVMEF+G, TIMEF+G, SYM+G, F81+G, HKY+G, TRN+G, K81UF+G, TVM+G, TIM+G, GTR+G, JC+I, K80+I, TRNEF+I, K81+I, TVMEF+I, TIMEF+I, SYM+I, F81+I, HKY+I, TRN+I, K81UF+I, TVM+I, TIM+I, GTR+I, JC+I+G, K80+I+G, TRNEF+I+G, K81+I+G, TVMEF+I+G, TIMEF+I+G, SYM+I+G, F81+I+G, HKY+I+G, TRN+I+G, K81UF+I+G, TVM+I+G, TIM+I+G, GTR+I+G
+model_selection   : aicc
+search            : greedy
+
+
+Best partitioning scheme
+
+Scheme Name       : start_scheme
+Scheme lnL        : -823.5091705322266
+Scheme AICc       : 1861.38015011
+Number of params  : 77
+Number of sites   : 277
+Number of subsets : 3
+
+Subset | Best Model | # sites    | subset id                        | Partition names                                                                                     
+1      | F81        | 93         | 686d2ac076ea0846a8189f1bde44c8c6 | Gene1_pos1                                                                                          
+2      | TRN+I      | 92         | 33a6c99ecd2266772fba47d278a62172 | Gene1_pos2                                                                                          
+3      | F81        | 92         | 67d7ec459fb59c2112144accc8b3f4f7 | Gene1_pos3                                                                                          
+
+
+Scheme Description in PartitionFinder format
+Scheme_start_scheme = (Gene1_pos1) (Gene1_pos2) (Gene1_pos3);
+
+Nexus formatted character sets
+begin sets;
+	charset Subset1 = 1-277\3;
+	charset Subset2 = 2-277\3;
+	charset Subset3 = 3-277\3;
+	charpartition PartitionFinder = Group1:Subset1, Group2:Subset2, Group3:Subset3;
+end;
+
+
+Nexus formatted character sets for IQtree
+Warning: the models written in the charpartition are just the best model found in this analysis. Not all models are available in IQtree, so you may need to set up specific model lists for your analysis
+
+#nexus
+begin sets;
+	charset Subset1 = 1-277\3;
+	charset Subset2 = 2-277\3;
+	charset Subset3 = 3-277\3;
+	charpartition PartitionFinder = F81:Subset1, TRN+I:Subset2, F81:Subset3;
+end;
+
+
+RaxML-style partition definitions
+Warning: RAxML allows for only a single model of rate heterogeneity in partitioned analyses. I.e. all partitions must be assigned one of three types of model: No heterogeneity (e.g. GTR); +G (e.g. GTR+G); or +I+G (e.g. GTR+I+G). If the best models for your datasetcontain different types of model for different subsets you will need to decide on the best rate heterogeneity model before you run RAxML. If you prefer to do things more rigorously, you can run separate PartitionFinder analyses for each type of rate heterogenetity Then choose the scheme with the lowest AIC/AICc/BIC score. Note that these re-runs will be quick!
+
+DNA, Subset1 = 1-277\3
+DNA, Subset2 = 2-277\3
+DNA, Subset3 = 3-277\3
+
+
+MrBayes block for partition definitions
+Warning: MrBayes only allows a relatively small collection of models. If any model in your analysis is not one that is included in MrBayes (e.g. by setting nst = 1, 2, or 6 for DNA sequences; or is not in the available list of protein models for MrBayes)then this MrBayes block will just set that model to nst = 6 for DNA, or 'wag' for Protein. Similarly, the only additional parameters that this MrBayes block will include are +I and +G. Other  parameters, such as +F and +X, are ignored. If you want to use this MrBayes block for your analysis, please make sure to check it carefully before you use it we've done our best to make it accurate, but there may be errors that remain!
+
+begin mrbayes;
+
+	charset Subset1 = 1-277\3;
+	charset Subset2 = 2-277\3;
+	charset Subset3 = 3-277\3;
+
+	partition PartitionFinder = 3:Subset1, Subset2, Subset3;
+	set partition=PartitionFinder;
+
+	lset applyto=(1) nst=1;
+	lset applyto=(2) nst=6 rates=propinv;
+	lset applyto=(3) nst=1;
+
+	prset applyto=(all) ratepr=variable;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);
+
+end;
+
+
+
+*Citations for this analysis*
+-----------------------------
+If you use this analysis in your published work, please cite the following papers on which your analysis relied.
+
+For the version of PartitionFinder you used, please cite:
+Lanfear, R., Frandsen, P. B., Wright, A. M., Senfeld, T., Calcott, B. (2016) PartitionFinder 2: new methods for selecting partitioned models of evolution formolecular and morphological phylogenetic analyses. Molecular biology and evolution. DOI: dx.doi.org/10.1093/molbev/msw260
+
+For the greedy algorithm you used, please cite:
+Lanfear, R., Calcott, B., Ho, S. Y., & Guindon, S. (2012). PartitionFinder: combined selection of partitioning schemes and substitution models for phylogenetic analyses. Molecular biology and evolution, 29(6), 1695-1701.
+
+Your analysis also used PhyML, so please cite:
+Guindon, S., Dufayard, J. F., Lefort, V., Anisimova, M., Hordijk, W., & Gascuel, O. (2010). New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0. Systematic biology, 59(3), 307-321.
+

@@ -1,0 +1,50 @@
+INFO     | 2025-03-13 14:39:17,808 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2025-03-13 14:39:17,810 | config     | Setting 'alignment' to 'serotype_1_1325-1601.phy'
+INFO     | 2025-03-13 14:39:17,810 | config     | Setting 'branchlengths' to 'linked'
+INFO     | 2025-03-13 14:39:17,811 | parser     | You set 'models' to: all
+INFO     | 2025-03-13 14:39:17,819 | model_load | This analysis will use the following 56 models of molecular evolution
+INFO     | 2025-03-13 14:39:17,819 | model_load | JC, K80, TRNEF, K81, TVMEF, TIMEF, SYM, F81, HKY, TRN, K81UF, TVM, TIM, GTR, JC+G, K80+G, TRNEF+G, K81+G, TVMEF+G, TIMEF+G, SYM+G, F81+G, HKY+G, TRN+G, K81UF+G, TVM+G, TIM+G, GTR+G, JC+I, K80+I, TRNEF+I, K81+I, TVMEF+I, TIMEF+I, SYM+I, F81+I, HKY+I, TRN+I, K81UF+I, TVM+I, TIM+I, GTR+I, JC+I+G, K80+I+G, TRNEF+I+G, K81+I+G, TVMEF+I+G, TIMEF+I+G, SYM+I+G, F81+I+G, HKY+I+G, TRN+I+G, K81UF+I+G, TVM+I+G, TIM+I+G, GTR+I+G
+INFO     | 2025-03-13 14:39:17,819 | config     | Setting 'model_selection' to 'aicc'
+INFO     | 2025-03-13 14:39:17,820 | config     | Setting 'search' to 'greedy'
+INFO     | 2025-03-13 14:39:17,820 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2025-03-13 14:39:17,820 | config     | Looking for alignment file './serotype_1_1325-1601.phy'...
+INFO     | 2025-03-13 14:39:17,821 | analysis   | Beginning Analysis
+INFO     | 2025-03-13 14:39:17,831 | alignment  | Reading alignment file './serotype_1_1325-1601.phy'
+INFO     | 2025-03-13 14:39:17,831 | analysis   | Starting tree will be estimated from the data.
+INFO     | 2025-03-13 14:39:17,832 | raxml      | Estimating Maximum Likelihood tree with RAxML fast experimental tree search for ./analysis/start_tree/filtered_source.phy
+INFO     | 2025-03-13 14:39:17,832 | raxml      | Using a separate GTR+G model for each data block
+INFO     | 2025-03-13 14:39:17,926 | raxml      | Estimating GTR+G branch lengths on ML tree using all partitions
+INFO     | 2025-03-13 14:39:17,962 | raxml      | ML topology estimation finished
+INFO     | 2025-03-13 14:39:17,962 | analysis_m | Performing Greedy Analysis
+INFO     | 2025-03-13 14:39:17,962 | analysis_m |    *** Analysing starting scheme ***
+INFO     | 2025-03-13 14:39:19,912 | progress   |       Finished subset 1/3, 33.33 percent done
+INFO     | 2025-03-13 14:39:21,296 | progress   |       Finished subset 2/3, 66.67 percent done
+INFO     | 2025-03-13 14:39:23,121 | progress   |       Finished subset 3/3, 100.00 percent done
+INFO     | 2025-03-13 14:39:23,122 | analysis_m |    ***Greedy algorithm step 1***
+INFO     | 2025-03-13 14:39:23,122 | analysis_m |       Analysing 3 new subset pairs
+INFO     | 2025-03-13 14:39:24,487 | progress   |       Finished subset 1/3, 33.33 percent done
+INFO     | 2025-03-13 14:39:26,335 | progress   |       Finished subset 2/3, 66.67 percent done
+INFO     | 2025-03-13 14:39:28,041 | progress   |       Finished subset 3/3, 100.00 percent done
+INFO     | 2025-03-13 14:39:28,041 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2025-03-13 14:39:28,042 | analysis_m |       Found no schemes that improve the score, stopping
+INFO     | 2025-03-13 14:39:28,042 | analysis_m |    Greedy algorithm finished after 1 steps
+INFO     | 2025-03-13 14:39:28,042 | analysis_m |    Best scoring scheme is scheme start_scheme, with aicc score of 1861.380
+INFO     | 2025-03-13 14:39:28,042 | model_util |    Information on best scheme is here: ./analysis/best_scheme.txt
+INFO     | 2025-03-13 14:39:28,043 | model_util |    
+INFO     | 2025-03-13 14:39:28,043 | model_util |    
+INFO     | 2025-03-13 14:39:28,043 | model_util |    *Citations for this analysis*
+INFO     | 2025-03-13 14:39:28,043 | model_util |    -----------------------------
+INFO     | 2025-03-13 14:39:28,043 | model_util |    
+INFO     | 2025-03-13 14:39:28,043 | model_util |    If you use this analysis in your published work, please cite the following papers on which your analysis relied.
+INFO     | 2025-03-13 14:39:28,044 | model_util |    
+INFO     | 2025-03-13 14:39:28,044 | model_util |    For the version of PartitionFinder you used, please cite:
+INFO     | 2025-03-13 14:39:28,044 | model_util |    Lanfear, R., Frandsen, P. B., Wright, A. M., Senfeld, T., Calcott, B. (2016) PartitionFinder 2: new methods for selecting partitioned models of evolution formolecular and morphological phylogenetic analyses. Molecular biology and evolution. DOI: dx.doi.org/10.1093/molbev/msw260
+INFO     | 2025-03-13 14:39:28,044 | model_util |    
+INFO     | 2025-03-13 14:39:28,044 | model_util |    For the greedy algorithm you used, please cite:
+INFO     | 2025-03-13 14:39:28,044 | model_util |    Lanfear, R., Calcott, B., Ho, S. Y., & Guindon, S. (2012). PartitionFinder: combined selection of partitioning schemes and substitution models for phylogenetic analyses. Molecular biology and evolution, 29(6), 1695-1701.
+INFO     | 2025-03-13 14:39:28,044 | model_util |    
+INFO     | 2025-03-13 14:39:28,044 | model_util |    Your analysis also used PhyML, so please cite:
+INFO     | 2025-03-13 14:39:28,044 | model_util |    Guindon, S., Dufayard, J. F., Lefort, V., Anisimova, M., Hordijk, W., & Gascuel, O. (2010). New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0. Systematic biology, 59(3), 307-321.
+INFO     | 2025-03-13 14:39:28,044 | model_util |    
+INFO     | 2025-03-13 14:39:28,045 | main       | Total processing time: 0:00:11 (h:m:s)
+INFO     | 2025-03-13 14:39:28,045 | main       | Processing complete.
