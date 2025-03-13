@@ -1,0 +1,212 @@
+IMPORTANT WARNING: Alignment column 292 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 293 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 294 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 295 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 296 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 297 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 298 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 299 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 300 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 301 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 302 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 303 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 304 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 305 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 306 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 307 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 308 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 309 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 310 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 311 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 312 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 592 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 593 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 594 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 886 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 887 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 888 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 889 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 890 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 891 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 892 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 893 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 894 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 895 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 896 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 897 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 898 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 899 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 900 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 901 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 902 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 903 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 904 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 905 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 906 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1039 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1040 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1041 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1042 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1043 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1044 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1162 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1163 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1164 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1165 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1166 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1167 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1168 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1169 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1170 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1171 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1172 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 1173 contains only undetermined values which will be treated as missing data
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832895_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832894_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832893_h are exactly identical
+
+
+IMPORTANT WARNING: Sequences MT832897_h and MT832892_h are exactly identical
+
+IMPORTANT WARNING
+Found 4 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+
+IMPORTANT WARNING
+Found 63 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+
+Just in case you might need it, a mixed model file with 
+model assignments for undetermined columns removed is printed to file ./analysis/start_tree/partitions.txt.reduced
+Just in case you might need it, an alignment file with 
+sequence duplicates and undetermined columns removed is printed to file ./analysis/start_tree/filtered_source.phy.reduced
+
+Alignment has 63 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 255 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.28%
+
+RAxML Model Optimization up to an accuracy of 1.000000 log likelihood units
+
+Using 3 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 1.0000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 55
+Name: Subset1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 37
+Name: Subset2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 163
+Name: Subset3
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/xfluffy_muffin/partitionfinder-2.1.1/programs/raxml_pthreads.linux -f e -s ./analysis/start_tree/filtered_source.phy -t ./analysis/start_tree/RAxML_fastTree.fastTREE -m GTRGAMMA -O -n BLTREE -p 123456789 -q ./analysis/start_tree/partitions.txt -w /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/serotype_1_5869-7192/analysis/start_tree -e 1 -T 8 
+
+
+
+Model parameters (binary file format) written to: /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/serotype_1_5869-7192/analysis/start_tree/RAxML_binaryModelParameters.BLTREE
+
+
+Overall Time for Tree Evaluation 0.083282
+Final GAMMA  likelihood: -3995.664728
+
+Number of free parameters for AIC-TEST(BR-LEN): 90
+Number of free parameters for AIC-TEST(NO-BR-LEN): 27
+
+
+Model Parameters of Partition 0, Name: Subset1, Type of Data: DNA
+alpha: 0.093379
+Tree-Length: 0.707676
+rate A <-> C: 0.615527
+rate A <-> G: 1.612097
+rate A <-> T: 0.919358
+rate C <-> G: 0.133368
+rate C <-> T: 51.944200
+rate G <-> T: 1.000000
+
+freq pi(A): 0.315114
+freq pi(C): 0.186154
+freq pi(G): 0.334614
+freq pi(T): 0.164117
+
+Model Parameters of Partition 1, Name: Subset2, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 0.707676
+rate A <-> C: 0.208724
+rate A <-> G: 1.818429
+rate A <-> T: 0.000100
+rate C <-> G: 0.808025
+rate C <-> T: 15.440141
+rate G <-> T: 1.000000
+
+freq pi(A): 0.319269
+freq pi(C): 0.292373
+freq pi(G): 0.160432
+freq pi(T): 0.227925
+
+Model Parameters of Partition 2, Name: Subset3, Type of Data: DNA
+alpha: 0.843644
+Tree-Length: 0.707676
+rate A <-> C: 0.237907
+rate A <-> G: 3.505796
+rate A <-> T: 0.847285
+rate C <-> G: 0.116293
+rate C <-> T: 8.122917
+rate G <-> T: 1.000000
+
+freq pi(A): 0.259388
+freq pi(C): 0.270190
+freq pi(G): 0.209946
+freq pi(T): 0.260476
+
+Final tree written to:                 /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/serotype_1_5869-7192/analysis/start_tree/RAxML_result.BLTREE
+Execution Log File written to:         /home/xfluffy_muffin/partitionfinder-2.1.1/astrovirus/serotype_1_5869-7192/analysis/start_tree/RAxML_log.BLTREE
