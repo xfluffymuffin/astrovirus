@@ -1,0 +1,571 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: ORF_1A_cleared_alignment_RNA_serotypes_no_amb.fas
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 359490
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 88 sequences with 2989 nucleotide sites
+Number of constant sites: 1726 (= 57.7451% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1726 (= 57.7451% of all sites)
+Number of parsimony informative sites: 1074
+Number of distinct site patterns: 1196
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model             LogL          AIC      w-AIC      AICc     w-AICc       BIC      w-BIC
+GTR+F+I+G4      -25162.1014  50670.2029 + 1.0000  50691.5898 + 1.0000  51708.6690 + 1.0000
+TIM2+F+I+G4     -25188.5797  50719.1594 - 0.0000  50740.0412 - 0.0000  51745.6201 - 0.0000
+GTR+F+G4        -25185.9690  50715.9381 - 0.0000  50737.0716 - 0.0000  51748.4015 - 0.0000
+TIM3+F+I+G4     -25201.4214  50744.8428 - 0.0000  50765.7245 - 0.0000  51771.3035 - 0.0000
+TN+F+I+G4       -25210.9906  50761.9813 - 0.0000  50782.6130 - 0.0000  51782.4393 - 0.0000
+TIM+F+I+G4      -25208.6005  50759.2011 - 0.0000  50780.0829 - 0.0000  51785.6618 - 0.0000
+TIM2+F+G4       -25213.2098  50766.4195 - 0.0000  50787.0512 - 0.0000  51786.8775 - 0.0000
+TIM3+F+G4       -25225.0844  50790.1688 - 0.0000  50810.8005 - 0.0000  51810.6268 - 0.0000
+TN+F+G4         -25234.8575  50807.7151 - 0.0000  50828.0982 - 0.0000  51822.1704 - 0.0000
+TIM+F+G4        -25232.2470  50804.4939 - 0.0000  50825.1256 - 0.0000  51824.9519 - 0.0000
+TVM+F+I+G4      -25233.7017  50811.4034 - 0.0000  50832.5369 - 0.0000  51843.8668 - 0.0000
+SYM+I+G4        -25244.1824  50828.3648 - 0.0000  50848.9965 - 0.0000  51848.8228 - 0.0000
+TPM2u+F+I+G4    -25260.5916  50861.1832 - 0.0000  50881.8149 - 0.0000  51881.6412 - 0.0000
+TPM2+F+I+G4     -25260.5930  50861.1860 - 0.0000  50881.8176 - 0.0000  51881.6440 - 0.0000
+SYM+G4          -25269.9203  50877.8406 - 0.0000  50898.2237 - 0.0000  51892.2959 - 0.0000
+TVM+F+G4        -25266.3150  50874.6300 - 0.0000  50895.5118 - 0.0000  51901.0907 - 0.0000
+TPM3u+F+I+G4    -25273.4389  50886.8777 - 0.0000  50907.5094 - 0.0000  51907.3357 - 0.0000
+TPM3+F+I+G4     -25273.4407  50886.8814 - 0.0000  50907.5131 - 0.0000  51907.3394 - 0.0000
+TIM2e+I+G4      -25284.1851  50904.3702 - 0.0000  50924.5064 - 0.0000  51912.8228 - 0.0000
+HKY+F+I+G4      -25283.7006  50905.4012 - 0.0000  50925.7843 - 0.0000  51919.8565 - 0.0000
+K3Pu+F+I+G4     -25281.4471  50902.8941 - 0.0000  50923.5258 - 0.0000  51923.3521 - 0.0000
+TVMe+I+G4       -25286.4389  50910.8779 - 0.0000  50931.2610 - 0.0000  51925.3332 - 0.0000
+TPM2+F+G4       -25293.5512  50925.1025 - 0.0000  50945.4856 - 0.0000  51939.5578 - 0.0000
+TPM2u+F+G4      -25293.5517  50925.1035 - 0.0000  50945.4866 - 0.0000  51939.5588 - 0.0000
+TIM2e+G4        -25310.0657  50954.1314 - 0.0000  50974.0222 - 0.0000  51956.5813 - 0.0000
+TIM3e+I+G4      -25308.0530  50952.1060 - 0.0000  50972.2422 - 0.0000  51960.5586 - 0.0000
+TPM3u+F+G4      -25305.9035  50949.8070 - 0.0000  50970.1902 - 0.0000  51964.2624 - 0.0000
+TPM3+F+G4       -25305.9035  50949.8071 - 0.0000  50970.1902 - 0.0000  51964.2624 - 0.0000
+HKY+F+G4        -25316.0870  50968.1739 - 0.0000  50988.3101 - 0.0000  51976.6266 - 0.0000
+K3Pu+F+G4       -25313.6397  50965.2793 - 0.0000  50985.6624 - 0.0000  51979.7346 - 0.0000
+TVMe+G4         -25319.0037  50974.0075 - 0.0000  50994.1436 - 0.0000  51982.4601 - 0.0000
+TNe+I+G4        -25331.7547  50997.5094 - 0.0000  51017.4002 - 0.0000  51999.9593 - 0.0000
+TIM3e+G4        -25332.1567  50998.3134 - 0.0000  51018.2042 - 0.0000  52000.7633 - 0.0000
+TIMe+I+G4       -25330.7946  50997.5892 - 0.0000  51017.7254 - 0.0000  52006.0418 - 0.0000
+TNe+G4          -25355.5171  51043.0341 - 0.0000  51062.6812 - 0.0000  52039.4814 - 0.0000
+TIMe+G4         -25354.3930  51042.7859 - 0.0000  51062.6767 - 0.0000  52045.2358 - 0.0000
+K2P+I+G4        -25376.7704  51085.5409 - 0.0000  51105.1880 - 0.0000  52081.9881 - 0.0000
+K3P+I+G4        -25375.9281  51085.8563 - 0.0000  51105.7471 - 0.0000  52088.3062 - 0.0000
+K2P+G4          -25407.6661  51145.3322 - 0.0000  51164.7370 - 0.0000  52135.7767 - 0.0000
+K3P+G4          -25406.5845  51145.1690 - 0.0000  51164.8161 - 0.0000  52141.6162 - 0.0000
+GTR+F+I         -25417.9178  51179.8355 - 0.0000  51200.9690 - 0.0000  52212.2989 - 0.0000
+TIM2+F+I        -25445.1232  51230.2463 - 0.0000  51250.8780 - 0.0000  52250.7043 - 0.0000
+TIM3+F+I        -25454.1716  51248.3432 - 0.0000  51268.9748 - 0.0000  52268.8012 - 0.0000
+TN+F+I          -25464.3783  51266.7566 - 0.0000  51287.1398 - 0.0000  52281.2120 - 0.0000
+TIM+F+I         -25461.9639  51263.9278 - 0.0000  51284.5594 - 0.0000  52284.3858 - 0.0000
+SYM+I           -25519.9532  51377.9065 - 0.0000  51398.2896 - 0.0000  52392.3618 - 0.0000
+TVM+F+I         -25522.5907  51387.1814 - 0.0000  51408.0632 - 0.0000  52413.6421 - 0.0000
+TIM2e+I         -25555.6829  51445.3657 - 0.0000  51465.2565 - 0.0000  52447.8156 - 0.0000
+TPM2+F+I        -25549.1043  51436.2086 - 0.0000  51456.5917 - 0.0000  52450.6639 - 0.0000
+TPM2u+F+I       -25549.1049  51436.2098 - 0.0000  51456.5929 - 0.0000  52450.6651 - 0.0000
+TPM3u+F+I       -25558.9120  51455.8239 - 0.0000  51476.2070 - 0.0000  52470.2792 - 0.0000
+TPM3+F+I        -25558.9123  51455.8246 - 0.0000  51476.2077 - 0.0000  52470.2799 - 0.0000
+HKY+F+I         -25568.6532  51473.3064 - 0.0000  51493.4426 - 0.0000  52481.7590 - 0.0000
+TIM3e+I         -25573.0092  51480.0185 - 0.0000  51499.9093 - 0.0000  52482.4684 - 0.0000
+K3Pu+F+I        -25566.2717  51470.5434 - 0.0000  51490.9265 - 0.0000  52484.9987 - 0.0000
+TNe+I           -25592.7222  51517.4443 - 0.0000  51537.0914 - 0.0000  52513.8916 - 0.0000
+TIMe+I          -25591.6484  51517.2968 - 0.0000  51537.1876 - 0.0000  52519.7467 - 0.0000
+TVMe+I          -25591.3544  51518.7088 - 0.0000  51538.8449 - 0.0000  52527.1614 - 0.0000
+K2P+I           -25663.0981  51656.1962 - 0.0000  51675.6011 - 0.0000  52646.6408 - 0.0000
+K3P+I           -25662.0508  51656.1016 - 0.0000  51675.7487 - 0.0000  52652.5489 - 0.0000
+GTR+F           -27265.7036  54873.4073 - 0.0000  54894.2891 - 0.0000  55899.8680 - 0.0000
+TIM2+F          -27291.2957  54920.5914 - 0.0000  54940.9745 - 0.0000  55935.0467 - 0.0000
+TIM3+F          -27312.0229  54962.0457 - 0.0000  54982.4288 - 0.0000  55976.5010 - 0.0000
+TN+F            -27321.0826  54978.1651 - 0.0000  54998.3013 - 0.0000  55986.6178 - 0.0000
+TIM+F           -27318.8207  54975.6415 - 0.0000  54996.0246 - 0.0000  55990.0968 - 0.0000
+SYM             -27334.3507  55004.7015 - 0.0000  55024.8376 - 0.0000  56013.1541 - 0.0000
+TIM2e           -27369.6420  55071.2840 - 0.0000  55090.9310 - 0.0000  56067.7312 - 0.0000
+TIM3e           -27399.6653  55131.3307 - 0.0000  55150.9778 - 0.0000  56127.7779 - 0.0000
+TNe             -27419.1599  55168.3198 - 0.0000  55187.7246 - 0.0000  56158.7643 - 0.0000
+TIMe            -27418.0674  55168.1348 - 0.0000  55187.7819 - 0.0000  56164.5820 - 0.0000
+TVM+F           -27420.0903  55180.1807 - 0.0000  55200.8123 - 0.0000  56200.6387 - 0.0000
+TVMe            -27434.2305  55202.4610 - 0.0000  55222.3518 - 0.0000  56204.9109 - 0.0000
+TPM2+F          -27445.3605  55226.7210 - 0.0000  55246.8572 - 0.0000  56235.1736 - 0.0000
+TPM2u+F         -27445.3681  55226.7363 - 0.0000  55246.8724 - 0.0000  56235.1889 - 0.0000
+TPM3+F          -27466.6258  55269.2516 - 0.0000  55289.3877 - 0.0000  56277.7042 - 0.0000
+TPM3u+F         -27466.6264  55269.2528 - 0.0000  55289.3890 - 0.0000  56277.7054 - 0.0000
+HKY+F           -27475.4531  55284.9062 - 0.0000  55304.7970 - 0.0000  56287.3561 - 0.0000
+K3Pu+F          -27473.1960  55282.3921 - 0.0000  55302.5283 - 0.0000  56290.8447 - 0.0000
+K2P             -27518.9496  55365.8993 - 0.0000  55385.0636 - 0.0000  56350.3411 - 0.0000
+K3P             -27517.8640  55365.7280 - 0.0000  55385.1329 - 0.0000  56356.1725 - 0.0000
+JC+I+G4         -27593.5050  55517.0099 - 0.0000  55536.4148 - 0.0000  56507.4545 - 0.0000
+F81+F+I+G4      -27586.6576  55509.3152 - 0.0000  55529.4514 - 0.0000  56517.7678 - 0.0000
+JC+G4           -27619.1604  55566.3207 - 0.0000  55585.4850 - 0.0000  56550.7626 - 0.0000
+F81+F+G4        -27609.7886  55553.5772 - 0.0000  55573.4680 - 0.0000  56556.0271 - 0.0000
+F81+F+I         -27808.8456  55951.6912 - 0.0000  55971.5820 - 0.0000  56954.1411 - 0.0000
+JC+I            -27831.7472  55991.4944 - 0.0000  56010.6587 - 0.0000  56975.9362 - 0.0000
+F81+F           -29580.6085  59493.2169 - 0.0000  59512.8640 - 0.0000  60489.6642 - 0.0000
+JC              -29593.6940  59513.3879 - 0.0000  59532.3132 - 0.0000  60491.8270 - 0.0000
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.1158
+  A-G: 7.5505
+  A-T: 1.1859
+  C-G: 0.2125
+  C-T: 13.9134
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3093
+  pi(C) = 0.2047
+  pi(G) = 0.2232
+  pi(T) = 0.2628
+
+Rate matrix Q:
+
+  A   -0.7391   0.07588    0.5597    0.1035
+  C    0.1147    -1.345   0.01575     1.215
+  G    0.7759   0.01445   -0.8776    0.0873
+  T    0.1219    0.9462   0.07413    -1.142
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.4591
+Gamma shape alpha: 1.321
+
+ Category  Relative_rate  Proportion
+  0         0              0.4591
+  1         0.3629         0.1352
+  2         1.027          0.1352
+  3         1.919          0.1352
+  4         4.085          0.1352
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -25139.5305 (s.e. 521.0601)
+Unconstrained log-likelihood (without tree): -14808.9609
+Number of free parameters (#branches + #model parameters): 173
+Akaike information criterion (AIC) score: 50625.0610
+Corrected Akaike information criterion (AICc) score: 50646.4478
+Bayesian information criterion (BIC) score: 51663.5271
+
+Total tree length (sum of branch lengths): 2.0066
+Sum of internal branch lengths: 1.2340 (61.4943% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4
+|
+|                                         +--OR222910_human_CHN_2021_NA_SY2106_stool_serotype_5
+|                                      +--| (98/100)
+|                                      |  +--ON571595_human_CHN_2019_NA_2019-Fuzhou-289_feces_serotype_5
+|                                   +--| (90.5/98)
+|                                   |  +--MF684776_human_CHN_2013_NA_2013-Fuzhou-85_stool_serotype_5
+|                                +--| (75.3/98)
+|                                |  |  +**MT906859_human_BRA_2014_Hu-BRA-TO-32-2014_BRA-TO-32_stool-sample_serotype_5
+|                                |  +--| (100/100)
+|                                |     +**MT906858_human_BRA_2014_Hu-BRA-TO-57-2014_BRA-TO-57_stool_serotype_5
+|                             +**| (0/88)
+|                             |  +--MN433706_human_USA_2014_Hu-US-2014-CA-RGDS-1073_NA_stool_serotype_5
+|                          +--| (84.9/91)
+|                          |  +--MW485044_human_KEN_2019_KLF-HAstV5-002-2019_NA_NA_serotype_5
+|                       +--| (100/100)
+|                       |  +--MT267476_human_ZAF_2015_SA10098_NA_Fecal-Specimen_serotype_5
+|                    +--| (95.4/98)
+|                    |  |     +**LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1
+|                    |  |  +--| (97.2/100)
+|                    |  |  |  +**LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1
+|                    |  +--| (100/100)
+|                    |     |  +--MW485040_human_KEN_2019_KLF-HAstV1-008-2019_NA_NA_serotype_1
+|                    |     +--| (97.9/99)
+|                    |        +--MW485039_human_KEN_2019_KLF-HAstV1-006-2019_NA_NA_serotype_1
+|                 +--| (96.5/99)
+|                 |  +--OQ630461_human_GIN_2021_NA_SEN-21-286-S1_Stool-Sample-of-non-polio-AFP_serotype_1
+|              +--| (99.8/100)
+|              |  |     +--ON571594_human_CHN_2019_NA_2019-Fuzhou-26_feces_serotype_1
+|              |  |  +--| (100/100)
+|              |  |  |  +--KC342249_human_CHN_2012_NA_km1_stool-sample_serotype_1
+|              |  +--| (83.4/99)
+|              |     |              +--MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4
+|              |     |           +--| (98.2/100)
+|              |     |           |  +**MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4
+|              |     |        +--| (100/100)
+|              |     |        |  +**MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4
+|              |     |     +--| (90.3/99)
+|              |     |     |  +--KC285113_human_RUS_2010_NA_HAstV-4-RUS-Novosibirsk-Nsc10-N1190-2010_feces_serotype_4
+|              |     |  +--| (84.8/99)
+|              |     |  |  +--KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4
+|              |     +--| (88.6/98)
+|              |        +---MN433705_human_USA_2014_Hu-US-2014-CA-RGDS-1072_NA_stool_serotype_2
+|           +--| (99.4/55)
+|           |  +----NC030922_NA_IND_2004_NA_V1347_NA_serotype_1
+|        +--| (91.8/53)
+|        |  |   +--KF039913_NA_RUS_2010_NA_Rus-Nsc10-N358_NA_serotype_4
+|        |  +---| (100/100)
+|        |      +--DQ344027_NA_CHN_2005_NA_Guangzhou_NA_serotype_4
+|     +--| (100/100)
+|     |  |                       +--LC732124_human_JPN_2016_Human-JPN-2016-JP14989_Child-with-acute-gastroenteritis_feces_serotype_3
+|     |  |                    +--| (96.5/100)
+|     |  |                    |  +--MK296753_human_IRL_2018_Hu-HAstV3-2016-East-Ireland_17W1028_feces_serotype_3
+|     |  |                 +--| (92.4/99)
+|     |  |                 |  +--MG571777_human_VEN_2015_NA_NA_stool_serotype_3
+|     |  |              +--| (100/100)
+|     |  |              |  |     +--LC732123_human_JPN_2016_Human-JPN-2016-JP14665_Child-with-acute-gastroenteritis_feces_serotype_3
+|     |  |              |  |  +--| (99.5/100)
+|     |  |              |  |  |  +**LC732122_human_JPN_2016_Human-JPN-2016-JP14641_Child-with-acute-gastroenteritis_feces_serotype_3
+|     |  |              |  +--| (95/100)
+|     |  |              |     |  +--LC694985_human_JPN_2019_NA_HAstV3-190610-Tokyo-2019_NA_serotype_3
+|     |  |              |     +--| (90.2/99)
+|     |  |              |        +--MN444721_human_USA_2017_Hu-US-2017-CA-RGDS-1074_NA_stool_serotype_3
+|     |  |           +--| (68.5/88)
+|     |  |           |  +----MW485043_human_KEN_2019_KLF-HAstV3-007-2019_NA_NA_serotype_3
+|     |  |        +--| (100/100)
+|     |  |        |  +--JQ403108_human_CHN_2010_NA_DL030_stool_serotype_5
+|     |  |     +--| (7.9/43)
+|     |  |     |  +----DQ028633_NA_BRA_1994_NA_Goiania-GO-12-94-Brazil_stool_serotype_5
+|     |  |  +--| (89.3/78)
+|     |  |  |  |            +--JF491430_human_RUS_2004_NA_Rus-Nsc04-H355_NA_serotype_3
+|     |  |  |  |         +--| (86.9/99)
+|     |  |  |  |         |  +--GU223905_human_RUS_2003_NA_Rus-Nsc03-H191_NA_serotype_3
+|     |  |  |  |     +---| (100/100)
+|     |  |  |  |     |   +--GU732187_human_RUS_2008_NA_Rus-Nsc08-3364_NA_serotype_3
+|     |  |  |  |  +--| (84.6/89)
+|     |  |  |  |  |  |           +--FJ755403_human_CHN_2006_Beijing-176-2006-CHN_NA_stool_serotype_1
+|     |  |  |  |  |  |        +--| (97.8/100)
+|     |  |  |  |  |  |        |  +--JN887820_human_KOR_2006_lhar-2011-kor_NA_stool_serotype_1
+|     |  |  |  |  |  |     +--| (27.4/76)
+|     |  |  |  |  |  |     |  +--AY720892_NA_NA_2004_Dresden_NA_NA_serotype_1
+|     |  |  |  |  |  |  +--| (100/100)
+|     |  |  |  |  |  |  |  +--KF211475_human_CHN_2010_NA_JZ_NA_serotype_1
+|     |  |  |  |  |  +--| (91.4/94)
+|     |  |  |  |  |     +--AY720891_NA_NA_2004_Dresden_NA_NA_serotype_4
+|     |  |  |  +--| (91.6/94)
+|     |  |  |     |     +--FJ755405_human_CHN_2007_Beijing-293-2007-CHN_NA_stool_serotype_1
+|     |  |  |     |  +--| (100/100)
+|     |  |  |     |  |  +--FJ755402_human_CHN_2005_Beijing-128-2005-CHN_NA_stool_serotype_1
+|     |  |  |     +--| (100/100)
+|     |  |  |        +--FJ755404_human_CHN_2007_Beijing-291-2007-CHN_NA_stool_serotype_1
+|     |  +--| (94.1/89)
+|     |     |                                  +--ON571597_human_CHN_2019_NA_2019-Pingtan-42_feces_serotype_1
+|     |     |                               +--| (0.9/61)
+|     |     |                               |  +--LC694995_human_JPN_2020_NA_HAstV1-192642-Tokyo-2020_NA_serotype_1
+|     |     |                            +**| (0/36)
+|     |     |                            |  +--LC694986_human_JPN_2022_NA_HAstV1-211185-Tokyo-2022_NA_serotype_1
+|     |     |                         +**| (0/35)
+|     |     |                         |  |  +--ON571596_human_CHN_2019_NA_2019-Fuzhou-306_feces_serotype_1
+|     |     |                         |  +**| (0/27)
+|     |     |                         |     |  +--LC694991_human_JPN_2021_NA_HAstV1-210764-Tokyo-2021_NA_serotype_1
+|     |     |                         |     +--| (100/100)
+|     |     |                         |        |  +--LC694989_human_JPN_2021_NA_HAstV1-210956-Tokyo-2021_NA_serotype_1
+|     |     |                         |        +**| (0/58)
+|     |     |                         |           +--LC694988_human_JPN_2021_NA_HAstV1-210963-Tokyo-2021_NA_serotype_1
+|     |     |                      +--| (99.8/100)
+|     |     |                      |  |  +--OP432296_human_CHN_2021_NA_HAstV-4-RC-21047_NA_serotype_4
+|     |     |                      |  +--| (87.8/87)
+|     |     |                      |     |  +--LC694994_human_JPN_2020_NA_HAstV1-193055-Tokyo-2020_NA_serotype_1
+|     |     |                      |     +--| (99.1/100)
+|     |     |                      |        +--LC694993_human_JPN_2020_NA_HAstV1-193061-Tokyo-2020_NA_serotype_1
+|     |     |                   +--| (84/93)
+|     |     |                   |  +--LC694990_human_JPN_2018_NA_HAstV1-181937-Tokyo-2018_NA_serotype_1
+|     |     |                +--| (99.3/100)
+|     |     |                |  |  +--LC694992_human_JPN_2021_NA_HAstV1-210628-Tokyo-2021_NA_serotype_1
+|     |     |                |  +--| (100/100)
+|     |     |                |     +--LC694987_human_JPN_2021_NA_HAstV1-210984-Tokyo-2021_NA_serotype_1
+|     |     |             +--| (100/100)
+|     |     |             |  |  +--MN433704_human_USA_2013_Hu-US-2013-CA-RGDS-1071_NA_stool_serotype_1
+|     |     |             |  +--| (96.9/100)
+|     |     |             |     +--MN433703_human_USA_2013_Hu-US-2013-CA-RGDS-1070_NA_stool_serotype_1
+|     |     |          +--| (67.4/88)
+|     |     |          |  +--HQ398856_human_HUN_2010_Hu-Nyergesujfalu-HUN4520-2010-HUN_NA_fecal-sample_serotype_1
+|     |     |     +----| (100/100)
+|     |     |     |    |     +**MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1
+|     |     |     |    |  +--| (90.5/100)
+|     |     |     |    |  |  +**MT832895_human_BRA_2015_MAstV-1-Hu-BRA-TO-171-2015_TO-171_feces_serotype_1
+|     |     |     |    +--| (85.6/98)
+|     |     |     |       +**MT832896_human_BRA_2015_MAstV-1-Hu-BRA-TO-208-2015_TO-208_feces_serotype_1
+|     |     |  +--| (87.7/93)
+|     |     |  |  +---DQ070852_NA_BRA_1995_NA_Goiania-GO-12-95-Brazil_NA_serotype_4
+|     |     +--| (97.9/100)
+|     |        |                                  +---MT267483_human_ZAF_2015_SA6118_NA_Fecal-Specimen_serotype_3
+|     |        |                      +-----------| (100/100)
+|     |        |                      |           |     +--KC285152_human_RUS_2011_NA_HAstV-2-RUS-Novosibirsk-Nsc11-N2411-2011_feces_serotype_2
+|     |        |                      |           +-----| (100/100)
+|     |        |                      |                 +--KF039911_NA_RUS_2006_NA_Rus-Nsc06-1029_NA_serotype_2
+|     |        +----------------------| (100/100)
+|     |                               |                   +--MW485042_human_KEN_2019_KLF-HAstV2-005-2019_NA_NA_serotype_2
+|     |                               +-------------------| (100/100)
+|     |                                                   |  +--GQ901902_human_RUS_2009_NA_Rus-Nsc09-B4_NA_serotype_6
+|     |                                                   +--| (100/100)
+|     |                                                      +--GQ495608_human_CHN_2007_NA_192-BJ07-CHN_stool_serotype_6
+|  +--| (100/100)
+|  |  |  +--KP862744_human_KOR_2014_NA_kor85_human-stool_serotype_8
+|  |  +--| (96.7/98)
+|  |     +--KF039910_NA_RUS_2005_NA_Rus-Nsc05-430_NA_serotype_2
++--| (96.1/100)
+|  |           +**OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4
+|  |        +--| (98.1/100)
+|  |        |  +--OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4
+|  |     +--| (90.4/100)
+|  |     |  +**OP432298_human_CHN_2022_NA_HAstV-4-QD-S-22015_NA_serotype_4
+|  |  +--| (99.2/100)
+|  |  |  |  +--OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4
+|  |  |  +--| (90.6/99)
+|  |  |     +--OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4
+|  +--| (82/99)
+|     |  +--OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4
+|     +--| (99.9/100)
+|        +**OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4
+|
+|  +**ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4
++--| (89.7/100)
+   +--OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4
+
+Tree in newick format:
+
+(OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4:0.0052587180,((((((((((((((OR222910_human_CHN_2021_NA_SY2106_stool_serotype_5:0.0021792296,ON571595_human_CHN_2019_NA_2019-Fuzhou-289_feces_serotype_5:0.0095815547)98/100:0.0029249248,MF684776_human_CHN_2013_NA_2013-Fuzhou-85_stool_serotype_5:0.0031898317)90.5/98:0.0014378916,(MT906859_human_BRA_2014_Hu-BRA-TO-32-2014_BRA-TO-32_stool-sample_serotype_5:0.0000023124,MT906858_human_BRA_2014_Hu-BRA-TO-57-2014_BRA-TO-57_stool_serotype_5:0.0000023124)100/100:0.0064792679)75.3/98:0.0003898179,MN433706_human_USA_2014_Hu-US-2014-CA-RGDS-1073_NA_stool_serotype_5:0.0054139722)0/88:0.0000020454,MW485044_human_KEN_2019_KLF-HAstV5-002-2019_NA_NA_serotype_5:0.0132043918)84.9/91:0.0010058247,MT267476_human_ZAF_2015_SA10098_NA_Fecal-Specimen_serotype_5:0.0067516461)100/100:0.0123775719,((LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1:0.0000023124,LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1:0.0000023124)97.2/100:0.0028741622,(MW485040_human_KEN_2019_KLF-HAstV1-008-2019_NA_NA_serotype_1:0.0003740732,MW485039_human_KEN_2019_KLF-HAstV1-006-2019_NA_NA_serotype_1:0.0021280759)97.9/99:0.0036489905)100/100:0.0160749787)95.4/98:0.0044462491,OQ630461_human_GIN_2021_NA_SEN-21-286-S1_Stool-Sample-of-non-polio-AFP_serotype_1:0.0205877282)96.5/99:0.0075754565,((ON571594_human_CHN_2019_NA_2019-Fuzhou-26_feces_serotype_1:0.0132044077,KC342249_human_CHN_2012_NA_km1_stool-sample_serotype_1:0.0234579277)100/100:0.0169933271,(((((MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4:0.0007107404,MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4:0.0000020536)98.2/100:0.0021432198,MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4:0.0000020494)100/100:0.0197261981,KC285113_human_RUS_2010_NA_HAstV-4-RUS-Novosibirsk-Nsc10-N1190-2010_feces_serotype_4:0.0173200533)90.3/99:0.0024437909,KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4:0.0125672757)84.8/99:0.0016138619,MN433705_human_USA_2014_Hu-US-2014-CA-RGDS-1072_NA_stool_serotype_2:0.0376376445)88.6/98:0.0023091082)83.4/99:0.0028295790)99.8/100:0.0171348280,NC030922_NA_IND_2004_NA_V1347_NA_serotype_1:0.0472575881)99.4/55:0.0184768631,(KF039913_NA_RUS_2010_NA_Rus-Nsc10-N358_NA_serotype_4:0.0070070462,DQ344027_NA_CHN_2005_NA_Guangzhou_NA_serotype_4:0.0126931208)100/100:0.0396558475)91.8/53:0.0076051632,((((((((LC732124_human_JPN_2016_Human-JPN-2016-JP14989_Child-with-acute-gastroenteritis_feces_serotype_3:0.0080238489,MK296753_human_IRL_2018_Hu-HAstV3-2016-East-Ireland_17W1028_feces_serotype_3:0.0040967875)96.5/100:0.0030207248,MG571777_human_VEN_2015_NA_NA_stool_serotype_3:0.0062038044)92.4/99:0.0023433912,((LC732123_human_JPN_2016_Human-JPN-2016-JP14665_Child-with-acute-gastroenteritis_feces_serotype_3:0.0003652877,LC732122_human_JPN_2016_Human-JPN-2016-JP14641_Child-with-acute-gastroenteritis_feces_serotype_3:0.0000025545)99.5/100:0.0043134680,(LC694985_human_JPN_2019_NA_HAstV3-190610-Tokyo-2019_NA_serotype_3:0.0054967074,MN444721_human_USA_2017_Hu-US-2017-CA-RGDS-1074_NA_stool_serotype_3:0.0026719127)90.2/99:0.0014437391)95/100:0.0032642212)100/100:0.0269796820,MW485043_human_KEN_2019_KLF-HAstV3-007-2019_NA_NA_serotype_3:0.0478080036)68.5/88:0.0057699870,JQ403108_human_CHN_2010_NA_DL030_stool_serotype_5:0.0327680513)100/100:0.0320021000,DQ028633_NA_BRA_1994_NA_Goiania-GO-12-94-Brazil_stool_serotype_5:0.0510051062)7.9/43:0.0021217364,((((JF491430_human_RUS_2004_NA_Rus-Nsc04-H355_NA_serotype_3:0.0037368829,GU223905_human_RUS_2003_NA_Rus-Nsc03-H191_NA_serotype_3:0.0043943230)86.9/99:0.0021024892,GU732187_human_RUS_2008_NA_Rus-Nsc08-3364_NA_serotype_3:0.0099222833)100/100:0.0390393513,((((FJ755403_human_CHN_2006_Beijing-176-2006-CHN_NA_stool_serotype_1:0.0128199674,JN887820_human_KOR_2006_lhar-2011-kor_NA_stool_serotype_1:0.0084678223)97.8/100:0.0042635576,AY720892_NA_NA_2004_Dresden_NA_NA_serotype_1:0.0108056704)27.4/76:0.0012619116,KF211475_human_CHN_2010_NA_JZ_NA_serotype_1:0.0127466371)100/100:0.0235206528,AY720891_NA_NA_2004_Dresden_NA_NA_serotype_4:0.0255424418)91.4/94:0.0072913819)84.6/89:0.0062104803,((FJ755405_human_CHN_2007_Beijing-293-2007-CHN_NA_stool_serotype_1:0.0049279821,FJ755402_human_CHN_2005_Beijing-128-2005-CHN_NA_stool_serotype_1:0.0067398077)100/100:0.0237363282,FJ755404_human_CHN_2007_Beijing-291-2007-CHN_NA_stool_serotype_1:0.0242966247)100/100:0.0314116011)91.6/94:0.0095737443)89.3/78:0.0047731584,(((((((((((ON571597_human_CHN_2019_NA_2019-Pingtan-42_feces_serotype_1:0.0021820563,LC694995_human_JPN_2020_NA_HAstV1-192642-Tokyo-2020_NA_serotype_1:0.0025407874)0.9/61:0.0003360445,LC694986_human_JPN_2022_NA_HAstV1-211185-Tokyo-2022_NA_serotype_1:0.0050656955)0/36:0.0000023182,(ON571596_human_CHN_2019_NA_2019-Fuzhou-306_feces_serotype_1:0.0017937479,(LC694991_human_JPN_2021_NA_HAstV1-210764-Tokyo-2021_NA_serotype_1:0.0010733976,(LC694989_human_JPN_2021_NA_HAstV1-210956-Tokyo-2021_NA_serotype_1:0.0036049509,LC694988_human_JPN_2021_NA_HAstV1-210963-Tokyo-2021_NA_serotype_1:0.0003581174)0/58:0.0000023123)100/100:0.0050725239)0/27:0.0000021846)0/35:0.0000020940,(OP432296_human_CHN_2021_NA_HAstV-4-RC-21047_NA_serotype_4:0.0037087289,(LC694994_human_JPN_2020_NA_HAstV1-193055-Tokyo-2020_NA_serotype_1:0.0010764412,LC694993_human_JPN_2020_NA_HAstV1-193061-Tokyo-2020_NA_serotype_1:0.0010801415)99.1/100:0.0027989205)87.8/87:0.0011694892)99.8/100:0.0044154334,LC694990_human_JPN_2018_NA_HAstV1-181937-Tokyo-2018_NA_serotype_1:0.0047743924)84/93:0.0009729753,(LC694992_human_JPN_2021_NA_HAstV1-210628-Tokyo-2021_NA_serotype_1:0.0010924773,LC694987_human_JPN_2021_NA_HAstV1-210984-Tokyo-2021_NA_serotype_1:0.0014270077)100/100:0.0059027388)99.3/100:0.0040713753,(MN433704_human_USA_2013_Hu-US-2013-CA-RGDS-1071_NA_stool_serotype_1:0.0010662100,MN433703_human_USA_2013_Hu-US-2013-CA-RGDS-1070_NA_stool_serotype_1:0.0014481375)96.9/100:0.0025605756)100/100:0.0066915953,HQ398856_human_HUN_2010_Hu-Nyergesujfalu-HUN4520-2010-HUN_NA_fecal-sample_serotype_1:0.0077965939)67.4/88:0.0020742899,((MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1:0.0000023124,MT832895_human_BRA_2015_MAstV-1-Hu-BRA-TO-171-2015_TO-171_feces_serotype_1:0.0000023124)90.5/100:0.0007182021,MT832896_human_BRA_2015_MAstV-1-Hu-BRA-TO-208-2015_TO-208_feces_serotype_1:0.0000021369)85.6/98:0.0019985483)100/100:0.0491191953,DQ070852_NA_BRA_1995_NA_Goiania-GO-12-95-Brazil_NA_serotype_4:0.0409295718)87.7/93:0.0192835385,((MT267483_human_ZAF_2015_SA6118_NA_Fecal-Specimen_serotype_3:0.0417896954,(KC285152_human_RUS_2011_NA_HAstV-2-RUS-Novosibirsk-Nsc11-N2411-2011_feces_serotype_2:0.0155238966,KF039911_NA_RUS_2006_NA_Rus-Nsc06-1029_NA_serotype_2:0.0159042430)100/100:0.0620012212)100/100:0.1076441438,(MW485042_human_KEN_2019_KLF-HAstV2-005-2019_NA_NA_serotype_2:0.0171216464,(GQ901902_human_RUS_2009_NA_Rus-Nsc09-B4_NA_serotype_6:0.0073949139,GQ495608_human_CHN_2007_NA_192-BJ07-CHN_stool_serotype_6:0.0208685020)100/100:0.0311040773)100/100:0.1846716213)100/100:0.2069531002)97.9/100:0.0221361447)94.1/89:0.0071323663)100/100:0.0345746953,(KP862744_human_KOR_2014_NA_kor85_human-stool_serotype_8:0.0149632631,KF039910_NA_RUS_2005_NA_Rus-Nsc05-430_NA_serotype_2:0.0198995770)96.7/98:0.0081963535)100/100:0.0263343298,((((OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4:0.0000023124,OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4:0.0003658291)98.1/100:0.0018816718,OP432298_human_CHN_2022_NA_HAstV-4-QD-S-22015_NA_serotype_4:0.0003238636)90.4/100:0.0011113222,(OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4:0.0011112217,OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4:0.0003546073)90.6/99:0.0011482397)99.2/100:0.0037130930,(OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4:0.0007321714,OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4:0.0000023124)99.9/100:0.0068707321)82/99:0.0017578259)96.1/100:0.0035594376,(ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4:0.0000023124,OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4:0.0018325522)89.7/100:0.0014440322);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -25139.693864
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4
+|
+|                                         +--OR222910_human_CHN_2021_NA_SY2106_stool_serotype_5
+|                                      +--| (100)
+|                                      |  +--ON571595_human_CHN_2019_NA_2019-Fuzhou-289_feces_serotype_5
+|                                   +--| (98)
+|                                   |  +--MF684776_human_CHN_2013_NA_2013-Fuzhou-85_stool_serotype_5
+|                                +--| (98)
+|                                |  |        +**MT906859_human_BRA_2014_Hu-BRA-TO-32-2014_BRA-TO-32_stool-sample_serotype_5
+|                                |  |     +**|
+|                                |  |     |  +**MT906856_human_BRA_2015_Hu-BRA-TO-65-2015_BRA-TO-65_stool_serotype_5
+|                                |  |  +--|
+|                                |  |  |  +**MT906857_human_BRA_2014_Hu-BRA-TO-40-2014_BRA-TO-40_stool_serotype_5
+|                                |  +--| (100)
+|                                |     +--MT906858_human_BRA_2014_Hu-BRA-TO-57-2014_BRA-TO-57_stool_serotype_5
+|                             +--| (88)
+|                             |  +--MN433706_human_USA_2014_Hu-US-2014-CA-RGDS-1073_NA_stool_serotype_5
+|                          +--| (91)
+|                          |  +--MW485044_human_KEN_2019_KLF-HAstV5-002-2019_NA_NA_serotype_5
+|                       +--| (100)
+|                       |  +--MT267476_human_ZAF_2015_SA10098_NA_Fecal-Specimen_serotype_5
+|                    +--| (98)
+|                    |  |     +--LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1
+|                    |  |  +--| (100)
+|                    |  |  |  +--LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1
+|                    |  +--| (100)
+|                    |     |  +--MW485040_human_KEN_2019_KLF-HAstV1-008-2019_NA_NA_serotype_1
+|                    |     +--| (99)
+|                    |        +--MW485039_human_KEN_2019_KLF-HAstV1-006-2019_NA_NA_serotype_1
+|                 +--| (99)
+|                 |  +--OQ630461_human_GIN_2021_NA_SEN-21-286-S1_Stool-Sample-of-non-polio-AFP_serotype_1
+|              +--| (100)
+|              |  |     +--ON571594_human_CHN_2019_NA_2019-Fuzhou-26_feces_serotype_1
+|              |  |  +--| (100)
+|              |  |  |  +--KC342249_human_CHN_2012_NA_km1_stool-sample_serotype_1
+|              |  +--| (99)
+|              |     |              +--MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4
+|              |     |           +--| (100)
+|              |     |           |  +--MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4
+|              |     |        +--| (100)
+|              |     |        |  +--MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4
+|              |     |     +--| (99)
+|              |     |     |  +--KC285113_human_RUS_2010_NA_HAstV-4-RUS-Novosibirsk-Nsc10-N1190-2010_feces_serotype_4
+|              |     |  +--| (99)
+|              |     |  |  +--KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4
+|              |     +--| (98)
+|              |        +---MN433705_human_USA_2014_Hu-US-2014-CA-RGDS-1072_NA_stool_serotype_2
+|           +--| (55)
+|           |  +----NC030922_NA_IND_2004_NA_V1347_NA_serotype_1
+|        +--| (53)
+|        |  |   +--KF039913_NA_RUS_2010_NA_Rus-Nsc10-N358_NA_serotype_4
+|        |  +---| (100)
+|        |      +--DQ344027_NA_CHN_2005_NA_Guangzhou_NA_serotype_4
+|     +--| (100)
+|     |  |                    +--LC732124_human_JPN_2016_Human-JPN-2016-JP14989_Child-with-acute-gastroenteritis_feces_serotype_3
+|     |  |                 +--| (100)
+|     |  |                 |  +--MK296753_human_IRL_2018_Hu-HAstV3-2016-East-Ireland_17W1028_feces_serotype_3
+|     |  |              +--| (99)
+|     |  |              |  +--MG571777_human_VEN_2015_NA_NA_stool_serotype_3
+|     |  |           +--| (100)
+|     |  |           |  |     +--LC732123_human_JPN_2016_Human-JPN-2016-JP14665_Child-with-acute-gastroenteritis_feces_serotype_3
+|     |  |           |  |  +--| (100)
+|     |  |           |  |  |  +--LC732122_human_JPN_2016_Human-JPN-2016-JP14641_Child-with-acute-gastroenteritis_feces_serotype_3
+|     |  |           |  +--| (100)
+|     |  |           |     |  +--LC694985_human_JPN_2019_NA_HAstV3-190610-Tokyo-2019_NA_serotype_3
+|     |  |           |     +--| (99)
+|     |  |           |        +--MN444721_human_USA_2017_Hu-US-2017-CA-RGDS-1074_NA_stool_serotype_3
+|     |  |        +--| (88)
+|     |  |        |  +----MW485043_human_KEN_2019_KLF-HAstV3-007-2019_NA_NA_serotype_3
+|     |  |     +--| (100)
+|     |  |     |  +--JQ403108_human_CHN_2010_NA_DL030_stool_serotype_5
+|     |  |  +--| (78)
+|     |  |  |  |               +--JF491430_human_RUS_2004_NA_Rus-Nsc04-H355_NA_serotype_3
+|     |  |  |  |            +--| (99)
+|     |  |  |  |            |  +--GU223905_human_RUS_2003_NA_Rus-Nsc03-H191_NA_serotype_3
+|     |  |  |  |        +---| (100)
+|     |  |  |  |        |   +--GU732187_human_RUS_2008_NA_Rus-Nsc08-3364_NA_serotype_3
+|     |  |  |  |     +--| (89)
+|     |  |  |  |     |  |           +--FJ755403_human_CHN_2006_Beijing-176-2006-CHN_NA_stool_serotype_1
+|     |  |  |  |     |  |        +--| (100)
+|     |  |  |  |     |  |        |  +--JN887820_human_KOR_2006_lhar-2011-kor_NA_stool_serotype_1
+|     |  |  |  |     |  |     +--| (76)
+|     |  |  |  |     |  |     |  +--AY720892_NA_NA_2004_Dresden_NA_NA_serotype_1
+|     |  |  |  |     |  |  +--| (100)
+|     |  |  |  |     |  |  |  +--KF211475_human_CHN_2010_NA_JZ_NA_serotype_1
+|     |  |  |  |     |  +--| (94)
+|     |  |  |  |     |     +--AY720891_NA_NA_2004_Dresden_NA_NA_serotype_4
+|     |  |  |  |  +--| (94)
+|     |  |  |  |  |  |     +--FJ755405_human_CHN_2007_Beijing-293-2007-CHN_NA_stool_serotype_1
+|     |  |  |  |  |  |  +--| (100)
+|     |  |  |  |  |  |  |  +--FJ755402_human_CHN_2005_Beijing-128-2005-CHN_NA_stool_serotype_1
+|     |  |  |  |  |  +--| (100)
+|     |  |  |  |  |     +--FJ755404_human_CHN_2007_Beijing-291-2007-CHN_NA_stool_serotype_1
+|     |  |  |  +--| (45)
+|     |  |  |     +----DQ028633_NA_BRA_1994_NA_Goiania-GO-12-94-Brazil_stool_serotype_5
+|     |  +--| (89)
+|     |     |                                  +--ON571597_human_CHN_2019_NA_2019-Pingtan-42_feces_serotype_1
+|     |     |                               +--| (61)
+|     |     |                               |  +--LC694995_human_JPN_2020_NA_HAstV1-192642-Tokyo-2020_NA_serotype_1
+|     |     |                            +--| (36)
+|     |     |                            |  +--LC694986_human_JPN_2022_NA_HAstV1-211185-Tokyo-2022_NA_serotype_1
+|     |     |                         +--| (35)
+|     |     |                         |  |  +--ON571596_human_CHN_2019_NA_2019-Fuzhou-306_feces_serotype_1
+|     |     |                         |  +--| (27)
+|     |     |                         |     |  +--LC694991_human_JPN_2021_NA_HAstV1-210764-Tokyo-2021_NA_serotype_1
+|     |     |                         |     +--| (100)
+|     |     |                         |        |  +--LC694989_human_JPN_2021_NA_HAstV1-210956-Tokyo-2021_NA_serotype_1
+|     |     |                         |        +--| (58)
+|     |     |                         |           +--LC694988_human_JPN_2021_NA_HAstV1-210963-Tokyo-2021_NA_serotype_1
+|     |     |                      +--| (100)
+|     |     |                      |  |  +--OP432296_human_CHN_2021_NA_HAstV-4-RC-21047_NA_serotype_4
+|     |     |                      |  +--| (87)
+|     |     |                      |     |  +--LC694994_human_JPN_2020_NA_HAstV1-193055-Tokyo-2020_NA_serotype_1
+|     |     |                      |     +--| (100)
+|     |     |                      |        +--LC694993_human_JPN_2020_NA_HAstV1-193061-Tokyo-2020_NA_serotype_1
+|     |     |                   +--| (93)
+|     |     |                   |  +--LC694990_human_JPN_2018_NA_HAstV1-181937-Tokyo-2018_NA_serotype_1
+|     |     |                +--| (100)
+|     |     |                |  |  +--LC694992_human_JPN_2021_NA_HAstV1-210628-Tokyo-2021_NA_serotype_1
+|     |     |                |  +--| (100)
+|     |     |                |     +--LC694987_human_JPN_2021_NA_HAstV1-210984-Tokyo-2021_NA_serotype_1
+|     |     |             +--| (100)
+|     |     |             |  |  +--MN433704_human_USA_2013_Hu-US-2013-CA-RGDS-1071_NA_stool_serotype_1
+|     |     |             |  +--| (100)
+|     |     |             |     +--MN433703_human_USA_2013_Hu-US-2013-CA-RGDS-1070_NA_stool_serotype_1
+|     |     |          +--| (88)
+|     |     |          |  +--HQ398856_human_HUN_2010_Hu-Nyergesujfalu-HUN4520-2010-HUN_NA_fecal-sample_serotype_1
+|     |     |     +----| (100)
+|     |     |     |    |              +**MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1
+|     |     |     |    |           +**|
+|     |     |     |    |           |  +**MT832894_human_BRA_2011_MAstV-1-Hu-BRA-TO-162-2011_TO-162_feces_serotype_1
+|     |     |     |    |        +**|
+|     |     |     |    |        |  +**MT832893_human_BRA_2015_MAstV-1-Hu-BRA-TO-160-2015_TO-160_feces_serotype_1
+|     |     |     |    |     +--|
+|     |     |     |    |     |  +**MT832892_human_BRA_2015_MAstV-1-Hu-BRA-TO-98-2015_TO-98_feces_serotype_1
+|     |     |     |    |  +--| (100)
+|     |     |     |    |  |  +--MT832895_human_BRA_2015_MAstV-1-Hu-BRA-TO-171-2015_TO-171_feces_serotype_1
+|     |     |     |    +--| (98)
+|     |     |     |       +--MT832896_human_BRA_2015_MAstV-1-Hu-BRA-TO-208-2015_TO-208_feces_serotype_1
+|     |     |  +--| (93)
+|     |     |  |  +---DQ070852_NA_BRA_1995_NA_Goiania-GO-12-95-Brazil_NA_serotype_4
+|     |     +--| (100)
+|     |        |                                 +---MT267483_human_ZAF_2015_SA6118_NA_Fecal-Specimen_serotype_3
+|     |        |                      +----------| (100)
+|     |        |                      |          |     +--KC285152_human_RUS_2011_NA_HAstV-2-RUS-Novosibirsk-Nsc11-N2411-2011_feces_serotype_2
+|     |        |                      |          +-----| (100)
+|     |        |                      |                +--KF039911_NA_RUS_2006_NA_Rus-Nsc06-1029_NA_serotype_2
+|     |        +----------------------| (100)
+|     |                               |                   +--MW485042_human_KEN_2019_KLF-HAstV2-005-2019_NA_NA_serotype_2
+|     |                               +-------------------| (100)
+|     |                                                   |  +--GQ901902_human_RUS_2009_NA_Rus-Nsc09-B4_NA_serotype_6
+|     |                                                   +--| (100)
+|     |                                                      +--GQ495608_human_CHN_2007_NA_192-BJ07-CHN_stool_serotype_6
+|  +--| (100)
+|  |  |  +--KP862744_human_KOR_2014_NA_kor85_human-stool_serotype_8
+|  |  +--| (98)
+|  |     +--KF039910_NA_RUS_2005_NA_Rus-Nsc05-430_NA_serotype_2
++--| (100)
+|  |           +--OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4
+|  |        +--| (100)
+|  |        |  +--OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4
+|  |     +--| (100)
+|  |     |  +--OP432298_human_CHN_2022_NA_HAstV-4-QD-S-22015_NA_serotype_4
+|  |  +--| (100)
+|  |  |  |  +--OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4
+|  |  |  +--| (99)
+|  |  |     +--OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4
+|  +--| (99)
+|     |  +--OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4
+|     +--| (100)
+|        +--OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4
+|
+|  +--ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4
++--| (100)
+   +--OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4
+
+
+Consensus tree in newick format: 
+
+(OR371570_human_CHN_2022_HAstV-4-Fuzhou-2022-10_NA_feces_serotype_4:0.0052556445,((((((((((((((OR222910_human_CHN_2021_NA_SY2106_stool_serotype_5:0.0021789536,ON571595_human_CHN_2019_NA_2019-Fuzhou-289_feces_serotype_5:0.0095782692)100:0.0029247294,MF684776_human_CHN_2013_NA_2013-Fuzhou-85_stool_serotype_5:0.0031898124)98:0.0014374270,(((MT906859_human_BRA_2014_Hu-BRA-TO-32-2014_BRA-TO-32_stool-sample_serotype_5:0.0000000000,MT906856_human_BRA_2015_Hu-BRA-TO-65-2015_BRA-TO-65_stool_serotype_5:0.0000000000):0.0000000000,MT906857_human_BRA_2014_Hu-BRA-TO-40-2014_BRA-TO-40_stool_serotype_5:0.0000000000):0.0000023033,MT906858_human_BRA_2014_Hu-BRA-TO-57-2014_BRA-TO-57_stool_serotype_5:0.0000023033)100:0.0064770996)98:0.0003886810,MN433706_human_USA_2014_Hu-US-2014-CA-RGDS-1073_NA_stool_serotype_5:0.0054120118)88:0.0000026344,MW485044_human_KEN_2019_KLF-HAstV5-002-2019_NA_NA_serotype_5:0.0131981530)91:0.0010055246,MT267476_human_ZAF_2015_SA10098_NA_Fecal-Specimen_serotype_5:0.0067475427)100:0.0123691720,((LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1:0.0000023033,LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1:0.0000023033)100:0.0028742013,(MW485040_human_KEN_2019_KLF-HAstV1-008-2019_NA_NA_serotype_1:0.0003733589,MW485039_human_KEN_2019_KLF-HAstV1-006-2019_NA_NA_serotype_1:0.0021278650)99:0.0036470217)100:0.0160712098)98:0.0044445277,OQ630461_human_GIN_2021_NA_SEN-21-286-S1_Stool-Sample-of-non-polio-AFP_serotype_1:0.0205633086)99:0.0075374404,((ON571594_human_CHN_2019_NA_2019-Fuzhou-26_feces_serotype_1:0.0131984261,KC342249_human_CHN_2012_NA_km1_stool-sample_serotype_1:0.0234451722)100:0.0169787892,(((((MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4:0.0007114013,MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4:0.0000023033)100:0.0021429907,MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4:0.0000023033)100:0.0197159575,KC285113_human_RUS_2010_NA_HAstV-4-RUS-Novosibirsk-Nsc10-N1190-2010_feces_serotype_4:0.0173113752)99:0.0024433008,KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4:0.0125597832)99:0.0016123327,MN433705_human_USA_2014_Hu-US-2014-CA-RGDS-1072_NA_stool_serotype_2:0.0376191675)98:0.0023157437)99:0.0028725027)100:0.0176544412,NC030922_NA_IND_2004_NA_V1347_NA_serotype_1:0.0466463419)55:0.0182780388,(KF039913_NA_RUS_2010_NA_Rus-Nsc10-N358_NA_serotype_4:0.0070147532,DQ344027_NA_CHN_2005_NA_Guangzhou_NA_serotype_4:0.0126714814)100:0.0401370905)53:0.0077441247,(((((((LC732124_human_JPN_2016_Human-JPN-2016-JP14989_Child-with-acute-gastroenteritis_feces_serotype_3:0.0080179957,MK296753_human_IRL_2018_Hu-HAstV3-2016-East-Ireland_17W1028_feces_serotype_3:0.0040944569)100:0.0030197268,MG571777_human_VEN_2015_NA_NA_stool_serotype_3:0.0062002466)99:0.0023358888,((LC732123_human_JPN_2016_Human-JPN-2016-JP14665_Child-with-acute-gastroenteritis_feces_serotype_3:0.0003653476,LC732122_human_JPN_2016_Human-JPN-2016-JP14641_Child-with-acute-gastroenteritis_feces_serotype_3:0.0000023033)100:0.0043096406,(LC694985_human_JPN_2019_NA_HAstV3-190610-Tokyo-2019_NA_serotype_3:0.0054919248,MN444721_human_USA_2017_Hu-US-2017-CA-RGDS-1074_NA_stool_serotype_3:0.0026723428)99:0.0014426536)100:0.0032680316)100:0.0270544273,MW485043_human_KEN_2019_KLF-HAstV3-007-2019_NA_NA_serotype_3:0.0476970971)88:0.0057530780,JQ403108_human_CHN_2010_NA_DL030_stool_serotype_5:0.0327262881)100:0.0324295211,(((((JF491430_human_RUS_2004_NA_Rus-Nsc04-H355_NA_serotype_3:0.0037349729,GU223905_human_RUS_2003_NA_Rus-Nsc03-H191_NA_serotype_3:0.0043917539)99:0.0020885232,GU732187_human_RUS_2008_NA_Rus-Nsc08-3364_NA_serotype_3:0.0099298961)100:0.0391573135,((((FJ755403_human_CHN_2006_Beijing-176-2006-CHN_NA_stool_serotype_1:0.0128141796,JN887820_human_KOR_2006_lhar-2011-kor_NA_stool_serotype_1:0.0084616076)100:0.0042560431,AY720892_NA_NA_2004_Dresden_NA_NA_serotype_1:0.0108047776)76:0.0012444624,KF211475_human_CHN_2010_NA_JZ_NA_serotype_1:0.0127579918)100:0.0235263516,AY720891_NA_NA_2004_Dresden_NA_NA_serotype_4:0.0255118386)94:0.0071588845)89:0.0065894378,((FJ755405_human_CHN_2007_Beijing-293-2007-CHN_NA_stool_serotype_1:0.0049243183,FJ755402_human_CHN_2005_Beijing-128-2005-CHN_NA_stool_serotype_1:0.0067365327)100:0.0234575831,FJ755404_human_CHN_2007_Beijing-291-2007-CHN_NA_stool_serotype_1:0.0245476060)100:0.0313762623)94:0.0084899564,DQ028633_NA_BRA_1994_NA_Goiania-GO-12-94-Brazil_stool_serotype_5:0.0518360642)45:0.0021441459)78:0.0046147322,(((((((((((ON571597_human_CHN_2019_NA_2019-Pingtan-42_feces_serotype_1:0.0021803167,LC694995_human_JPN_2020_NA_HAstV1-192642-Tokyo-2020_NA_serotype_1:0.0025387837)61:0.0003360572,LC694986_human_JPN_2022_NA_HAstV1-211185-Tokyo-2022_NA_serotype_1:0.0050607422)36:0.0000023033,(ON571596_human_CHN_2019_NA_2019-Fuzhou-306_feces_serotype_1:0.0017923874,(LC694991_human_JPN_2021_NA_HAstV1-210764-Tokyo-2021_NA_serotype_1:0.0010725846,(LC694989_human_JPN_2021_NA_HAstV1-210956-Tokyo-2021_NA_serotype_1:0.0036011310,LC694988_human_JPN_2021_NA_HAstV1-210963-Tokyo-2021_NA_serotype_1:0.0003573029)58:0.0000023033)100:0.0050675410)27:0.0000023033)35:0.0000023033,(OP432296_human_CHN_2021_NA_HAstV-4-RC-21047_NA_serotype_4:0.0037047747,(LC694994_human_JPN_2020_NA_HAstV1-193055-Tokyo-2020_NA_serotype_1:0.0010756246,LC694993_human_JPN_2020_NA_HAstV1-193061-Tokyo-2020_NA_serotype_1:0.0010793300)100:0.0027967830)87:0.0011692650)100:0.0044107939,LC694990_human_JPN_2018_NA_HAstV1-181937-Tokyo-2018_NA_serotype_1:0.0047694163)93:0.0009726110,(LC694992_human_JPN_2021_NA_HAstV1-210628-Tokyo-2021_NA_serotype_1:0.0010916639,LC694987_human_JPN_2021_NA_HAstV1-210984-Tokyo-2021_NA_serotype_1:0.0014259394)100:0.0058969621)100:0.0040671117,(MN433704_human_USA_2013_Hu-US-2013-CA-RGDS-1071_NA_stool_serotype_1:0.0010653957,MN433703_human_USA_2013_Hu-US-2013-CA-RGDS-1070_NA_stool_serotype_1:0.0014470483)100:0.0025587350)100:0.0066832585,HQ398856_human_HUN_2010_Hu-Nyergesujfalu-HUN4520-2010-HUN_NA_fecal-sample_serotype_1:0.0077901338)88:0.0020541038,(((((MT832897_human_BRA_2015_MAstV-1-Hu-BRA-TO-161-2015_TO-161_feces_serotype_1:0.0000000000,MT832894_human_BRA_2011_MAstV-1-Hu-BRA-TO-162-2011_TO-162_feces_serotype_1:0.0000000000):0.0000000000,MT832893_human_BRA_2015_MAstV-1-Hu-BRA-TO-160-2015_TO-160_feces_serotype_1:0.0000000000):0.0000000000,MT832892_human_BRA_2015_MAstV-1-Hu-BRA-TO-98-2015_TO-98_feces_serotype_1:0.0000000000):0.0000023033,MT832895_human_BRA_2015_MAstV-1-Hu-BRA-TO-171-2015_TO-171_feces_serotype_1:0.0000023033)100:0.0007174500,MT832896_human_BRA_2015_MAstV-1-Hu-BRA-TO-208-2015_TO-208_feces_serotype_1:0.0000023033)98:0.0020140024)100:0.0490728129,DQ070852_NA_BRA_1995_NA_Goiania-GO-12-95-Brazil_NA_serotype_4:0.0409265918)93:0.0180938646,((MT267483_human_ZAF_2015_SA6118_NA_Fecal-Specimen_serotype_3:0.0418898868,(KC285152_human_RUS_2011_NA_HAstV-2-RUS-Novosibirsk-Nsc11-N2411-2011_feces_serotype_2:0.0155248398,KF039911_NA_RUS_2006_NA_Rus-Nsc06-1029_NA_serotype_2:0.0158833912)100:0.0618192470)100:0.1072555532,(MW485042_human_KEN_2019_KLF-HAstV2-005-2019_NA_NA_serotype_2:0.0171360339,(GQ901902_human_RUS_2009_NA_Rus-Nsc09-B4_NA_serotype_6:0.0073931721,GQ495608_human_CHN_2007_NA_192-BJ07-CHN_stool_serotype_6:0.0208492614)100:0.0310575886)100:0.1848347979)100:0.2078111019)100:0.0228325462)89:0.0070425261)100:0.0337703253,(KP862744_human_KOR_2014_NA_kor85_human-stool_serotype_8:0.0149558121,KF039910_NA_RUS_2005_NA_Rus-Nsc05-430_NA_serotype_2:0.0198877998)98:0.0081560941)100:0.0264061252,((((OP432301_human_CHN_2022_NA_HAstV-4-QD-L-22019_NA_serotype_4:0.0000023033,OP432294_human_CHN_2022_NA_HAstV-4-QD-L-22040_NA_serotype_4:0.0003656009)100:0.0018809728,OP432298_human_CHN_2022_NA_HAstV-4-QD-S-22015_NA_serotype_4:0.0003226586)100:0.0011108297,(OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4:0.0011107188,OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4:0.0003536866)99:0.0011481195)100:0.0037118800,(OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4:0.0007318315,OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4:0.0000023033)100:0.0068670775)99:0.0017515905)100:0.0035623401,(ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4:0.0000023033,OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4:0.0018314269)100:0.0014436008);
+
+TIME STAMP
+----------
+
+Date and time: Thu Apr  3 13:54:31 2025
+Total CPU time used: 204.408 seconds (0h:3m:24s)
+Total wall-clock time used: 206.710335 seconds (0h:3m:26s)
+
