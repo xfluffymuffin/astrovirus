@@ -1,0 +1,4 @@
+https://mega.nz/file/5vtRzCAK#FHix8msIwcqf39N62B-Bo7tZLAk7H0DcT7ZuZ6xS3SM
+
+
+ZIP-архив с логами - нет .trees файлов (combined trees в папке BAYESIAN_REGIONAL_NO_LOGS)
