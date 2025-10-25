@@ -1,0 +1,3 @@
+(ON571598_human_CHN_2021_NA_2021-Fuzhou-37_feces_serotype_4,OP432295_human_CHN_2022_NA_HAstV-4-QD-F-22056_NA_serotype_4)
+(OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4,OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4)
+(OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4,OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4)

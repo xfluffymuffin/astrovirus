@@ -1,0 +1,2 @@
+(FJ755405_human_CHN_2007_Beijing-293-2007-CHN_NA_stool_serotype_1,FJ755402_human_CHN_2005_Beijing-128-2005-CHN_NA_stool_serotype_1)
+(MN433704_human_USA_2013_Hu-US-2013-CA-RGDS-1071_NA_stool_serotype_1,MN433703_human_USA_2013_Hu-US-2013-CA-RGDS-1070_NA_stool_serotype_1)

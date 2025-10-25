@@ -1,0 +1,3 @@
+(FJ755403_human_CHN_2006_Beijing-176-2006-CHN_NA_stool_serotype_1,JN887820_human_KOR_2006_lhar-2011-kor_NA_stool_serotype_1)
+((LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1,LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1),MW485040_human_KEN_2019_KLF-HAstV1-008-2019_NA_NA_serotype_1)
+(LC694994_human_JPN_2020_NA_HAstV1-193055-Tokyo-2020_NA_serotype_1,LC694993_human_JPN_2020_NA_HAstV1-193061-Tokyo-2020_NA_serotype_1)

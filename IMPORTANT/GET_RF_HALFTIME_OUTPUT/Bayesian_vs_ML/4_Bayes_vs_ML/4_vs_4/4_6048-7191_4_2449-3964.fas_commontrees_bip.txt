@@ -1,0 +1,5 @@
+(OP432297_human_CHN_2022_NA_HAstV-4-QD-L-22001_NA_serotype_4,OP432300_human_CHN_2022_NA_HAstV-4-QD-S-22022_NA_serotype_4)
+(OP432293_human_CHN_2021_NA_HAstV-4-RC-21027_NA_serotype_4,OP432299_human_CHN_2021_NA_HAstV-4-RC-21045_NA_serotype_4)
+(MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4,MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4)
+(MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4,(MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4,MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4))
+(KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4,(MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4,(MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4,MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4)))

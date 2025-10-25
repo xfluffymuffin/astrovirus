@@ -1,0 +1,5 @@
+(MN433704_human_USA_2013_Hu-US-2013-CA-RGDS-1071_NA_stool_serotype_1,MN433703_human_USA_2013_Hu-US-2013-CA-RGDS-1070_NA_stool_serotype_1)
+(((MT906855_human_BRA_2014_Hu-BRA-TO-26-2014_BRA-TO-26_stool-sample_serotype_4,MT906853_human_BRA_2014_Hu-BRA-TO-207-2014_BRA-TO-207_stool_serotype_4),MT906854_human_BRA_2015_Hu-BRA-TO-71-2015_BRA-TO-71_stool-sample_serotype_4),KF039912_NA_RUS_2005_NA_Rus-Nsc05-623_NA_serotype_4)
+((FJ755405_human_CHN_2007_Beijing-293-2007-CHN_NA_stool_serotype_1,FJ755402_human_CHN_2005_Beijing-128-2005-CHN_NA_stool_serotype_1),FJ755404_human_CHN_2007_Beijing-291-2007-CHN_NA_stool_serotype_1)
+(LC694997_human_JPN_2018_NA_HAstV1-181289-Tokyo-2018_NA_serotype_1,LC694996_human_JPN_2018_NA_HAstV1-181290-Tokyo-2018_NA_serotype_1)
+(GQ901902_human_RUS_2009_NA_Rus-Nsc09-B4_NA_serotype_6,GQ495608_human_CHN_2007_NA_192-BJ07-CHN_stool_serotype_6)
